@@ -1,6 +1,8 @@
 import "@/styles/globals.css";
+import './components/styles/all.scss';
 import { useRouter } from "next/router";
 import { IntlProvider } from "react-intl";
+import Navbar from "./components/Navbar";
 
 import en from '../i18n/en.json';
 import pl from '../i18n/pl.json';
