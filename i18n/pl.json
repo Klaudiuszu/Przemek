@@ -1,3 +1,7 @@
 {
-    "page.home.title": "TEST FRAN"
+    "navbar.about": "O Nas",
+    "navbar.architecture": "Architektura",
+    "navbar.interior": "Wnętrza",
+    "navbar.consulting": "Doradztwo",
+    "navbar.contact": "Kontakt"
 }
