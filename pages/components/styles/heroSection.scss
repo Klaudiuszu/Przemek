@@ -1,0 +1,14 @@
+.hero-section {
+    height: calc(100vh - 12rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .hero-section-text {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5;
+        font-style: italic;
+        font-weight: 100;
+    }
+}

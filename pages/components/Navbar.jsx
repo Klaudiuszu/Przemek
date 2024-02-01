@@ -14,7 +14,7 @@ const Navbar = () => {
 
   const toggleLanguage = () => {
     const newLocale = locale === "pl" ? "en" : "pl";
-    push("/", undefined, { locale: newLocale }); // Poprawka: użyj push do zmiany URL
+    push("/", undefined, { locale: newLocale });
   };
 
   const navLinks = [
@@ -44,7 +44,7 @@ const Navbar = () => {
     <nav className="navbar fixed mx-auto top-0 left-0 right-1 z-10">
       <div>
       </div>
-      <div className="flex max-w-screen-lg min-w-72	flex-wrap items-center justify-between mx-auto px-4 py-2">
+      <div className="flex max-w-screen-2xl min-w-72	flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
           className="text-2xl md:text-2xl font-semibold"
@@ -75,9 +75,9 @@ const Navbar = () => {
                 < NavLink path={link.path} href={link.path} title={link.title} onClick={() => setActiveLink(true)} />
               </li>
             ))}
-            <a className="navbar-language" onClick={toggleLanguage}>
+            <li className="navbar-language" onClick={toggleLanguage}>
               {locale === "en" ? "PL" : "EN"}
-            </a>
+            </li>
           </ul>
         </div>
       </div>
