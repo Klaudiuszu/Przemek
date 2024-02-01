@@ -1,29 +1,18 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 
 const NavLink = ({ href, title }) => {
-  const [link, setLink] = useState();
+ const router = useRouter();
 
-  useEffect(() => {
-    const activeNav = document.getElementById(link);
-    const elementsWithClass = document.querySelectorAll('.navbar-underline');
-    elementsWithClass.forEach((el) => {
-      el.classList.remove('navbar-underline');
-    });
-
-    if (activeNav) {
-      if (href === link) {
-        activeNav.classList.add('navbar-underline');
-      }
-    }
-  }, [link, href]);
+ console.log({href})
 
   return (
     <Link 
       href={href}
-      className={`navbar-link`}
       id={href}
-      onClick={() => setLink(href)}
+      key={href}
+      className={`navbar-single-lin ${router.asPath === '/' + href ?'navbar-underline' : ''}`}
     >
       {title}
     </Link>
