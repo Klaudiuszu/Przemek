@@ -1,0 +1,23 @@
+.about-me-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: $dark;
+
+.about-me-header {
+    font-weight: 700;
+    font-size: 48px;
+    .about-me-info {
+        font-size: 18px;
+        font-weight: 300;
+    }
+}
+}
+.bg {
+    position:absolute;
+    z-index: -2;
+    background-color: $background;
+    height: 100vh;
+    width: 100%;
+}
