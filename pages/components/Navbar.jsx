@@ -41,7 +41,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="navbar fixed mx-auto top-0 left-0 right-1 z-10">
+    <nav className="navbar absolute mx-auto top-0 left-0 right-1 z-10">
       <div>
       </div>
       <div className="flex max-w-screen-2xl min-w-72	flex-wrap items-center justify-between mx-auto px-4 py-2">
