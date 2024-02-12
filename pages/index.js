@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 export default function Home() {
 
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between xs:w px-24'>
+    <main className='flex min-h-screen flex-col items-center justify-between xs:w xl:px-24'>
       <Navbar />
       <HeroSection />
       <AboutSection />

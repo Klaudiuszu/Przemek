@@ -2,22 +2,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     color: $dark;
 
-.about-me-header {
-    font-weight: 700;
-    font-size: 48px;
-    .about-me-info {
-        font-size: 18px;
-        font-weight: 300;
+    .about-me-header {
+        font-weight: 700;
+
+        .about-me-info {
+            font-weight: 300;
+        }
+    }
+
+    .about-me-section-wrapper {
+        .image-section {
+            display: flex;
+            gap: 1rem;
+        }
+        .image-section-right {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
     }
 }
-}
+
 .bg {
-    position:absolute;
+    position: absolute;
     z-index: -2;
     background-color: $background;
-    height: 100vh;
     width: 100%;
 }
