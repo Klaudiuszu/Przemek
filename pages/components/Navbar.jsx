@@ -51,7 +51,7 @@ const Navbar = () => {
         >
           JOFI STUDIO
         </Link>
-        <div className="mobile-menu block md:hidden">
+        <div className="mobile-menu block lg:hidden">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
@@ -68,7 +68,7 @@ const Navbar = () => {
             </button>
           )}
         </div>
-        <div className="menu hidden md:block md:w-auto" id="navbar">
+        <div className="menu hidden lg:block lg:w-auto" id="navbar">
           <ul className="navbar-link-wrapper flex p-4 md:p-0 md:flex-row mt-0 uppercase">
             {navLinks.map((link, index) => (
               <li key={index} className="navbar-single-link">

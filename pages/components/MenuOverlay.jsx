@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import NavLink from "./NavLink";
 
 const MenuOverlay = ({ links, navbarOpen, toggleLanguage, locale }) => {
