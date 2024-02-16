@@ -1,0 +1,9 @@
+.offer-me-section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $dark;
+    .offer-me-header {
+        font-weight: 700;
+    }
+}
