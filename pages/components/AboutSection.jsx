@@ -17,13 +17,14 @@ const AboutSection = () => {
       setWidth(refWidth.current.clientWidth)
       setHeight(refHeight.current.clientHeight)
     },[])
-console.log({width, height})
+
   return (
-    <section ref={refWidth} className="about-me-section lg:h-lvh lg:py-16 max-w-screen-xxl" id="about">
+    <section ref={refWidth} className="about-me-section lg:h-lvh lg:py-16 max-w-screen-2xl" id="about">
       <div className="bg" style={{height:`${width <= '1025' ? height + 'px' : '100vh'}`}}></div>
       <motion.div
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
+        className="flex justify-center"
       >
         <div ref={refHeight} className="flex flex-col	 lg:grid gap-8 lg:grid-cols-2 items-center py-8 px-4 lg:gap-16 lg:px-16 about-me-section-wrapper">
           <div className="justify-center text-3xl md:text-5xl items-center lg:items-start text-center gap-4 mt-4  lg:text-left flex flex-col h-full">

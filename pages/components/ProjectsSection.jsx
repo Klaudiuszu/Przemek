@@ -54,7 +54,7 @@ const ProjectsSection = () => {
     };
 
     return (
-        <section className="flex flex-col justify-center gap-10 m-10 lg:py-16 max-w-screen-xxl" id="projects">
+        <section className="flex flex-col justify-center gap-10 m-10 lg:py-16 max-w-screen-2xl" id="projects">
             <div className="flex flex-col lg:grid justify-center gap-8 lg:grid-cols-2 items-center py-8 px-4 lg:gap-16 lg:px-16 offer-me-section-wrapper">
                 <div className="justify-center text-3xl md:text-5xl items-center lg:items-start text-center gap-4 mt-4  lg:text-left flex flex-col h-full">
                     <h2 className="offer-me-header mb-4">{intl.formatMessage({ id: "offer.header" })}</h2>
