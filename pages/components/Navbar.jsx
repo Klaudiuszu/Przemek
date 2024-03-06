@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
@@ -11,44 +10,47 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const { locale, push } = useRouter();
   const intl = useIntl();
+  const [currentPath, setCurrentPath] = useState("");
 
   const toggleLanguage = () => {
     const newLocale = locale === "pl" ? "en" : "pl";
-    push("/", undefined, { locale: newLocale });
+    push(currentPath, undefined, { locale: newLocale });
   };
 
   const navLinks = [
     {
       title: intl.formatMessage({ id: "navbar.about" }),
-      path: "#about",
+      path: "/#about",
     },
     {
       title: intl.formatMessage({ id: "navbar.architecture" }),
-      path: "#projects",
+      path: "/architecture",
     },
     {
       title: intl.formatMessage({ id: "navbar.interior" }),
-      path: "#projects",
+      path: "/interior",
     },
     {
       title: intl.formatMessage({ id: "navbar.consulting" }),
-      path: "#projects",
+      path: "/consulting",
     },
     {
       title: intl.formatMessage({ id: "navbar.contact" }),
-      path: "#contact",
+      path: "/#footer",
     },
   ];
+
+  const handleNavLinkClick = (path) => {
+    setCurrentPath(path);
+    setNavbarOpen(false);
+  };
 
   return (
     <nav className="navbar absolute mx-auto top-0 left-0 right-1 z-10">
       <div>
       </div>
       <div className="flex max-w-screen-2xl min-w-72	flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <Link
-          href={"/"}
-          className="text-2xl md:text-2xl font-semibold"
-        >
+        <Link href={"/"} className="text-2xl md:text-2xl font-semibold">
           JOFI STUDIO
         </Link>
         <div className="mobile-menu block lg:hidden">
@@ -72,7 +74,12 @@ const Navbar = () => {
           <ul className="navbar-link-wrapper flex p-4 md:p-0 md:flex-row mt-0 uppercase">
             {navLinks.map((link, index) => (
               <li key={index} className="navbar-single-link">
-                < NavLink path={link.path} href={link.path} title={link.title} onClick={() => setActiveLink(true)} />
+                <NavLink
+                  path={link.path}
+                  href={link.path}
+                  title={link.title}
+                  onClick={() => handleNavLinkClick(link.path)}
+                />
               </li>
             ))}
             <li className="navbar-language" onClick={toggleLanguage}>
@@ -82,7 +89,7 @@ const Navbar = () => {
         </div>
       </div>
       <MenuOverlay links={navLinks} navbarOpen={navbarOpen} toggleLanguage={toggleLanguage} locale={locale}/>
-    </nav >
+    </nav>
   );
 };
 

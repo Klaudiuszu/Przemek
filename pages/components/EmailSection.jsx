@@ -48,8 +48,7 @@ const EmailSection = () => {
       className="flex justify-center align-center lg:py-16 max-w-screen-2xl relative"
     >
       <motion.div
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
+        whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
       >
         <div className="flex flex-col lg:grid gap-8 lg:grid-cols-2 items-center py-8 px-4 lg:gap-16 lg:px-16">

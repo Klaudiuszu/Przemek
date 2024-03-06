@@ -2,7 +2,6 @@ import React from "react";
 import NavLink from "./NavLink";
 
 const MenuOverlay = ({ links, navbarOpen, toggleLanguage, locale }) => {
-
   return (
     <ul className={`nav-bar ${navbarOpen ? 'nav-toggle' : ''}`}>
     {links.map((link, index) => (
