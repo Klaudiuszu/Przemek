@@ -1,10 +1,8 @@
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 const NavLink = ({ href, title }) => {
  const router = useRouter();
-
   return (
     <Link 
       href={href}

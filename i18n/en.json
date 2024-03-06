@@ -31,5 +31,17 @@
     "footer.col2-header": "Contact",
     "footer.bottom-politic": "Privacy policy",
     "footer.bottom-cookie": "Cookie policy",
-    "footer.bottom-info": "Information obligation"
+    "footer.bottom-info": "Information obligation",
+    "architecture.s1.header": "Architecture",
+    "architecture.s1.info": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
+    "architecture.s1.info2": "PL Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor",
+    "process.header": "Process",
+    "process.info": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
+    "process.check1": "EN Lacus nisi, et ac dapibus veitl in consequat.",
+    "process.check2": "EN Quisqude diam pellentesque bibendum non dui volutpat fringilla.",
+    "process.check3": "EN Lorem Ipsum dolor sit amet, consectur adispiscing elit.",
+    "process.check4": "EN Adipiscing dolor adipsicing sit amet disciping elit conestur.",
+    "button.instagram": "Get to know our projects",
+    "consultation.header": "We invite you to a free consultation",
+    "consultation.button": "Consultation"
 }

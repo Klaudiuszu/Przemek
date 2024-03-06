@@ -21,8 +21,8 @@ const ProjectsSection = () => {
             description: `${intl.formatMessage({id: "offer.card1Desc"})}`,
             image: "/images/projects/1.png",
             tag: ["All", "Web"],
-            gitUrl: "/Architekture",
-            previewUrl: "/Architekture",
+            gitUrl: "/architekture",
+            previewUrl: "/architecture",
         },
         {
             id: 2,
@@ -30,8 +30,8 @@ const ProjectsSection = () => {
             description: `${intl.formatMessage({id: "offer.card2Desc"})}`,
             image: "/images/projects/2.png",
             tag: ["All", "Web"],
-            gitUrl: "/Interior",
-            previewUrl: "/Interior",
+            gitUrl: "/interior",
+            previewUrl: "/interior",
         },
         {
             id: 3,
@@ -39,8 +39,8 @@ const ProjectsSection = () => {
             description: `${intl.formatMessage({id: "offer.card3Desc"})}`,
             image: "/images/projects/3.png",
             tag: ["All", "Web"],
-            gitUrl: "/Consulting",
-            previewUrl: "/test",
+            gitUrl: "/consulting",
+            previewUrl: "/consulting",
         },
     ];
 
