@@ -1,6 +1,5 @@
 "use client";
 import React, {useRef, useState, useEffect} from "react";
-import Image from "next/image";
 import { useIntl } from "react-intl";
 import { motion } from "framer-motion";
 
@@ -35,11 +34,11 @@ const AboutSection = () => {
           </div>
           <div className="image-section">
             <div className="image-section-left">
-              <Image src="/images/aboutMe03.png" width={336} height={536} />
+              <img src="/images/aboutMe03.png" className=" w-336 h-536" />
             </div>
             <div className="image-section-right">
-              <Image src="/images/aboutMe02.png" width={336} height={271} />
-              <Image src="/images/aboutMe01.png" width={336} height={382} />
+              <img src="/images/aboutMe02.png" className=" w-336 h-271" />
+              <img src="/images/aboutMe01.png" className=" w-336 h-382" />
             </div>
           </div>
         </div>

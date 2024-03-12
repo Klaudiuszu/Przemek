@@ -1,6 +1,5 @@
 "use client";
 import React, { useRef, useState, useEffect } from "react";
-import Image from "next/image";
 import { useIntl } from "react-intl";
 import { motion } from "framer-motion";
 
@@ -70,10 +69,10 @@ const ProcesSection = () => {
           </div>
 
           <div className="flex flex-col gap-3">
-            <Image className="w-full" src="/images/process01.png" width={500} height={536} />
+            <img className="w-full w-500 h-530" src="/images/process01.png" />
             <div className="flex gap-3" width={500}>
-              <Image className="w-2/4" src="/images/process02.png" width={50} height={271} />
-              <Image className="w-2/4" src="/images/process03.png" width={240} height={382} />
+              <img className="w-2/4 w-50 h-271" src="/images/process02.png" width={50} height={271} />
+              <img className="w-2/4 w-240 h-382 min-w-1" src="/images/process03.png" width={240} height={382} />
             </div>
           </div>
         </div>

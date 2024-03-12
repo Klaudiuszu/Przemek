@@ -2,7 +2,11 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 const NavLink = ({ href, title }) => {
- const router = useRouter();
+  const router = useRouter();
+  
+  // Pobieramy 'auth' z 'router.query' używając bezpiecznego dostępu do właściwości
+  // const auth = router.query?.auth === undefined ? null : router.query?.auth;
+router ==! undefined ? router : null
   return (
     <Link 
       href={href}
@@ -12,7 +16,7 @@ const NavLink = ({ href, title }) => {
     >
       {title}
     </Link>
-  );
+  )
 };
 
 export default NavLink;

@@ -23,7 +23,7 @@ const WhyUsSection = () => {
             </p>
           </div>
           <div className="flex justify-end">
-              <Image alt="whyUs" src="/images/aboutMe03.png" width={413} height={650} />
+              <img alt="whyUs" src="/images/aboutMe03.png" className="w-413 h-650" />
           </div>
         </div>
       </motion.div>
