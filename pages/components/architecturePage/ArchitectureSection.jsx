@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import { useIntl } from "react-intl";
 import { motion } from "framer-motion";
 
@@ -28,7 +27,7 @@ const EmailSection = () => {
             </p>
           </div>
           <div className="flex justify-end relative">
-            <Image alt="emailImage" src="/images/aboutMe03.png" width={313} height={450} />
+            <img alt="emailImage" src="/images/aboutMe03.png" className="w-313 h-450" />
           </div>
         </div>
       </motion.div>

@@ -1,7 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
 import { useIntl } from "react-intl";
 import { motion } from "framer-motion";
 
@@ -73,7 +71,7 @@ const EmailSection = () => {
             </p>
           </div>
           <div className="flex justify-end">
-            <Image alt="emailImage" src="/images/aboutMe03.png" width={413} height={550} />
+            <img alt="emailImage" src="/images/aboutMe03.png" className="w-413 h-550" />
           </div>
         </div>
           <div className=" grid gap-8  items-center py-8 px-4 lg:gap-16 lg:px-16">
