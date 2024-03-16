@@ -1,0 +1,1 @@
+export { namespaces } from '../../translations.config';

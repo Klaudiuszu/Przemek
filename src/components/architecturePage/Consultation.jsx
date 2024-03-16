@@ -1,11 +1,9 @@
 "use client";
 import React from "react";
-import { useIntl } from "react-intl";
 import { motion } from "framer-motion";
 
 
 const Consultation = () => {
-  const intl = useIntl();
 
   return (
     <section
@@ -18,11 +16,11 @@ const Consultation = () => {
         <div className="flex flex-col gap-8 items-center py-8 px-4 lg:gap-16 lg:px-16">
           <div className="text-center justify-center gap-4 mt-4 items-center lg:items-start lg:text-left flex flex-col ">
             <h5 className="font-bold md:text-5xl text-3xl">
-              {intl.formatMessage({ id: "consultation.header" })}
+              {/* {intl.formatMessage({ id: "consultation.header" })} */}
             </h5>
           </div>
-          <a href="/#contact" class="text-xl justify-center flex w-48 bg-[#171717] hover:bg-[#2c2c2c] text-white font-semi-bold py-4 px-8 rounded">
-            {intl.formatMessage({ id: "consultation.button" })}
+          <a href="/#contact" className="text-xl justify-center flex w-48 bg-[#171717] hover:bg-[#2c2c2c] text-white font-semi-bold py-4 px-8 rounded">
+            {/* {intl.formatMessage({ id: "consultation.button" })} */}
           </a>
         </div>
       </motion.div>

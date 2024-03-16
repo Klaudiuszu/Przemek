@@ -1,25 +1,15 @@
-import "../styles/globals.css";
-import './components/styles/all.scss';
-import { useRouter } from "next/router";
-import { IntlProvider } from "react-intl";
+import '../styles/globals.css';
+import '../src/components/styles/all.scss';
+import LanguageContextProvider from "../src/context/LanguageContext";
 
-import en from '../i18n/en.json';
-import pl from '../i18n/pl.json';
+import { initializeTranslations } from "next-translations/hooks"; 
 
-const messages = {
-  en,
-  pl
-}
-
-function getDirection(locale) {
-  return "ltr"
-}
 
 export default function App({ Component, pageProps }) {
-  const { locale } = useRouter();
+  initializeTranslations(pageProps?.translations);
   return (
-    <IntlProvider locale={locale} messages={messages[locale]}>
-      <Component {...pageProps} dir={getDirection(locale)} />
-    </IntlProvider>
+    <LanguageContextProvider>
+        <Component {...pageProps} />
+    </LanguageContextProvider>
   )
 }

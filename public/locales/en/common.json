@@ -1,0 +1,9 @@
+{
+    "navbar": {
+        "about": "About",
+        "architecture": "Architecture",
+        "interior": "Interior",
+        "consulting": "Consulting",
+        "contact": "Contact"
+    }
+}
