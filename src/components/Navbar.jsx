@@ -4,38 +4,46 @@ import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 import { useRouter } from "next/router";
-import { useIntl } from "react-intl";
+import { useTranslation } from "next-translations/hooks";
+import { namespaces } from '../constants/namespaces';
+import { useLanguage } from '../hooks/useLanguage';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const { locale, push } = useRouter();
-  const intl = useIntl();
   const [currentPath, setCurrentPath] = useState("");
 
+  const router = useRouter();
+  const currentUrl = router.asPath;  
+
   const toggleLanguage = () => {
-    const newLocale = locale === "pl" ? "en" : "pl";
-    push(currentPath, undefined, { locale: newLocale });
+    const newLocale = currentUrl.includes('pl') ? 'pl' : currentUrl.includes('en') ? 'en' : 'en';  
+      push(currentPath, undefined, { locale: newLocale });
+      console.log({currentPath, newLocale})
   };
+
+  const { t, pageTranslations, tString } = useTranslation(namespaces.common);
+  const {language, handleChangeLanguage} = useLanguage();  
 
   const navLinks = [
     {
-      title: intl.formatMessage({ id: "navbar.about" }),
+      title: tString('navbar.about'),
       path: "/#about",
     },
     {
-      title: intl.formatMessage({ id: "navbar.architecture" }),
-      path: "/architecture",
+      title: tString('navbar.architecture'),
+      path: `/${language}/architecture`,
     },
     {
-      title: intl.formatMessage({ id: "navbar.interior" }),
-      path: "/interior",
+      title: tString('navbar.interior'),
+      path: `/${language}/interior`,
     },
     {
-      title: intl.formatMessage({ id: "navbar.consulting" }),
-      path: "/consulting",
+      title: tString('navbar.consulting'),
+      path: `/${language}/consulting`,
     },
     {
-      title: intl.formatMessage({ id: "navbar.contact" }),
+      title: tString('navbar.contact'),
       path: "/#footer",
     },
   ];
@@ -82,8 +90,8 @@ const Navbar = () => {
                 />
               </li>
             ))}
-            <li className="navbar-language" onClick={toggleLanguage}>
-              {locale === "en" ? "PL" : "EN"}
+            <li className="navbar-language" onClick={ () => {handleChangeLanguage(language === 'en' ? 'pl' : 'en')}}>
+              {language === "en" ? "PL" : "EN"}
             </li>
           </ul>
         </div>

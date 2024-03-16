@@ -5,6 +5,11 @@
       "dom.iterable",
       "esnext"
     ],
+    "paths": {
+      "@constants/*": [
+        "./src/constants/*"
+      ],
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -21,7 +26,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/context/LanguageContext.jsx"  ],
   "exclude": [
     "node_modules"
   ]

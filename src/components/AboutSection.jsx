@@ -1,11 +1,12 @@
 "use client";
 import React, {useRef, useState, useEffect} from "react";
-import { useIntl } from "react-intl";
+// import { useIntl } from "react-intl";
 import { motion } from "framer-motion";
+import style from './styles/aboutMe.module.scss';
 
 
 const AboutSection = () => {
-  const intl = useIntl();
+  // const intl = useIntl();
 
     const [height, setHeight] = useState(0);
     const [width, setWidth] = useState(0);
@@ -27,9 +28,9 @@ const AboutSection = () => {
       >
         <div ref={refHeight} className="flex flex-col	 lg:grid gap-8 lg:grid-cols-2 items-center py-8 px-4 lg:gap-16 lg:px-16 about-me-section-wrapper">
           <div className="justify-center text-3xl md:text-5xl items-center lg:items-start text-center gap-4 mt-4  lg:text-left flex flex-col h-full">
-            <h2 className="about-me-header mb-4">{intl.formatMessage({ id: "aboutMe.header" })}</h2>
+            {/* <h2 className="about-me-header mb-4">{intl.formatMessage({ id: "aboutMe.header" })}</h2> */}
             <p className="about-me-info text-sm lg:px-0 sm:px-16 md:text-xl">
-              {intl.formatMessage({ id: "aboutMe.info" })}
+              {/* {intl.formatMessage({ id: "aboutMe.info" })} */}
             </p>
           </div>
           <div className="image-section">

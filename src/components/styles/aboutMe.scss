@@ -1,0 +1,33 @@
+.about-me-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0000;
+
+    .about-me-header {
+        font-weight: 700;
+
+        .about-me-info {
+            font-weight: 300;
+        }
+    }
+
+    .about-me-section-wrapper {
+        .image-section {
+            display: flex;
+            gap: 1rem;
+        }
+        .image-section-right {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+}
+
+.bg {
+    position: absolute;
+    z-index: -2;
+    // background-color: $background;
+    width: 100%;
+}

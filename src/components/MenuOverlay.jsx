@@ -1,7 +1,10 @@
 import React from "react";
 import NavLink from "./NavLink";
+import { useLanguage } from "../hooks/useLanguage";
 
 const MenuOverlay = ({ links, navbarOpen, toggleLanguage, locale }) => {
+  const {language, handleChangeLanguage} = useLanguage();  
+
   return (
     <ul className={`nav-bar ${navbarOpen ? 'nav-toggle' : ''}`}>
     {(links || []).map((link, index) => (
@@ -9,7 +12,7 @@ const MenuOverlay = ({ links, navbarOpen, toggleLanguage, locale }) => {
         <NavLink href={link.path} title={link.title} />
       </li>
     ))}
-    <a className="navbar-language overlay" onClick={toggleLanguage}>
+    <a className="navbar-language overlay" onClick={ () => {handleChangeLanguage(language === 'en' ? 'pl' : 'en')}}>
       {locale === "en" ? "PL" : "EN"}
     </a>
     </ul>

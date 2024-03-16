@@ -4,8 +4,6 @@ import { useRouter } from "next/router";
 const NavLink = ({ href, title, e = { auth: null } }) => {
   const router = useRouter();
 
-  console.log({href})
-
   return (
     <Link 
       href={href === undefined || null ? '/' : href}
