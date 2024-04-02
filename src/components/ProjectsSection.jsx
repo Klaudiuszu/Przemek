@@ -2,14 +2,14 @@
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import { motion, useInView } from "framer-motion";
-// import { useIntl } from "react-intl";
+import { useTranslation } from "next-translations/hooks";
+import { namespaces } from "../../translations.config";
 
 const ProjectsSection = () => {
-    // const intl = useIntl();
     const [tag, setTag] = useState("All");
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
-
+    const { tString } = useTranslation(namespaces.common);
     const handleTagChange = (newTag) => {
         setTag(newTag);
     };
@@ -17,30 +17,30 @@ const ProjectsSection = () => {
     const projectsData = [
         {
             id: 1,
-            title: `$`,
-            description: `$`,
+            title: tString('card.card1'),
+            description: tString('card.card1Description'),
             image: "/images/projects/1.png",
             tag: ["All", "Web"],
-            gitUrl: "/architekture",
-            previewUrl: "/architecture",
+            gitUrl: 'architecture',
+            previewUrl: 'architecture',
         },
         {
             id: 2,
-            title: `$`,
-            description: `$`,
+            title: tString('card.card2'),
+            description: tString('card.card2Description'),
             image: "/images/projects/2.png",
             tag: ["All", "Web"],
-            gitUrl: "/interior",
-            previewUrl: "/interior",
+            gitUrl: 'interior',
+            previewUrl: 'interior',
         },
         {
             id: 3,
-            title: ``,
-            description: ``,
+            title: tString('card.card3'),
+            description: tString('card.card3Description'),
             image: "/images/projects/3.png",
             tag: ["All", "Web"],
-            gitUrl: "/consulting",
-            previewUrl: "/consulting",
+            gitUrl: 'consulting',
+            previewUrl: 'consulting',
         },
     ];
 
@@ -77,7 +77,7 @@ const ProjectsSection = () => {
                             imgUrl={project.image}
                             gitUrl={project.gitUrl}
                             previewUrl={project.previewUrl}
-                            cardButtonTitle=''
+                            cardButtonTitle={tString('card.button')}
                         />
                     </motion.li>
                 ))}

@@ -1,6 +1,11 @@
 import React from "react";
+import { useLanguage } from '../hooks/useLanguage';
 
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, cardButtonTitle }) => {
+
+  const {language} = useLanguage();  
+  console.log({language})
+
   return (
     <div className="project-card-wrapper w-64">
       <div

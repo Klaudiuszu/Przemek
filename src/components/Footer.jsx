@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
-// import { useIntl } from "react-intl";
 import { useState, useRef, useEffect } from "react";
+import { useTranslation } from "next-translations/hooks";
+import { namespaces } from "../../translations.config";
 
 const Footer = () => {
-    // const intl = useIntl();
-
     const [width, setWidth] = useState(0);
     const refWidth = useRef(null);
+    const { tString } = useTranslation(namespaces.common);
 
     useEffect(() => {
         setWidth(refWidth.current.clientWidth)
@@ -19,7 +19,7 @@ const Footer = () => {
                 <div className="md:flex md:justify-between px-3">
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
-                            {/* <h2 className="mb-6 text-sm font-semibold text-white uppercase">{intl.formatMessage({ id: "footer.col1-header" })}</h2> */}
+                            <h2 className="mb-6 text-sm font-semibold text-white uppercase">{tString('footer.col1Header')}</h2>
                             <ul className="text-white font-thin">
                                 <li className="mb-4">
                                     <a href="https://www.google.com/maps/dir/Rozbrat+34%2F36,+Warszawa//@52.226312,21.0318993,17z/data=!4m9!4m8!1m5!1m1!1s0x471eccfc4829fe67:0xe2c2ba714d89cb90!2m2!1d21.0344742!2d52.2263087!1m0!3e0?entry=ttu" className="hover:underline flex gap-2 items-center">
@@ -27,8 +27,7 @@ const Footer = () => {
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                                         </svg>
-
-                                        {/* {intl.formatMessage({ id: "footer.col1-adres" })} */}
+                                        {tString('footer.col1Adres')}
                                     </a>
                                 </li>
                             </ul>
@@ -36,7 +35,7 @@ const Footer = () => {
                         <div>
                         </div>
                         <div>
-                            {/* <h2 className="mb-6 text-sm font-medium text-white uppercase">{intl.formatMessage({ id: "footer.col2-header" })}</h2> */}
+                            <h2 className="mb-6 text-sm font-medium text-white uppercase">{tString('footer.col2Header')}</h2>
                             <ul className="text-white font-thin flex flex-col gap-2">
                                 <li className="mb-4">
                                     <a href="#" className="hover:underline flex gap-2 items-center">
@@ -75,13 +74,13 @@ const Footer = () => {
                     <div className="sm:flex sm:items-center sm:justify-end justify-center w-full">
                         <div className="flex sm:justify-center sm:mt-0 items-center text-xs max-h-12">
                             <a href="#" className="text-white hover:text-gray-300">
-                                {/* <span className="px-2">{intl.formatMessage({ id: "footer.bottom-politic" })}</span> */}
+                                <span className="px-2">{tString('footer.bottomPolitic')}</span>
                             </a>
                             <a href="#" className="flex text-white hover:text-gray-300">
-                                {/* <span className="px-2">{intl.formatMessage({ id: "footer.bottom-cookie" })}</span> */}
+                                <span className="px-2">{tString('footer.bottomCookie')}</span>
                             </a>
                             <a href="#" className="flex text-white hover:text-gray-300">
-                                {/* <span className="px-2">{intl.formatMessage({ id: "footer.bottom-info" })}</span> */}
+                                <span className="px-2">{tString('footer.bottomInfo')}</span>
                             </a>
                             <a href="#" className="flex text-white hover:text-gray-300">
                                 <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">

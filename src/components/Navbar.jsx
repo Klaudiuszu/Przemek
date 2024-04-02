@@ -19,7 +19,6 @@ const Navbar = () => {
   const toggleLanguage = () => {
     const newLocale = currentUrl.includes('pl') ? 'pl' : currentUrl.includes('en') ? 'en' : 'en';  
       push(currentPath, undefined, { locale: newLocale });
-      console.log({currentPath, newLocale})
   };
 
   const { t, pageTranslations, tString } = useTranslation(namespaces.common);
