@@ -5,5 +5,68 @@
         "interior": "Interior",
         "consulting": "Consulting",
         "contact": "Contact"
+    },
+    "about": {
+        "header": "Who we are?",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis  vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat."
+    },
+    "email": {
+        "header": "Consultation",
+        "info": "How should I prepare?",
+        "step1": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
+        "step2": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame",
+        "step3": "EN Lorem am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sitam dolor sit am dolor sit ame",
+        "step4": "EN Lorem ipsum dolor sit am dolor sit sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
+        "name": "Your full name...",
+        "email": "Email...",
+        "text": "Your message...",
+        "send": "Send message"
+    },
+    "card": {
+        "card1": "Architecture",
+        "card2": "Interior",
+        "card3": "Consulting",
+        "card1Description": "EN Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.",
+        "card2Description": "EN Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.",
+        "card3Description": "EN Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.",
+        "button": "show more"
+    },
+    "architecture": {
+        "header": "Architecture",
+        "info": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
+        "info2": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame"
+    },
+    "consultation": {
+        "header": "We invite you to a free consultation",
+        "button": "Consultation"
+    },
+    "process": {
+        "header": "Process",
+        "info": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
+        "check1": "EN Lacus nisi, et ac dapibus veitl in consequat.",
+        "check2": "EN Quisqude diam pellentesque bibendum non dui volutpat fringilla.",
+        "check3": "EN Lorem Ipsum dolor sit amet, consectur adispiscing elit.",
+        "check4": "EN Adipiscing dolor adipsicing sit amet disciping elit conestur."
+    },
+    "consulting": {
+        "header": "Consulting",
+        "info": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
+        "info2": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame"
+    },
+    "interior": {
+        "header": "Wnętrza",
+        "info": "PL Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
+        "info2": "PL Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame"
+    },
+    "footer": {
+        "col1Header": "Our office",
+        "col1Adres": "Warsaw st. Rozbrat 34/36",
+        "col2Header": "Contact",
+        "bottomPolitic": "Privacy policy",
+        "bottomCookie": "Cookie policy",
+        "bottomInfo": "Information obligation"
+    },
+    "button": {
+        "instagram": "Get to know our projects"
     }
 }

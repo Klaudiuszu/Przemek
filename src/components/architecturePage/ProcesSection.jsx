@@ -1,14 +1,16 @@
 "use client";
 import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
-
+import { useTranslation } from "next-translations/hooks";
+import { namespaces } from "../../../translations.config";
 
 const ProcesSection = () => {
-
   const [height, setHeight] = useState(0);
   const [width, setWidth] = useState(0);
   const refHeight = useRef(null);
   const refWidth = useRef(null);
+
+  const { tString } = useTranslation(namespaces.common);
 
   useEffect(() => {
     setWidth(refWidth.current.clientWidth)
@@ -24,45 +26,45 @@ const ProcesSection = () => {
       >
         <div ref={refHeight} className="flex flex-col	 lg:grid gap-8 lg:grid-cols-2 items-center py-8 px-4 lg:gap-16 lg:px-16 about-me-section-wrapper">
           <div className="justify-center text-3xl md:text-5xl items-center lg:items-start text-center gap-4 mt-4  lg:text-left flex flex-col h-full">
-            {/* <h2 className="about-me-header mb-4">{intl.formatMessage({ id: "process.header" })}</h2> */}
-            <p className="about-me-info text-sm lg:px-0 sm:px-16 md:text-xl">
-              {/* {intl.formatMessage({ id: "process.info" })} */}
+            <h2 className="about-me-header mb-4">{tString('process.header')}</h2>
+            <p className="about-me-info text-[#171717] text-sm lg:px-0 sm:px-16 md:text-xl">
+              {tString('process.info')}
             </p>
             <div className="h-4"></div>
             <div className="flex gap-2 justify-center flex-col items-center lg:flex-row">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-6 min-w-6	h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
               </svg>
-              <p className="about-me-info text-sm lg:px-0 sm:px-16 md:text-xl">
-                {/* {intl.formatMessage({ id: "process.check1" })} */}
+              <p className="about-me-info text-[#171717] text-sm lg:px-0 sm:px-16 md:text-xl">
+              &#8226;{' '}{tString('process.check1')}
               </p>
             </div>
             <div className="flex gap-2 justify-center items-center flex-col lg:flex-row">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-6 min-w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
               </svg>
-              <p className="about-me-info text-sm lg:px-0 sm:px-16 md:text-xl">
-                {/* {intl.formatMessage({ id: "process.check2" })} */}
+              <p className="about-me-info text-[#171717] text-sm lg:px-0 sm:px-16 md:text-xl">
+              &#8226;{' '}{tString('process.check2')}
               </p>
             </div>
             <div className="flex gap-2 justify-center items-center flex-col lg:flex-row">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-6 min-w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
               </svg>
-              <p className="about-me-info text-sm lg:px-0 sm:px-16 md:text-xl">
-                {/* {intl.formatMessage({ id: "process.check3" })} */}
+              <p className="about-me-info text-[#171717] text-sm lg:px-0 sm:px-16 md:text-xl">
+              &#8226;{' '}{tString('process.check3')}
               </p>
             </div>
             <div className="flex gap-2 justify-center items-center flex-col lg:flex-row">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-6 min-w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
               </svg>
-              <p className="about-me-info text-sm lg:px-0 sm:px-16 md:text-xl">
-                {/* {intl.formatMessage({ id: "process.check4" })} */}
+              <p className="about-me-info text-[#171717] text-sm lg:px-0 sm:px-16 md:text-xl">
+              &#8226;{' '}{tString('process.check4')}
               </p>
             </div>
             <a href="https://www.instagram.com/jofi_studio/" target="_blank" className="text-xl bg-[#171717] mt-10 hover:bg-[#2c2c2c] text-white font-semi-bold py-4 px-8 rounded">
-              {/* {intl.formatMessage({ id: "button.instagram" })} */}
+            {tString('button.instagram')}
             </a>
           </div>
 
