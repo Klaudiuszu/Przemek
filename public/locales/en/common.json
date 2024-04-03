@@ -20,7 +20,8 @@
         "name": "Your full name...",
         "email": "Email...",
         "text": "Your message...",
-        "send": "Send message"
+        "send": "Send message",
+        "sent-mail": "Email sent successfully!"
     },
     "card": {
         "card1": "Architecture",
