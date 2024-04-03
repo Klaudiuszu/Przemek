@@ -1,6 +1,6 @@
 {
     "navbar": {
-        "about": "About",
+        "about": "O nas",
         "architecture": "Architektura",
         "interior": "Wnętrza",
         "consulting": "Doradztwo",
@@ -20,7 +20,8 @@
         "name": "Twoje imię i nazwisko...",
         "email": "Email...",
         "text": "Twoja wiadomość...",
-        "send": "Wyślij"
+        "send": "Wyślij",
+        "sent-mail": "Email został wysłany pomyślnie!"
     },
     "card": {
         "card1": "Architektura",
