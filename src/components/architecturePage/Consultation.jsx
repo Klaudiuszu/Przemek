@@ -3,14 +3,17 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "next-translations/hooks";
 import { namespaces } from "../../../translations.config";
+import { useLanguage } from "../../hooks/useLanguage";
 
 
 const Consultation = () => {
 
   const { tString } = useTranslation(namespaces.common);
+  const {language} = useLanguage();  
 
   return (
     <section
+      id="consultation"
       className="flex h-screen mt-[-72px] xl-[-50px] items-center justify-center lg:py-16 max-w-screen-2xl relative"
     >
       <motion.div
@@ -23,7 +26,7 @@ const Consultation = () => {
             {tString('consultation.header')}
             </h5>
           </div>
-          <a href="/#contact" className="text-xl justify-center flex w-48 bg-[#171717] hover:bg-[#2c2c2c] text-white font-semi-bold py-4 px-8 rounded">
+          <a href={`/${language}/#contact`} className="text-xl justify-center flex w-48 bg-[#171717] hover:bg-[#2c2c2c] text-white font-semi-bold py-4 px-8 rounded">
           {tString('consultation.button')}
           </a>
         </div>

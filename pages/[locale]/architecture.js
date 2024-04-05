@@ -5,6 +5,7 @@ import Consultation from "../../src/components/architecturePage/Consultation";
 import ProcesSection from "../../src/components/architecturePage/ProcesSection";
 import { getTranslationsProps } from "next-translations";
 import { namespaces } from '../../src/constants/namespaces';
+import CookiesConsent from "../../src/components/CookiesConsent";
 
 export { getStaticPaths } from "next-translations";
 
@@ -18,6 +19,7 @@ export default function Architecture() {
         <ArchitectureSection />
         <ProcesSection />
       </main>
+      <CookiesConsent />
       <Footer />
     </>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import NavLink from "./NavLink";
 import { useLanguage } from "../hooks/useLanguage";
 
-const MenuOverlay = ({ links, navbarOpen, toggleLanguage, locale }) => {
+const MenuOverlay = ({ links, navbarOpen, locale }) => {
   const {language, handleChangeLanguage} = useLanguage();  
 
   return (

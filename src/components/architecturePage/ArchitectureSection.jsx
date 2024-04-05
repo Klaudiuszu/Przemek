@@ -19,7 +19,7 @@ const EmailSection = () => {
       >
         <div className="flex flex-col lg:grid gap-8 lg:grid-cols-2 items-center py-8 px-4 lg:gap-16 lg:px-16">
           <div className="text-center justify-center gap-4 mt-4 items-center lg:items-start lg:text-left flex flex-col ">
-            <h5 className="font-bold md:text-5xl text-3xl">
+            <h5 className="font-bold md:text-5xl text-3x">
               {tString('architecture.header')}
             </h5>
             <p className="text-sm md:text-xl">{tString('architecture.info')}</p>
