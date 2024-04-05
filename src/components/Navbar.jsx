@@ -27,7 +27,7 @@ const Navbar = () => {
   const navLinks = [
     {
       title: tString('navbar.about'),
-      path: "/#about",
+      path: `/${language}/#about`,
     },
     {
       title: tString('navbar.architecture'),
@@ -43,7 +43,7 @@ const Navbar = () => {
     },
     {
       title: tString('navbar.contact'),
-      path: "/#footer",
+      path: `/${language}/#footer`,
     },
   ];
 
@@ -95,7 +95,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      <MenuOverlay links={navLinks} navbarOpen={navbarOpen} toggleLanguage={toggleLanguage} locale={locale}/>
+      <MenuOverlay links={navLinks} navbarOpen={navbarOpen} toggleLanguage={toggleLanguage} locale={language}/>
     </nav>
   );
 };

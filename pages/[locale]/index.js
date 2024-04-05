@@ -6,6 +6,7 @@ import Navbar from "../../src/components/Navbar";
 import ProjectsSection from "../../src/components/ProjectsSection";
 import { getTranslationsProps } from "next-translations";
 import { namespaces } from '../../src/constants/namespaces';
+import CookiesConsent from "../../src/components/CookiesConsent";
 
 export { getStaticPaths } from "next-translations";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <EmailSection />
       </main>
       <Footer />
+    <CookiesConsent />
     </>
   );
 }
