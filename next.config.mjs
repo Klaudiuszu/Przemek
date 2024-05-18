@@ -1,3 +1,15 @@
+// /** @type {import('next').NextConfig} */
+
+// const nextConfig = {
+//   reactStrictMode: true,
+//   trailingSlash: true,
+//   output: 'export',
+//   images: {
+//     unoptimized: true
+//   },
+// };
+// export default nextConfig
+
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
@@ -5,7 +17,8 @@ const nextConfig = {
   trailingSlash: true,
   output: 'export',
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
 };
-export default nextConfig
+
+export default nextConfig;

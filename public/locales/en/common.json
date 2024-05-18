@@ -1,8 +1,8 @@
 {
     "navbar": {
-        "about": "About",
-        "architecture": "Architecture",
-        "interior": "Interior",
+        "offer": "Offer",
+        "portfolio": "Portfolio",
+        "about": "About us",
         "consulting": "Consulting",
         "contact": "Contact"
     },

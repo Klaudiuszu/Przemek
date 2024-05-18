@@ -1,7 +1,5 @@
-import Link from "next/link";
 import React, { useState } from "react";
-import NavLink from "./NavLink";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { Bars3Icon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-translations/hooks";
@@ -10,19 +8,19 @@ import { useLanguage } from '../hooks/useLanguage';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
-  const { locale, push } = useRouter();
-  const [currentPath, setCurrentPath] = useState("");
+  const { push } = useRouter();
+  const [currentPath] = useState("");
 
   const router = useRouter();
-  const currentUrl = router.asPath;  
+  const currentUrl = router.asPath;
 
   const toggleLanguage = () => {
-    const newLocale = currentUrl.includes('pl') ? 'pl' : currentUrl.includes('en') ? 'en' : 'en';  
-      push(currentPath, undefined, { locale: newLocale });
+    const newLocale = currentUrl.includes('pl') ? 'pl' : currentUrl.includes('en') ? 'en' : 'en';
+    push(currentPath, undefined, { locale: newLocale });
   };
 
-  const { t, pageTranslations, tString } = useTranslation(namespaces.common);
-  const {language, handleChangeLanguage} = useLanguage();  
+  const { tString } = useTranslation(namespaces.common);
+  const { language } = useLanguage();
 
   const navLinks = [
     {
@@ -47,55 +45,30 @@ const Navbar = () => {
     },
   ];
 
-  const handleNavLinkClick = (path) => {
-    setCurrentPath(path);
-    setNavbarOpen(false);
-  };
+  const handleNavbarOpen = (isOpen) => {
+    setNavbarOpen(isOpen);
+  }
 
   return (
     <nav className="navbar absolute mx-auto top-0 left-0 right-1 z-10">
-      <div>
-      </div>
       <div className="flex max-w-screen-2xl min-w-72	flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <Link href={"/"} className="text-2xl md:text-2xl font-semibold">
-          JOFI STUDIO
-        </Link>
-        <div className="mobile-menu block lg:hidden">
-          {!navbarOpen ? (
+        <div className="flex w-screen">
+          <div className="flex-1 flex items-center justify-center relative">
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-3 py-2   rounded  text-slate-200 navbar-button"
+              className="flex items-center px-3 py-2 rounded text-slate-200 navbar-button"
             >
               <Bars3Icon className="h-10 w-10 z-10" />
+              MENU
             </button>
-          ) : (
-            <button
-              onClick={() => setNavbarOpen(false)}
-              className="flex items-center px-3 py-2 rounded text-slate-200 navbar-button navbar-button-close"
-            >
-              <XMarkIcon className="h-10 w-10 z-10"/>
-            </button>
-          )}
-        </div>
-        <div className="menu hidden lg:block lg:w-auto" id="navbar">
-          <ul className="navbar-link-wrapper flex p-4 md:p-0 md:flex-row mt-0 uppercase">
-            {navLinks.map((link, index) => (
-              <li key={index} className="navbar-single-link">
-                <NavLink
-                  path={link.path}
-                  href={link.path}
-                  title={link.title}
-                  onClick={() => handleNavLinkClick(link.path)}
-                />
-              </li>
-            ))}
-            <li className="navbar-language" onClick={ () => {handleChangeLanguage(language === 'en' ? 'pl' : 'en')}}>
-              {language === "en" ? "PL" : "EN"}
-            </li>
-          </ul>
+          </div>
+          <div className="flex-1 flex items-center justify-center">        
+            <img src="/images/logo.svg" className=" w-336 h-9" />
+          </div>
+          <div className="flex-1 flex items-center justify-center">BEZPŁATNA KONSULTACJA</div>
         </div>
       </div>
-      <MenuOverlay links={navLinks} navbarOpen={navbarOpen} toggleLanguage={toggleLanguage} locale={language}/>
+      <MenuOverlay setNavbarOpenClose={handleNavbarOpen} links={navLinks} navbarOpen={navbarOpen} toggleLanguage={toggleLanguage} locale={language} />
     </nav>
   );
 };
