@@ -3,8 +3,11 @@
         "offer": "Oferta",
         "portfolio": "Portfolio",
         "about": "O nas",
-        "consulting": "Doradztwo",
-        "contact": "Kontakt"
+        "contact": "Kontakt",
+        "architecture": "Architektura",
+        "interior": "Wnętrza",
+        "furniture": "Meble",
+        "consulting": "Konsultacje"
     },
     "about": {
         "header": "Kim jesteśmy?",

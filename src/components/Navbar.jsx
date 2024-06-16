@@ -24,9 +24,20 @@ const Navbar = () => {
 
   const navLinks = [
     {
-      title: tString('navbar.about'),
-      path: `/${language}/#about`,
+      title: tString('navbar.portfolio'),
+      path: `/${language}/portfolio`,
     },
+    {
+      title: tString('navbar.about'),
+      path: `/${language}/about`,
+    },
+    {
+      title: tString('navbar.contact'),
+      path: `/${language}/#footer`,
+    },
+  ];
+
+  const offerLinks = [
     {
       title: tString('navbar.architecture'),
       path: `/${language}/architecture`,
@@ -36,14 +47,15 @@ const Navbar = () => {
       path: `/${language}/interior`,
     },
     {
+      title: tString('navbar.furniture'),
+      path: `/${language}/furniture`,
+    },
+    {
       title: tString('navbar.consulting'),
       path: `/${language}/consulting`,
     },
-    {
-      title: tString('navbar.contact'),
-      path: `/${language}/#footer`,
-    },
   ];
+
 
   const handleNavbarOpen = (isOpen) => {
     setNavbarOpen(isOpen);
@@ -62,13 +74,18 @@ const Navbar = () => {
               MENU
             </button>
           </div>
-          <div className="flex-1 flex items-center justify-center">        
+          <div className="flex-1 flex items-center justify-center">
             <img src="/images/logo.svg" className=" w-336 h-9" />
           </div>
           <div className="flex-1 flex items-center justify-center">BEZPŁATNA KONSULTACJA</div>
         </div>
       </div>
-      <MenuOverlay setNavbarOpenClose={handleNavbarOpen} links={navLinks} navbarOpen={navbarOpen} toggleLanguage={toggleLanguage} locale={language} />
+      <MenuOverlay
+        setNavbarOpenClose={handleNavbarOpen}
+        offerLinks={offerLinks} links={navLinks} 
+        navbarOpen={navbarOpen} 
+        toggleLanguage={toggleLanguage} 
+        locale={language} />
     </nav>
   );
 };

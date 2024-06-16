@@ -1,10 +1,13 @@
 {
     "navbar": {
-        "offer": "Offer",
+        "offer": "Oferta",
         "portfolio": "Portfolio",
-        "about": "About us",
-        "consulting": "Consulting",
-        "contact": "Contact"
+        "about": "O nas",
+        "contact": "Kontakt",
+        "architecture": "Architektura",
+        "interior": "Wnętrza",
+        "furniture": "Meble",
+        "consulting": "Konsultacje"
     },
     "about": {
         "header": "Who we are?",
