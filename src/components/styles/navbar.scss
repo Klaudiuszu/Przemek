@@ -1,5 +1,4 @@
 .navbar {
-    position: sticky;
     height: 149px;
     display: flex;
 
@@ -53,17 +52,16 @@
     .nav-bar {
         height: calc(100vh + 54px);
         display: flex;
-        max-width: 400px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         position: fixed;
         top: 0;
         left: -30%;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
         gap: 1.2rem;
         z-index: 10;
-        width: 30vw;
-        padding: 8rem 4rem;
+        padding: 0;
         background-color: $warmGrey;
         color: $dark;
         transition: left 450ms ease-in-out;
@@ -76,6 +74,8 @@
 
     .nav-bar.nav-toggle {
         left: 0;
+        width: 100%;
+        font-size: 22px;
         transition: left .3s ease-in-out;
     }
 
@@ -84,7 +84,19 @@
         margin: 0;
         padding: 0;
     }
-    .menu-overlay-li a {
-        font-size: 22px;
-    }
+
+    @media (min-width: 1024px) {
+        .nav-bar {
+            justify-content: flex-start;
+            align-items: flex-start;
+            text-align: left;
+            padding: 8rem 4rem;
+            width: 30vw;
+        }
+        .nav-bar.nav-toggle {
+            left: 0;
+            width: 30vw;
+            transition: left .3s ease-in-out;
+        }
+      }
 }

@@ -10,8 +10,13 @@
         "consulting": "Konsultacje"
     },
     "about": {
-        "header": "Kim jesteśmy?",
-        "info": " PL Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis  vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat."
+        "header": "Stawiamy na współpracę",
+        "info": "Szanujemy budżet i czas naszych klientów. Przeprowadzimy Cię krok po kroku przez zaplanowany przez nas starannie proces projektowy. Dbamy o dobrą komunikację.",
+        "button": "Więcej o nas"
+    },
+    "section3": {
+        "header": "Jesteśmy gotowi ponieść cenę piękna",
+        "info": "Sed libero augue, condimentum et arcu ac, hendrerit maximus nisi. Cras blandit sapien eu arcu pulvinar eleifend. Sed a dolor sed ipsum gravida tincidunt sit amet ut orci. Pellentesque et fermentum nulla. Vestibulum sollicitudin quam ullamcorper feugiat aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin nisl est, dapibus a tortor nec, suscipit blandit nulla. Suspendisse id fringilla metus. Duis a vehicula ante. Nam luctus imperdiet posuere. Sed mollis turpis nec interdum feugiat. Phasellus convallis enim sed nibh auctor elementum. Nunc cursus eleifend velit in ultrices. Cras molestie urna vitae augue accumsan, vel ullamcorper odio vehicula."
     },
     "email": {
         "header": "Konsultacja",

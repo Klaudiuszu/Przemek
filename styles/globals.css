@@ -2,10 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'PPHatton-Mendium';
+    src: url(./fonts/PPHatton-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'PPHatton-Bold';
+    src: url(./fonts/PPHatton-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'PPHatton-Light';
+    src: url(./fonts/PPHatton-Light.ttf);
+}
+
+@font-face {
+    font-family: 'PPHatton-Thin';
+    src: url(./fonts/PPHatton-Thin.ttf);
+}
+
 input,
 textarea,
 button,
 select,
 a {
     -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: 'PPHatton-Mendium';
+}
+
+h2 {
+    font-family: 'PPHatton-Light';
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'PPHatton-light';
+}
+
+.textButtonWrapper {
+    transition: 0.3s;
+}
+
+.textButton {
+    font-size: 22px;
+    border-bottom: 2px solid;
+    line-height: 25px;
+}
+
+.textButtonWrapper:hover {
+    color: #7393B3;
 }
