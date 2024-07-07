@@ -15,8 +15,8 @@ const SliderSection = () => {
   const prev = () => setCurr(curr === 0 ? slides.length - 1 : curr - 1);
   const next = () => setCurr(curr === slides.length - 1 ? 0 : curr + 1);
 
-  const autoSlide = false; // Toggle auto slide
-  const autoSlideInterval = 3000; // Auto slide interval in milliseconds
+  const autoSlide = false;
+  const autoSlideInterval = 3000;
 
   useEffect(() => {
     if (autoSlide) {

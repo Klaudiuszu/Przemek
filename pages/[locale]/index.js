@@ -8,6 +8,7 @@ import ProjectsSection from "../../src/components/ProjectsSection";
 import { getTranslationsProps } from "next-translations";
 import { namespaces } from '../../src/constants/namespaces';
 import CookiesConsent from "../../src/components/CookiesConsent";
+import SliderLogo from "../../src/components/SliderLogo";
 
 export { getStaticPaths } from "next-translations";
 
@@ -22,6 +23,7 @@ export default function Home() {
         <AboutSection />
         <TextSection />
         <ProjectsSection />
+        <SliderLogo />
         <EmailSection />
       </main>
       <Footer />

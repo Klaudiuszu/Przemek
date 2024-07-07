@@ -25,7 +25,7 @@ const Navbar = () => {
   const navLinks = [
     {
       title: tString('navbar.portfolio'),
-      path: `/${language}/portfolio`,
+      path: `https://www.instagram.com/jofi_studio`,
     },
     {
       title: tString('navbar.about'),
@@ -65,14 +65,14 @@ const Navbar = () => {
     <nav className="navbar absolute mx-auto top-0 left-0 right-1 z-10">
       <div className="flex max-w-screen-2xl  items-baseline xl:items-center max-w-sc min-w-72	flex-wrap justify-between mx-auto px-4 py-2 relative">
         <div className="flex w-screen items-center">
-        <div className="flex-1 flex items-center xl:justify-center justify-start relative">
+          <div className="flex-1 flex items-center xl:justify-center justify-start relative">
             <button
               onClick={() => setNavbarOpen(true)}
               className="flex items-center px-3 py-2 rounded text-slate-200 navbar-button gap-2"
             >
               <Bars3Icon className="h-10 w-10 z-10" />
               <label className="hidden lg:block text-center relative top-1">
-              MENU
+                MENU
               </label>
             </button>
           </div>
@@ -84,9 +84,10 @@ const Navbar = () => {
       </div>
       <MenuOverlay
         setNavbarOpenClose={handleNavbarOpen}
-        offerLinks={offerLinks} links={navLinks} 
-        navbarOpen={navbarOpen} 
-        toggleLanguage={toggleLanguage} 
+        offerLinks={offerLinks} 
+        links={navLinks}
+        navbarOpen={navbarOpen}
+        toggleLanguage={toggleLanguage}
         locale={language} />
     </nav>
   );

@@ -7,7 +7,7 @@
         "architecture": "Architektura",
         "interior": "Wnętrza",
         "furniture": "Meble",
-        "consulting": "Konsultacje"
+        "consulting": "Doradztwo"
     },
     "about": {
         "header": "Stawiamy na współpracę",
@@ -16,29 +16,33 @@
     },
     "section3": {
         "header": "Jesteśmy gotowi ponieść cenę piękna",
-        "info": "Sed libero augue, condimentum et arcu ac, hendrerit maximus nisi. Cras blandit sapien eu arcu pulvinar eleifend. Sed a dolor sed ipsum gravida tincidunt sit amet ut orci. Pellentesque et fermentum nulla. Vestibulum sollicitudin quam ullamcorper feugiat aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin nisl est, dapibus a tortor nec, suscipit blandit nulla. Suspendisse id fringilla metus. Duis a vehicula ante. Nam luctus imperdiet posuere. Sed mollis turpis nec interdum feugiat. Phasellus convallis enim sed nibh auctor elementum. Nunc cursus eleifend velit in ultrices. Cras molestie urna vitae augue accumsan, vel ullamcorper odio vehicula."
+        "info": "Jaką? Mówienie o cenie piękna jedynie w kontekście finansowym byłoby ogromną ignorancją. Piękno nie musi być równoznaczne i współmierne z luksusem, ekskluzywnymi i kosztownymi materiałami czy dodatkami. Może, ale nie musi. Równocześnie to, co drogie nie zawsze bywa piękne. Dla nas cena piękna to cena pogrzebania swojego ego w przypadku zainteresowanych stron, po to, żeby na jego zgliszczach mogło wyrosnąć coś nowego i świeżego, co będzie efektem synergii pomiędzy inwestorem, użytkownikiem, przestrzenią i projektantem."
+    },
+    "section4": {
+        "header": "Zaufali nam"
     },
     "email": {
-        "header": "Konsultacja",
-        "info": "Jak się przygotować?",
-        "step1": "PL Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
-        "step2": "PL Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame",
-        "step3": "PL Lorem am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sitam dolor sit am dolor sit ame",
-        "step4": "PL Lorem ipsum dolor sit am dolor sit sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
-        "name": "Twoje imię i nazwisko...",
-        "email": "Email...",
-        "text": "Twoja wiadomość...",
-        "send": "Wyślij",
+        "header": "Masz pytania?",
+        "info": "Zapisz się na darmową konsultacje",
+        "step0": "Oto lista kilku rzeczy, które powinieneś przygotować przed spotkaniem:",
+        "step1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "step2": "In molestie augue sollicitudin risus placerat volutpat.",
+        "step3": "In molestie augue sollicitudin risus placerat volutpat.",
+        "step4": "In molestie augue sollicitudin risus placerat volutpat.",
+        "name": "Imię i nazwisko",
+        "email": "E-mail",
+        "text": "Treść wiadomości",
+        "send": "Wyślij zgłoszenie",
         "sent-mail": "Email został wysłany pomyślnie!"
     },
     "card": {
         "card1": "Architektura",
         "card2": "Wnętrza",
-        "card3": "Doradztwo",
-        "card1Description": "PL Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.",
-        "card2Description": "PL Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.",
-        "card3Description": "PL Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.",
-        "button": "Dowiedz się więcej"
+        "card3": "Meble",
+        "card4": "Doradztwo",
+        "button": "Dowiedz się więcej",
+        "button3": "Zobacz ofertę",
+        "button4": "Umów konsultacje"
     },
     "architecture": {
         "header": "Architektura",
@@ -68,11 +72,18 @@
         "info2": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame"
     },
     "footer": {
-        "col1Header": "Nasze biuro",
-        "col1Adres": "Warszawa ul. Rozbrat 34/36",
         "col2Header": "Kontakt",
-        "bottomPolitic": "Polityka Prywatności",
-        "bottomCookie": "Polityka Cookie",
+        "col2NameAnna": "Anna Saj",
+        "col2MailAnna": "anna@jofi.pl",
+        "col2NumberAnna": "+48 541-478-587",
+        "col2NameMikolaj": "Mikołaj Gadomski",
+        "col2MailMikolaj": "mikolaj@jofi.pl",
+        "col2NumberMikolaj": "+48 647-874-645",
+        "col3Header": "Biuro",
+        "col3Adress": "ul. Rozbrat 34/36, Warszawa",
+        "col3Map": "Zobacz na mapie",
+        "col4Media": "Śledź nasze działania",
+
         "bottomInfo": "Obowiązek informacyjny"
     },
     "button": {

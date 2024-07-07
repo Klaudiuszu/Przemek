@@ -1,25 +1,25 @@
 import React from "react";
-import { useLanguage } from '../hooks/useLanguage';
+import TextArrow from "../smallComponents/TextArrow";
 
-const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, cardButtonTitle }) => {
-
-  const {language} = useLanguage();  
-
+const ProjectCard = ({ imgUrl, title, cardButtonTitle, path }) => {
   return (
-    <div className="project-card-wrapper w-64">
-      <div
-        className="h-52 md:h-68 rounded-t-xl relative group"
-        style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
-      >
+    <div className="project-card-wrapper flex flex-col justify-center xl:gap-16">
+      <div className="relative rounded-t-xl flex overflow-hidden h-full w-full">
+        <div
+          className="xl:h-[420px] xl:w-[670px] xl:h-68 h-auto w-full bg-cover bg-center"
+          style={{
+            backgroundImage: `url(${imgUrl})`,
+            paddingBottom: '60.25%'
+          }}
+        ></div>
       </div>
-      <div className="md:h-40 rounded-b-xl mt-3 px-4 py-2 flex gap-1 flex-col">
-        <h5 className="project-card-text text-xl font-semibold">{title}</h5>
-        <p className="text-sm">{description}</p>
-        <a href={previewUrl} className="font-semibold project-card-button flex align-center">{cardButtonTitle}&nbsp;
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-          </svg>
-        </a>
+      <div className="rounded-b-xl mt-3 px-4 py-2 flex flex-col items-center xl:gap-7 gap-3">
+        <h2 className="max-w-5xl md:text-5xl text-4xl xl:mb-4 leading-normal">{title}</h2>
+        <TextArrow 
+          buttonText={cardButtonTitle}
+          iconName={''}
+          path={path}
+        />
       </div>
     </div>
   );
