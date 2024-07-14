@@ -28,8 +28,11 @@ const SliderSection = () => {
   return (
     <div className="overflow-hidden relative w-full h-screen">
       <div
-        className="flex transition-transform ease-out duration-500"
-        style={{ transform: `translateX(-${curr * 100}vw)`, width: `${slides.length * 100}vw` }}
+        className="flex transition-transform ease-out duration-1000"
+        style={{
+          transform: `translateX(-${curr * 100}vw)`,
+          width: `${slides.length * 100}vw`
+        }}
       >
         {slides.map((slide, index) => (
           <div key={index} className="flex-shrink-0" style={{ width: '100vw', height: '100vh' }}>
@@ -63,13 +66,13 @@ const SliderSection = () => {
               key={i}
               src={curr === i ? slideDotActive.src : slideDot.src}
               alt={`Dot ${i + 1}`}
-              className="w-6 h-6"
+              className="w-6 h-6 cursor-pointer"
+              onClick={() => setCurr(i)}
             />
           ))}
         </div>
       </div>
     </div>
-
   );
 };
 

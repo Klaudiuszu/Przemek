@@ -2,10 +2,10 @@ import Footer from "../../src/components/Footer";
 import Navbar from "../../src/components/Navbar";
 import ArchitectureSection from "../../src/components/architecturePage/ArchitectureSection";
 import Consultation from "../../src/components/architecturePage/Consultation";
-import ProcesSection from "../../src/components/architecturePage/ProcesSection";
 import { getTranslationsProps } from "next-translations";
 import { namespaces } from '../../src/constants/namespaces';
 import CookiesConsent from "../../src/components/CookiesConsent";
+import FillarSection from "../../src/components/architecturePage/FillarsSection";
 
 export { getStaticPaths } from "next-translations";
 
@@ -15,9 +15,9 @@ export default function Architecture() {
     <>
       <Navbar />
       <main className='flex min-h-screen flex-col items-center justify-between xs:w xl:px-24 my-12'>
-        <Consultation />
         <ArchitectureSection />
-        <ProcesSection />
+        <FillarSection />
+        <Consultation />
       </main>
       <CookiesConsent />
       <Footer />

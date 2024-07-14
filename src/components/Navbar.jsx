@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import { useTranslation } from "next-translations/hooks";
 import { namespaces } from '../constants/namespaces';
 import { useLanguage } from '../hooks/useLanguage';
+import Link from "next/link";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -56,14 +57,13 @@ const Navbar = () => {
     },
   ];
 
-
   const handleNavbarOpen = (isOpen) => {
     setNavbarOpen(isOpen);
-  }
+  };
 
   return (
     <nav className="navbar absolute mx-auto top-0 left-0 right-1 z-10">
-      <div className="flex max-w-screen-2xl  items-baseline xl:items-center max-w-sc min-w-72	flex-wrap justify-between mx-auto px-4 py-2 relative">
+      <div className="flex max-w-screen-2xl items-baseline xl:items-center max-w-sc min-w-72 flex-wrap justify-between mx-auto px-4 py-2 relative">
         <div className="flex w-screen items-center">
           <div className="flex-1 flex items-center xl:justify-center justify-start relative">
             <button
@@ -79,16 +79,23 @@ const Navbar = () => {
           <div className="flex-1 flex items-center justify-center">
             <img src="/images/logo.svg" className=" w-136 h-7" />
           </div>
-          <div className="flex-1 items-center h-7 justify-center hidden lg:block relative top-1">BEZPŁATNA KONSULTACJA</div>
+          <Link 
+            href={`/${language}/#contact`}
+            className="flex-1 items-center h-7 justify-center hidden lg:block relative top-1 cursor-pointer"
+            style={{ textTransform: 'uppercase' }}
+          >
+              {tString('navbar.consultation')}
+          </Link>
         </div>
       </div>
       <MenuOverlay
         setNavbarOpenClose={handleNavbarOpen}
-        offerLinks={offerLinks} 
+        offerLinks={offerLinks}
         links={navLinks}
         navbarOpen={navbarOpen}
         toggleLanguage={toggleLanguage}
-        locale={language} />
+        locale={language}
+      />
     </nav>
   );
 };

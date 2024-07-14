@@ -1,26 +1,17 @@
-.p-carousel-item,
-.p-carousel-item-active,
-.p-carousel-item-start,
-.p-carousel-item-end {
-  display: flex;
-  justify-content: center;
+.p-carousel-item {
+  position: relative;
+  div {
+    top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  }
+}
+
+.p-carousel-items-container {
+  height: 200px;
 }
 
 .p-carousel-container {
-  @media (min-width: 768px) {
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-  @media (max-width: 768px) {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    .p-carousel-items-content>.p-carousel-items-container {
-      gap: 1rem;
-    }
-  }
-  @media (max-width: 1444px) {
-    .p-carousel-items-content>.p-carousel-items-container {
-      gap: 1rem;
-    }
-  }
+  padding: 16px;
 }

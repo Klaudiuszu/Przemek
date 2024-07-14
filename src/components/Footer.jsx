@@ -32,19 +32,10 @@ const Footer = () => {
                                     <a
                                         className=" flex gap-2 font-bold items-center"
                                     >
-                                        {tString("footer.col2NameAnna")}
+                                        biuro@jofistudio.pl
                                     </a>
-                                    <a className=" flex gap-2 items-center">{tString("footer.col2MailAnna")}</a>
-                                    <a className=" flex gap-2 items-center">{tString("footer.col2NumberAnna")}</a>
-                                </li>
-                                <li className="mb-4">
-                                    <a
-                                        className=" flex gap-2 font-bold items-center"
-                                    >
-                                        {tString("footer.col2NameMikolaj")}
-                                    </a>
-                                    <a className=" flex gap-2 items-center">{tString("footer.col2MailMikolaj")}</a>
                                     <a className=" flex gap-2 items-center">{tString("footer.col2NumberMikolaj")}</a>
+                                    <a className=" flex gap-2 items-center">{tString("footer.col2NumberAnna")}</a>
                                 </li>
                             </ul>
                         </div>

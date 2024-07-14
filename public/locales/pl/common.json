@@ -7,7 +7,8 @@
         "architecture": "Architektura",
         "interior": "Wnętrza",
         "furniture": "Meble",
-        "consulting": "Doradztwo"
+        "consulting": "Doradztwo",
+        "consultation": "Bezpłatna konsultacja"
     },
     "about": {
         "header": "Stawiamy na współpracę",
@@ -45,22 +46,31 @@
         "button4": "Umów konsultacje"
     },
     "architecture": {
-        "header": "Architektura",
-        "info": "PL Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
-        "info2": "PL Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame"
+        "buttonConsultation": "Umów się",
+        "info": "Nasze studio oferuje usługi na każdym etapie inwestycji, w zależności od potrzeb. Przykładamy uwagę do tego, by zrozumieć klienta, co pozwala na stworzenie dobrego projektu. Dbamy o wysoką jakość i klarowną współpracę, w oparciu o współczesne technologie. Tworzymy obiekty będące miejscem spotkania, łączące ludzi i dziedziny - w oparciu o ideę, posiadające charakter niematerialny.",
+        "button": "Poznaj nasze realizacje"
     },
     "consultation": {
         "header": "Zapraszamy na darmową konsultacje",
-        "button": "Konsultacje"
+        "button": "Umów się",
+        "info": "W czasie 30 minut porozmawiamy o twoich wyzwaniach i poszukamy wstępnych rozwiązań"
     },
-    "process": {
-        "header": "Proces",
-        "info": "PL Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
-        "check1": "PL Lacus nisi, et ac dapibus veitl in consequat.",
-        "check2": "PL Quisqude diam pellentesque bibendum non dui volutpat fringilla.",
-        "check3": "PL Lorem Ipsum dolor sit amet, consectur adispiscing elit.",
-        "check4": "PL Adipiscing dolor adipsicing sit amet disciping elit conestur."
-    },  
+    "fillar": {
+        "header": "6 Filarów projektowych",
+        "info": "Na nich bazuje proces projektowy doprowadziający do zakładanych celów i odpowiedzi na potrzeby klienta.",
+        "f1Header": "Idea",
+        "f2Header": "Funkcja",
+        "f3Header": "Budżet",
+        "f4Header": "Potrzeby Klienta",
+        "f5Header": "Stylistyka",
+        "f6Header": "Inne indywidualne",
+        "f2Info": "Przeznaczenie obiektu oraz zasady projektowe",
+        "f3Info": "Wytyczne klienta dotyczące wydatków na cele projektowe, realizacyjne",
+        "f4Info": "Potrzeby/ wytyczne/ wymagania klienta dotyczące przestrzeni i jego wyposażenia.",
+        "f5Info": "Upodobania klienta dotyczące aspektów wizualnych.",
+        "f6Info": "Elementy specyficzne dla każdego projektu, ściśle z nim związane.",
+        "f1Info": "Myśl przewodnia projektu, narzędzie do uzyskania ducha miejsca - indywidualności danej przestrzeni, zbiór zasad wiodących w projekcie."
+    },
     "consulting": {
         "header": "Konsultacja",
         "info": "PL Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",

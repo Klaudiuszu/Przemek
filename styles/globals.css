@@ -46,6 +46,11 @@ h3 {
 
 h4 {
     font-family: 'PPHatton-light';
+    font-size: 28px;
+}
+h5 {
+    font-family: 'PPHatton-medium';
+    font-size: 39px;
 }
 h6 {
     font-family: 'PPHatton-Light';

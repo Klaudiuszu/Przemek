@@ -76,13 +76,17 @@
         left: 0;
         width: 100%;
         font-size: 22px;
-        transition: left .3s ease-in-out;
+        transition: .3s ease;
     }
 
     .nav-bar ul {
         list-style: none;
         margin: 0;
         padding: 0;
+    }
+    .nav-bar.nav-close {
+        transition: .3s ease;
+        width: 0;
     }
 
     @media (min-width: 1024px) {

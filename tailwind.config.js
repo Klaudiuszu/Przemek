@@ -14,6 +14,7 @@ module.exports = {
       },
       fontSize: {
         'custom-85': '85px',
+        'custom-36': '36px',
       },
       maxWidth: {
         'screen-2xl': '1440px',
