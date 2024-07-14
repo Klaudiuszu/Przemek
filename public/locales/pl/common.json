@@ -46,8 +46,15 @@
         "button4": "Umów konsultacje"
     },
     "architecture": {
-        "buttonConsultation": "Umów się",
-        "info": "Nasze studio oferuje usługi na każdym etapie inwestycji, w zależności od potrzeb. Przykładamy uwagę do tego, by zrozumieć klienta, co pozwala na stworzenie dobrego projektu. Dbamy o wysoką jakość i klarowną współpracę, w oparciu o współczesne technologie. Tworzymy obiekty będące miejscem spotkania, łączące ludzi i dziedziny - w oparciu o ideę, posiadające charakter niematerialny.",
+        "headerLeft": "W jakich obszarach pracujemy?",
+        "headerRight": "Nasze usługi obejmują:",
+        "infoLeft": "Nasz zakres usług to projektowanie obiektów mieszkalnych jedno i wielorodzinnych, obiektów handlu, gastronomii i usług oraz budynków zakwaterowania tymczasowego, takich jak hotele, pensjonaty. Działamy zarówno na terenie kraju, jak i za granicą. Pracujemy z klientem indywidualnym i biznesowym.",
+        "infoRightA": "analizy chłonności",
+        "infoRightB": "prace i analizy przedprojektowe",
+        "infoRightC": "projekt koncepcyjny",
+        "infoRightD": "projekt wykonawczy",
+        "infoRightE": "nadzór autorski",
+        "infoRightF": "pomoc w procedurach urzędowych",
         "button": "Poznaj nasze realizacje"
     },
     "consultation": {

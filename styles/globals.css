@@ -82,3 +82,11 @@ p, li {
     z-index: -2;
     width: 100%;
 }
+
+.Rectangle-1469 {
+    width: 8px;
+    height: 8px;
+    flex-grow: 0;
+    transform: rotate(-315deg);
+    background-color: #000;
+  }
