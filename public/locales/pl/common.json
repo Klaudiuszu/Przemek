@@ -23,13 +23,13 @@
         "header": "Zaufali nam"
     },
     "email": {
-        "header": "Masz pytania?",
-        "info": "Zapisz się na darmową konsultacje",
-        "step0": "Oto lista kilku rzeczy, które powinieneś przygotować przed spotkaniem:",
-        "step1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "step2": "In molestie augue sollicitudin risus placerat volutpat.",
-        "step3": "In molestie augue sollicitudin risus placerat volutpat.",
-        "step4": "In molestie augue sollicitudin risus placerat volutpat.",
+        "header": "Bezpłatna Konsultacja",
+        "info": "Bezpłatna konsultacja to 20 minut, które możesz wykorzystać naskonsultowanie dowolnego tematu związanego z architekturą i projektowaniem  wnętrz. W naszym studio dedykujemy ją osobom, które chcą doprecyzować ofertę, omówić funkcje, szukają informacji, wahają się, co do wyboru odpowiedniego rozwiązania i usługi dla siebie.",
+        "step0": "Zawsze umawiamy termin dostosowany do dostępności obu stron! Każda konsultacja jest indywidualna. Całym zespołem zapraszamy do odwiedzenia naszej firmy i kontaktu online!",
+        "step0A": "Jak przygotować się do konsultacji?",
+        "step1": "Jeżeli posiadasz, przygotuj dokumentację techniczną i zdjęcia danej inwestycji. Poprosimy Cię o wysłanie jej na nasz adres mailowy, w dniu konsultacji. Dzięki temu nasze studio będzie w stanie przygotować działania odpowiednie dla Twojej potrzeby.",
+        "step2": "Pomyśl o tym, czego potrzebujesz i z czym chcesz wyjść z danej konsultacji. Zapisz każdy pomysł i swoje cele. Powiedz nam na początku wprost o swoich oczekiwaniach. Będziemy ciekawi Twoich opinii i przemyśleń.",
+        "step3": "W trakcie konsultacji zadawaj dowolne pytania. To ważne! Pozwala nam to lepiej Cię zrozumieć i pomóc. Każdą rozmowę poprowadzi wykwalifikowany architekt, w oparciu o swoją wiedzę i doświadczenie. Jeżeli temat będzie wymagał głębszej analizy i konsultacji z resztą zespołu - wróci z rzetelną odpowiedzią.",
         "name": "Imię i nazwisko",
         "email": "E-mail",
         "text": "Treść wiadomości",
@@ -61,6 +61,11 @@
         "header": "Zapraszamy na darmową konsultacje",
         "button": "Umów się",
         "info": "W czasie 30 minut porozmawiamy o twoich wyzwaniach i poszukamy wstępnych rozwiązań"
+    },
+    "realisation": {
+        "header": "Architektura",
+        "button": "Poznaj nasze realizacje",
+        "info": "Nasze studio oferuje usługi na każdym etapie inwestycji, w zależności od potrzeb. Przykładamy uwagę do tego, by zrozumieć klienta, co pozwala na stworzenie dobrego projektu. Dbamy o wysoką jakość i klarowną współpracę, w oparciu o współczesne technologie. Tworzymy obiekty będące miejscem spotkania, łączące ludzi i dziedziny - w oparciu o ideę, posiadające charakter niematerialny."
     },
     "fillar": {
         "header": "6 Filarów projektowych",

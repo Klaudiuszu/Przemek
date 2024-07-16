@@ -22,9 +22,9 @@ const ConsultingSection = () => {
             <h5 className="font-bold md:text-5xl text-3xl">
             {tString('consulting.header')}
             </h5>
-            <p className="text-sm md:text-xl">{tString('consulting.info')}
+            <p className="text-sm md:text-[28px]">{tString('consulting.info')}
             </p>
-            <p className="text-sm md:text-xl">{tString('consulting.info2')}
+            <p className="text-sm md:text-[28px]">{tString('consulting.info2')}
             </p>
           </div>
           <div className="flex justify-end relative">

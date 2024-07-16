@@ -26,10 +26,10 @@ const Consultation = () => {
               {tString('consultation.header')}
             </h2>
           </div>
-          <h4 className="text-center text-xl">
+          <h4 className="text-center text-[28px]">
             {tString('consultation.info')}
           </h4>
-          <div style={{fontFamily: "PPHatton-Light"}} className="gap-2 uppercase relative cursor-pointer text-xl justify-center flex w-48 bg-[#171717] hover:bg-[#2c2c2c] text-white font-semi-bold py-2 px-4">
+          <div style={{fontFamily: "PPHatton-Light"}} className="gap-2 uppercase relative cursor-pointer text-[22px] justify-center flex w-48 bg-[#171717] hover:bg-[#2c2c2c] text-white font-semi-bold py-2 px-4">
           <a href={`/${language}/#contact`} className="relative" style={{top: '2px'}}>
             {tString('consultation.button')}
           </a>

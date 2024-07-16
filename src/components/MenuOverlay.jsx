@@ -28,7 +28,7 @@ const MenuOverlay = ({ links, offerLinks, navbarOpen, locale, setNavbarOpenClose
   >
     <img className={`w-5 z-10 ${navbarOpen ? '' : 'hidden'}`} src="/images/closeIcon.svg" alt="Close Icon" />
   </button>
-  <ul className="menu-list" style={{fontSize: "22px"}}>
+  <ul className="menu-list text-left" style={{fontSize: "22px"}}>
     <li key='offer' className="menu-overlay-li">
       <div>
         <button

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useTranslation } from "next-translations/hooks";
 import { namespaces } from "../../../translations.config";
 
-const EmailSection = () => {
+const ArchitectureSection = () => {
 
   const { tString } = useTranslation(namespaces.common);
 
@@ -21,7 +21,7 @@ const EmailSection = () => {
           <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717]">
             <div className="justify-start md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[500px]">
               <h5 className="font-bold h-[80px] text-4xl xl:tex-[39px] mb-4">{tString('architecture.headerLeft')}</h5>
-              <h4 className="about-me-info max-w-[500px] lg:px-0 text-center sm:px-16 md:text-xl text-base lg:text-left">
+              <h4       style={{lineHeight: "normal"}} className="about-me-info max-w-[500px] lg:px-0 text-center sm:px-16 md:text-[24px] text-base lg:text-left">
                 {tString('architecture.infoLeft')}
               </h4>
             </div>
@@ -31,7 +31,7 @@ const EmailSection = () => {
           <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717]">
             <div className="justify-start md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[500px]">
               <h5 className="font-bold text-4xl h-[80px] xl:tex-[39px] mb-4">{tString('architecture.headerRight')}</h5>
-              <ul className="about-me-info max-w-[500px] gap-4 flex flex-col lg:px-0 text-center sm:px-16 md:text-xl text-base lg:text-left">
+              <ul className="about-me-info max-w-[500px] gap-4 flex flex-col lg:px-0 text-center sm:px-16 md:text-[24px] text-base lg:text-left">
                 <li className="flex gap-4 items-center">
                   <div className="relative bottom-1 Rectangle-1469"></div>
                   <a>{tString('architecture.infoRightA')}</a>
@@ -68,4 +68,4 @@ const EmailSection = () => {
   );
 };
 
-export default EmailSection
+export default ArchitectureSection
