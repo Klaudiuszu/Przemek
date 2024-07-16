@@ -84,14 +84,49 @@
         "f1Info": "Myśl przewodnia projektu, narzędzie do uzyskania ducha miejsca - indywidualności danej przestrzeni, zbiór zasad wiodących w projekcie."
     },
     "consulting": {
-        "header": "Konsultacja",
-        "info": "PL Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
-        "info2": "PL Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame"
+        "header1": "Doradztwo",
+        "info1": "Oferujemy kompleksowe wsparcie i profesjonalne doradztwo przy planowaniu i aranżacji przestrzeni mieszkalnych, biurowych, handlowych oraz usługowych. Nasz zespół składa się z wysoko wykwalifikowanych rchitektów, projektantów oraz stylistów wnętrz.",
+        "header2": "Pomagamy w zakresie:",
+        "header3": "Czym różni się doradztwo od darmowej konsultacji?",
+        "dot2a": "procedur urzędowych",
+        "dot2b": "procesów remontowych i budowlanych",
+        "dot2c": "współpracy z branżystami",
+        "dot2d": "analiz przedprojektowych",
+        "dot2e": "analiz stanu nieruchomości",
+        "dot2f": "planowania przestrzennego, zagospodarowania terenu oraz wykorzystania dostępnej powierzchni",
+        "dot2g": "stylizacji wnętrz",
+        "info3": "Różni się przede wszystkim treścią. Oferta doradztwa obejmuje szczegółową i dokładną analizę przypadku opartą o mocno specjalistyczną wiedzę i doświadczenie. Dokładnie przeanalizujemy wszystkie najlepsze opcje, opowiemy o naszych doświadczeniach, podzielimy się sprawdzonymi rozwiązaniami, przedstawimy odpowiedzi w oparciu o zasady prawa, w odpowiedniej dla danego zagadnienia formie."
     },
     "interior": {
-        "header": "Interior",
-        "info": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
-        "info2": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame"
+        "header": "Wnętrza",
+        "info": "Jedną z naszych usług jest projektowanie wnętrz prywatnych oraz fit-outówbiurowych. Korzyści jakie otrzymują nasi klienci to projekt dostosowany do potrzeb i preferencji użytko wnika, oparty również na idei - warstwie niematerialnej."
+    },
+    "interiorOffer": {
+        "header1": "Nasze usługi obejmują:",
+        "header2": "Oferta obejmuje:",
+        "dot1a": "inwentaryzację przestrzeni",
+        "dot1b": "projekt koncepcyjny aranżacji wnętrz",
+        "dot1c": "projekt wykonawczy",
+        "dot1d": "projekty mebli w zabudowie, indywidualnych mebli ruchomych",
+        "dot1e": "nadzór nad realizacją projektu",
+        "dot1f": "stylizacja wnętrz",
+        "info1": "W przypadku fit-outów w branży komercyjnej czy hotelarskiej zajmujemy się również optymalizacją przestrzeni tak, aby była ona ergonomiczna i sprzyjała efektywności użytkowników i klientów.",
+        "dot2a": "brief i analizę sytuacji i oczekiwań (due diligance)",
+        "dot2b": "test fit – sprawdzenie założeń funkcjonalnych z oczekiwaniami klienta",
+        "dot2c": "projekt koncepcyjny",
+        "dot2d": "projekt wykonawczy / projekt budowlany",
+        "dot2e": "koordynacja projektów branżowych",
+        "dot2f": "nadzór autorski",
+        "info2": "W przypadku fit-outów w branży komercyjnej czy hotelarskiej zajmujemy się również optymalizacją przestrzeni tak, aby była ona ergonomiczna i sprzyjała efektywności użytkowników i klientów."
+    },
+    "furniture": {
+        "header1": "Meble",
+        "header2": "Nasze usługi obejmuja",
+        "info1": "Oferujemy kompleksowe usługi w zakresie projektowania mebli w zabudowie oraz mebli wolnostojących. Nasz doświadczony w branży meblarskiej zespół projektantów z przyjemnością stworzy dla Państwa unikatowe i funkcjonalne projekty oraz sztukę użytkową, dostosowaną do indywidualnych potrzeb i preferencji.",
+        "dot2a": "projektowanie mebli kuchennych, łazienkowych, salonowych oraz sypialnianych w zabudowie, dzięki czemu optymalnie wykorzystają Państwo dostępną przestrzeń",
+        "dot2b": "projektowanie przedmiotów użytkowych",
+        "dot2c": "doradztwo w wyborze materiałów, kolorów i dodatków, aby meble były nie tylko praktyczne, ale również estetyczne i dopasowane do wystroju wnętrza"
+
     },
     "footer": {
         "col2Header": "Kontakt",
@@ -105,7 +140,6 @@
         "col3Adress": "ul. Rozbrat 34/36, Warszawa",
         "col3Map": "Zobacz na mapie",
         "col4Media": "Śledź nasze działania",
-
         "bottomInfo": "Obowiązek informacyjny"
     },
     "button": {

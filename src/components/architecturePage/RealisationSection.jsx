@@ -17,7 +17,7 @@ const RealisationSection = () => {
         transition={{ duration: 0.5 }}
         className="w-full"
       >
-        <div className="flex flex-col lg:grid xl:grid-cols-6 items-center lg:mx-[128px] py-8">
+        <div className="flex flex-col lg:grid xl:grid-cols-6 items-center lg:mx-[64px] py-8">
           <div className="col-span-3 bg-[#EEECEC] flex md:w-[800px] flex-col items-center py-8 px-4 lg:px-16 text-[#171717]">
             <div className="flex flex-col justify-between md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left w-full lg:h-[500px]">
               <h5 className="text-left uppercase md:text-custom-85 mb-2">{tString('realisation.header')}</h5>

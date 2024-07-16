@@ -24,7 +24,7 @@ const FillarSection = () => {
         transition={{ duration: 0.5 }}
         className="flex justify-center"
       >
-        <div className="flex flex-col lg:pb-24 lg:grid gap-8 lg:grid-cols-2 items-center py-8 pl-4 pr-4 lg:gap-40 lg:px-16 text-[#171717]">
+        <div className="flex flex-col lg:pb-24 lg:grid gap-8 lg:grid-cols-2 items-center py-8 pl-4 pr-4 lg:gap-72 lg:px-16 text-[#171717]">
           <div className="justify-center md:text-5xl text-4xl items-center lg:items-start text-center gap-4 mt-4 lg:text-left flex flex-col h-full">
             <h5 className="about-me-header text-4xl xl:tex-[39px] uppercase mb-4">{tString('fillar.header')}</h5>
             <h4 style={{lineHeight: "normal", fontSize: "26px !important"}} className="about-me-info max-w-[500px] lg:px-0 text-center sm:px-16 md:text-[26px] lg:text-left">
