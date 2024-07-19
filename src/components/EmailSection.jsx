@@ -37,27 +37,27 @@ const EmailSection = () => {
       >
         <div className="flex flex-col lg:grid gap-8 lg:grid-cols-1 items-center py-8 px-4 lg:gap-16 lg:px-16 text-[#171717]">
           <div className="justify-center items-start md:text-5xl text-4xl text-center gap-4 mt-4 lg:text-left flex flex-col h-full">
-            <h2 className="about-me-header md:text-custom-85 mb-4">{tString('email.header')}</h2>
-            <h3 className="about-me-info lg:px-0 sm:px-16 md:text-[28px] leading-normal text-base text-left">
+            <h2 className="md:text-custom-85 mb-4">{tString('email.header')}</h2>
+            <h3 className=" lg:px-0 sm:px-16 md:text-[28px] leading-normal lowercase mundial-light text-left">
               {tString('email.info')}
             </h3>
           </div>
         </div>
         <div className="flex flex-col lg:grid gap-8 lg:grid-cols-2 items-center sm:py-8 pb-8 lg:gap-16 lg:px-16">
           <div className="justify-start md:text-5xl text-4xl px-4 items-center lg:items-start text-center gap-4 lg:text-left flex flex-col h-full">
-            <p className=" mb-5 font-bold leading-normal lg:px-0 sm:px-16 md:text-[28px] text-base text-left">
+            <p className=" mb-5 font-bold mundial-light leading-normal lg:px-0 sm:px-16 md:text-[28px] text-base text-left">
               {tString('email.step0')}
             </p>
-            <p className="font-bold mb-5 leading-normal lg:px-0 sm:px-16 md:text-[28px] text-base text-left">
+            <p className="font-bold mb-5 mundial-light leading-normal lg:px-0 sm:px-16 md:text-[28px] text-base text-left">
               {tString('email.step0A')}
             </p>
-            <p className="email-paragraph relative  pl-6 mb-5 leading-normal before:content-['•'] before:absolute before:left-0 before:top-0 lg:px-0 sm:px-16 md:text-[28px] text-base text-left">
+            <p className="email-paragraph relative mundial-light md:text-[24px] pl-6 mb-5 leading-normal before:content-['•'] before:absolute before:left-0 before:top-0 lg:px-0 sm:px-16 text-base text-left">
               {tString('email.step1')}
             </p>
-            <p className="email-paragraph relative mb-5 leading-normal before:content-['•'] before:absolute before:left-0 before:top-0 lg:px-0 sm:px-16 md:text-[28px] text-base text-left">
+            <p className="email-paragraph relative mundial-light mb-5 leading-normal before:content-['•'] before:absolute before:left-0 before:top-0 lg:px-0 sm:px-16 md:text-[24px] text-base text-left">
               {tString('email.step2')}
             </p>
-            <p className="email-paragraph relative mb-5 leading-normal before:content-['•'] before:absolute before:left-0 before:top-0 lg:px-0 sm:px-16 md:text-[28px] text-base text-left">
+            <p className="email-paragraph relative mundial-light mb-5 leading-normal before:content-['•'] before:absolute before:left-0 before:top-0 lg:px-0 sm:px-16 md:text-[24px] text-base text-left">
               {tString('email.step3')}
             </p>
           </div>
@@ -69,7 +69,7 @@ const EmailSection = () => {
             ) : (
               <form className="flex flex-col w-full px-4" ref={form} onSubmit={sendEmail}>
                 <div className="mb-6">
-                  <h6 className="relative italic mb-2 leading-normal lg:px-0 sm:px-16 md:text-[28px] text-base text-left">
+                  <h6 className="relative mb-2 leading-normal lg:px-0 mundial-Light sm:px-16 md:text-[24px] text-base text-left">
                     {tString('email.name')}
                   </h6>
                   <input
@@ -81,7 +81,7 @@ const EmailSection = () => {
                   />
                 </div>
                 <div className="mb-6">
-                  <h6 className="relative italic mb-2 leading-normal lg:px-0 sm:px-16 text-base text-left">
+                  <h6 className="relative mb-2 leading-normal lg:px-0 mundial-Light sm:px-16 md:text-[24px] text-base text-left">
                     {tString('email.email')}
                   </h6>
                   <input
@@ -93,7 +93,7 @@ const EmailSection = () => {
                   />
                 </div>
                 <div className="mb-6">
-                  <h6 className="relative italic mb-2 leading-normal lg:px-0 sm:px-16 md:text-[28px] text-base text-left">
+                  <h6 className="relative mb-2 leading-normal lg:px-0 mundial-Light sm:px-16 md:text-[24px] text-base text-left">
                     {tString('email.text')}
                   </h6>
                   <textarea

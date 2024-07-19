@@ -22,6 +22,16 @@
     src: url(./fonts/PPHatton-Thin.ttf);
 }
 
+@font-face {
+    font-family: 'mundial-Light';
+    src: url(./fonts/MundialLight.otf);
+}
+
+@font-face {
+    font-family: 'mundial-Bold';
+    src: url(./fonts/MundialBold.otf);
+}
+
 input,
 textarea,
 button,
@@ -38,6 +48,7 @@ h2 {
     font-family: 'PPHatton-Light';
     text-transform: uppercase;
 }
+
 h3 {
     font-family: 'PPHatton-Light';
     text-transform: uppercase;
@@ -47,19 +58,23 @@ h3 {
 h4 {
     font-family: 'PPHatton-light';
 }
+
 h5 {
     font-family: 'PPHatton-medium';
     font-size: 39px;
 }
+
 h6 {
     font-family: 'PPHatton-Light';
     font-size: 24px;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 
 }
-p, li {
+
+p,
+li {
     font-family: 'PPHatton-light';
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 .textButtonWrapper {
@@ -88,4 +103,14 @@ p, li {
     flex-grow: 0;
     transform: rotate(-315deg);
     background-color: #000;
-  }
+}
+
+.mundial-Light {
+    font-family: 'mundial-Light';
+    font-size: 26px;
+}
+
+.mundial-Bold {
+    font-family: 'mundial-Bold';
+    font-size: 39px;
+}

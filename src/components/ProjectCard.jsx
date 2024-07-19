@@ -14,7 +14,7 @@ const ProjectCard = ({ imgUrl, title, cardButtonTitle, path }) => {
         ></div>
       </div>
       <div className="rounded-b-xl mt-3 px-4 py-2 flex flex-col items-center xl:gap-7 gap-3">
-        <h2 className="max-w-5xl md:text-5xl text-4xl xl:mb-4 leading-normal">{title}</h2>
+        <h2 className="max-w-5xl md:text-[65px] text-4xl xl:mb-4 leading-normal">{title}</h2>
         <TextArrow 
           buttonText={cardButtonTitle}
           iconName={''}

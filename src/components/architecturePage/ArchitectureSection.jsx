@@ -21,7 +21,7 @@ const ArchitectureSection = () => {
           <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717]">
             <div className="justify-start md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[500px]">
               <h5 className="font-bold h-[80px] text-4xl xl:text-[39px] mb-4 md:w-[650px]">{tString('architecture.headerLeft')}</h5>
-              <h4 style={{ lineHeight: "normal" }} className="about-me-info lg:px-0 text-center sm:px-16 md:text-[24px] text-base md:text-left xl:w-[650px]">
+              <h4 style={{ lineHeight: "normal" }} className=" lg:px-0 text-center sm:px-16 md:text-[24px] text-base md:text-left xl:w-[650px]">
                 {tString('architecture.infoLeft')}
               </h4>
             </div>
@@ -31,7 +31,7 @@ const ArchitectureSection = () => {
           <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717]">
             <div className="justify-start md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[500px]">
               <h5 className="font-bold text-4xl h-[80px] xl:text-[39px] mb-4">{tString('architecture.headerRight')}</h5>
-              <ul className="about-me-info max-w-[650px] gap-4 flex flex-col lg:px-0 text-left xl:text-center sm:px-16 md:text-[24px] text-base lg:text-left">
+              <ul className=" max-w-[650px] gap-4 flex flex-col lg:px-0 text-left xl:text-center sm:px-16 md:text-[24px] text-base lg:text-left">
                 <li className="flex gap-4 items-center">
                   <div className="relative bottom-1 Rectangle-1469"></div>
                   <a>{tString('architecture.infoRightA')}</a>

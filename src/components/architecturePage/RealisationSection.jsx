@@ -23,7 +23,7 @@ const RealisationSection = () => {
               <h5 className="text-left uppercase md:text-custom-85 mb-2">{tString('realisation.header')}</h5>
               <h4
                 style={{ lineHeight: "normal" }}
-                className="about-me-info text-center sm:px-16 md:text-[24px] text-base lg:text-left lg:px-0"
+                className=" text-center sm:px-16 md:text-[24px] text-base lg:text-left lg:px-0"
               >
                 {tString('realisation.info')}
               </h4>
