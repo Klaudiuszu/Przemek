@@ -49,18 +49,18 @@ const SliderSection = () => {
           onClick={prev}
           className="p-2 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
         >
-          <img src={leftArrow.src} alt="Previous" className="w-6 h-6" />
+          <img src={leftArrow.src} alt="Previous" className="w-6 h-6 md:w-[40px] md:h-[40px]" />
         </button>
         <button
           onClick={next}
           className="p-2 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
         >
-          <img src={rightArrow.src} alt="Next" className="w-6 h-6" />
+          <img src={rightArrow.src} alt="Next" className="w-6 h-6 md:w-[40px] md:h-[40px]" />
         </button>
       </div>
 
       <div className="absolute bottom-4 right-0 left-0">
-        <div className="flex items-center justify-center gap-2">
+        <div className="flex items-center justify-center gap-[22px]">
           {slides.map((_, i) => (
             <img
               key={i}

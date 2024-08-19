@@ -35,7 +35,6 @@ const Footer = () => {
                                         biuro@jofistudio.pl
                                     </a>
                                     <a className=" flex gap-2 items-center">{tString("footer.col2NumberMikolaj")}</a>
-                                    <a className=" flex gap-2 items-center">{tString("footer.col2NumberAnna")}</a>
                                 </li>
                             </ul>
                         </div>

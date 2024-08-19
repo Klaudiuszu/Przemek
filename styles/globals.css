@@ -88,7 +88,7 @@ li {
 }
 
 .textButtonWrapper:hover {
-    color: #7393B3;
+    color: #990000;
 }
 
 .bg {
@@ -108,6 +108,10 @@ li {
 .mundial-Light {
     font-family: 'mundial-Light';
     font-size: 26px;
+}
+
+.mundial-font {
+    font-family: 'mundial-Light';
 }
 
 .mundial-Bold {

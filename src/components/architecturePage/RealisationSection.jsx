@@ -10,7 +10,7 @@ const RealisationSection = () => {
   return (
     <section
       id="architecture"
-      className="flex justify-center items-center pt-24 lg:pt-16 max-w-screen-2xl xl:max-w-sc relative bg-cover h-auto bg-center lg:h-[1050px] lg:mt-[149px] xl:bg-[url('/images/architektura.png')] bg-no-repeat"
+      className="flex justify-center items-center pt-24 lg:pt-16 max-w-screen-2xl xl:max-w-sc relative bg-cover h-auto bg-center lg:h-[1050px] lg:mt-[149px] xl:bg-[url('/images/architekturaBG.png')] bg-no-repeat"
     >
       <motion.div
         whileInView={{ opacity: [0, 1] }}

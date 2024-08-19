@@ -9,7 +9,7 @@ const NavLink = ({ href, title, e = { auth: null } }) => {
       href={href === undefined || null ? '/' : href}
       id={href}
       key={href}
-      className={`navbar-single-lin ${router.asPath === '/' + href ?'navbar-underline' : ''}`}
+      className={`navbar-single-lin textButtonWrapper ${router.asPath === '/' + href ?'navbar-underline' : ''}`}
     >
       {title}
     </Link>

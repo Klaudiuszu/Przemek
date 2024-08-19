@@ -25,12 +25,12 @@ const Navbar = () => {
 
   const navLinks = [
     {
-      title: tString('navbar.portfolio'),
+      title: tString('navbar.about'),
       path: `https://www.instagram.com/jofi_studio`,
     },
     {
-      title: tString('navbar.about'),
-      path: `/${language}/about`,
+      title: tString('navbar.portfolio'),
+      path: `/${language}/consultation`,
     },
     {
       title: tString('navbar.contact'),
@@ -63,15 +63,15 @@ const Navbar = () => {
 
   return (
     <nav className="navbar absolute mx-auto top-0 left-0 right-1 z-10">
-      <div className="flex max-w-screen-2xl items-baseline xl:items-center max-w-sc min-w-72 flex-wrap justify-between mx-auto px-4 py-2 relative">
+      <div className="flex max-w-screen-2xl items-baseline xl:items-center max-w-sc min-w-72 flex-wrap justify-between mx-auto px-4 lg:px-16 py-2 relative">
         <div className="flex w-screen items-center">
-          <div className="flex-1 flex items-center xl:justify-center justify-start relative">
+          <div className="flex-1 flex items-center xl:justify-start justify-start relative">
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-3 py-2 rounded text-slate-200 navbar-button gap-2"
+              className="flex items-center py-2 rounded text-slate-200 navbar-button gap-2"
             >
               <Bars3Icon className="h-10 w-10 z-10" />
-              <label className="hidden lg:block text-center relative top-1">
+              <label className="hidden lg:block text-center relative mundial-light font-bold text-[22px]  mundial-font">
                 MENU
               </label>
             </button>
@@ -81,7 +81,7 @@ const Navbar = () => {
           </div>
           <Link 
             href={`/${language}/#contact`}
-            className="flex-1 items-center h-7 justify-center hidden lg:block relative top-1 cursor-pointer"
+            className="flex-1 flex text-end h-full items-end md:flex xs:hidden justify-end lg:block relative top-1 cursor-pointer mundial-font text-[22px] font-semibold"
             style={{ textTransform: 'uppercase' }}
           >
               {tString('navbar.consultation')}

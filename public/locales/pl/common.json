@@ -1,7 +1,7 @@
 {
     "navbar": {
         "offer": "Oferta",
-        "portfolio": "Portfolio",
+        "portfolio": "Bezpłatna konsultacja",
         "about": "O nas",
         "contact": "Kontakt",
         "architecture": "Architektura",
@@ -52,15 +52,18 @@
         "infoRightA": "analizy chłonności",
         "infoRightB": "prace i analizy przedprojektowe",
         "infoRightC": "projekt koncepcyjny",
-        "infoRightD": "projekt wykonawczy",
-        "infoRightE": "nadzór autorski",
-        "infoRightF": "pomoc w procedurach urzędowych",
+        "infoRightD": "projekt budowlany",
+        "infoRightE": "projekt wykonawczy",
+        "infoRightF": "nadzór autorski",
+        "infoRightG": "pomoc w procedurach urzędowych",
         "button": "Poznaj nasze realizacje"
     },
     "consultation": {
         "header": "Zapraszamy na darmową konsultacje",
         "button": "Umów się",
-        "info": "W czasie 30 minut porozmawiamy o twoich wyzwaniach i poszukamy wstępnych rozwiązań"
+        "info": "W czasie 30 minut porozmawiamy o twoich wyzwaniach i poszukamy wstępnych rozwiązań",
+        "info2": "Oferujemy kompleksowe wsparcie i profesjonalne doradztwo przy planowaniu i aranżacji przestrzeni mieszkalnych, biurowych, handlowych oraz usługowych. Nasz zespół składa się z wysoko wykwalifikowanych architektów, projektantów oraz stylistów wnętrz.",
+        "info2": "Oferujemy kompleksowe wsparcie i profesjonalne doradztwo przy planowaniu i aranżacji przestrzeni mieszkalnych, biurowych, handlowych oraz usługowych. Nasz zespół składa się z wysoko wykwalifikowanych architektów, projektantów oraz stylistów wnętrz."
     },
     "realisation": {
         "header": "Architektura",
@@ -106,9 +109,9 @@
         "header2": "Oferta obejmuje:",
         "dot1a": "inwentaryzację przestrzeni",
         "dot1b": "projekt koncepcyjny aranżacji wnętrz",
-        "dot1c": "projekt wykonawczy",
+        "dot1c": "projekt wykonawczy                    ",
         "dot1d": "projekty mebli w zabudowie, indywidualnych mebli ruchomych",
-        "dot1e": "nadzór nad realizacją projektu",
+        "dot1e": "nadzór nad realizacją projektu                 ",
         "dot1f": "stylizacja wnętrz",
         "info1": "W przypadku fit-outów w branży komercyjnej czy hotelarskiej zajmujemy się również optymalizacją przestrzeni tak, aby była ona ergonomiczna i sprzyjała efektywności użytkowników i klientów.",
         "dot2a": "brief i analizę sytuacji i oczekiwań (due diligance)",
@@ -132,12 +135,11 @@
         "col2Header": "Kontakt",
         "col2NameAnna": "Anna Saj",
         "col2MailAnna": "anna@jofi.pl",
-        "col2NumberAnna": "+48 541-478-587",
         "col2NameMikolaj": "Mikołaj Gadomski",
         "col2MailMikolaj": "mikolaj@jofi.pl",
-        "col2NumberMikolaj": "+48 647-874-645",
+        "col2NumberMikolaj": "+48 507-118-658",
         "col3Header": "Biuro",
-        "col3Adress": "ul. Rozbrat 34/36, Warszawa",
+        "col3Adress": "ul. Rozbrat 34/36, 00-429 Warszawa",
         "col3Map": "Zobacz na mapie",
         "col4Media": "Śledź nasze działania",
         "bottomInfo": "Obowiązek informacyjny"

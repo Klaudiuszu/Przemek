@@ -31,7 +31,7 @@ const FurnitureSection = () => {
             <ul className=" max-w-[650px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
               <li className="flex gap-y-4  items-center">
                 <div className="relative"></div>
-                <a className="lg:w-[700px]">{tString('furniture.info1')}</a>
+                <a className="lg:w-[700px] leading-normal">{tString('furniture.info1')}</a>
               </li>
             </ul>
           </div>
@@ -51,15 +51,15 @@ const FurnitureSection = () => {
             <ul className=" lg:w-[600px] max-w-[650px] gap-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
               <li className="flex gap-4 items-start">
                 <div className="relative top-2 bottom-1 min-w-2 Rectangle-1469"></div>
-                <a>{tString('furniture.dot2a')}</a>
+                <a className="leading-normal">{tString('furniture.dot2a')}</a>
               </li>
               <li className="flex gap-4 items-start">
                 <div className="relative top-2 min-w-2 Rectangle-1469"></div>
-                <a>{tString('furniture.dot2b')}</a>
+                <a className="leading-normal">{tString('furniture.dot2b')}</a>
               </li>
               <li className="flex gap-4 items-start">
                 <div className="relative top-2 Rectangle-1469 min-w-2"></div>
-                <a>{tString('furniture.dot2c')}</a>
+                <a className="leading-normal">{tString('furniture.dot2c')}</a>
               </li>
             </ul>
           </div>

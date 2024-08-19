@@ -56,6 +56,10 @@ const ArchitectureSection = () => {
                   <div className="relative Rectangle-1469"></div>
                   <a>{tString('architecture.infoRightF')}</a>
                 </li>
+                <li className="flex gap-4 items-center">
+                  <div className="relative Rectangle-1469"></div>
+                  <a>{tString('architecture.infoRightG')}</a>
+                </li>
               </ul>
             </div>
             <div className="flex flex-col gap-3">

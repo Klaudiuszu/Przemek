@@ -11,7 +11,7 @@ const TextArrow = ({ buttonText, iconName, path }) => {
 
   return (
     <div className="textButtonWrapper cursor-pointer flex items-center justify-center gap-4">
-      <button onClick={handleClick} className="textButton">
+      <button onClick={handleClick} className="textButton mundial-font font-semibold">
         {buttonText}
       </button>
       <span className="material-symbols-outlined" onClick={handleClick}>

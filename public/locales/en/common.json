@@ -1,74 +1,145 @@
 {
     "navbar": {
-        "offer": "Oferta",
-        "portfolio": "Portfolio",
-        "about": "O nas",
-        "contact": "Kontakt",
-        "architecture": "Architektura",
-        "interior": "Wnętrza",
-        "furniture": "Meble",
-        "consulting": "Konsultacje"
+        "offer": "Offer",
+        "portfolio": "Free consultation",
+        "about": "About Us",
+        "contact": "Contact",
+        "architecture": "Architecture",
+        "interior": "Interiors",
+        "furniture": "Furniture",
+        "consulting": "Consulting",
+        "consultation": "Free Consultation"
     },
     "about": {
-        "header": "Who we are?",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis  vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat."
+        "header": "We Focus on Collaboration",
+        "info": "We respect our clients' budget and time. We will guide you step by step through the carefully planned design process. We ensure good communication.",
+        "button": "More About Us"
+    },
+    "section3": {
+        "header": "We Are Ready to Bear the Price of Beauty",
+        "info": "What is it? Speaking about the price of beauty only in financial terms would be a huge ignorance. Beauty does not have to be synonymous and commensurate with luxury, exclusive, and expensive materials or accessories. It can be, but it doesn't have to. At the same time, what is expensive is not always beautiful. For us, the price of beauty is the price of burying one's ego for the interested parties so that something new and fresh can grow on its ruins, which will be the result of synergy between the investor, the user, the space, and the designer."
+    },
+    "section4": {
+        "header": "They Trusted Us"
     },
     "email": {
-        "header": "Consultation",
-        "info": "How should I prepare?",
-        "step1": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
-        "step2": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame",
-        "step3": "EN Lorem am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sitam dolor sit am dolor sit ame",
-        "step4": "EN Lorem ipsum dolor sit am dolor sit sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
-        "name": "Your full name...",
-        "email": "Email...",
-        "text": "Your message...",
-        "send": "Send message",
-        "sent-mail": "Email sent successfully!"
+        "header": "Free Consultation",
+        "info": "The free consultation is 20 minutes long, and you can use to consult any topic related to architecture and interior design. In our studio, we dedicate it to people who want to clarify the offer, discuss functionalities, search for information, and are hesitant about choosing the right solution and service for themselves.",
+        "step0": "We always arrange a date suitable for both parties! Each consultation is individually arranged. The whole team invites you to visit our company and contact us online!",
+        "step0A": "How to prepare for the consultation?",
+        "step1": "If you can, prepare technical documentation and photos of a given investment. We will ask you to send it to our e-mail address on the day of the consultation. Thanks to this, our studio will be able to prepare options appropriate to your needs.",
+        "step2": "Think about your needs and what you want to achieve as a result of the consultation. Write down each idea and your goals. Tell us directly about your expectations at the beginning. We will be interested in your opinions and thoughts.",
+        "step3": "Feel free to ask any questions during the consultation. This is important! It allows us to better understand and help you. Each conversation will be led by a qualified architect, based on his/her knowledge and experience. If the topic requires deeper analysis and consultation with the rest of the team, he/she will come back with a reliable answer.",
+        "name": "Full Name",
+        "email": "E-mail",
+        "text": "Message Content",
+        "send": "Send Application",
+        "sent-mail": "The email has been sent successfully!"
     },
     "card": {
         "card1": "Architecture",
-        "card2": "Interior",
-        "card3": "Consulting",
-        "card1Description": "EN Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.",
-        "card2Description": "EN Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.",
-        "card3Description": "EN Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.",
-        "button": "show more"
+        "card2": "Interiors",
+        "card3": "Furniture",
+        "card4": "Consulting",
+        "button": "Learn more",
+        "button3": "See the offer",
+        "button4": "Schedule a consultation"
     },
     "architecture": {
-        "header": "Architecture",
-        "info": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
-        "info2": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame"
+        "headerLeft": "What areas do we work in?",
+        "headerRight": "Our services include:",
+        "infoLeft": "Our scope of services includes the design of single-family and multi-family residential buildings, commercial, catering and service facilities as well as temporary accommodation buildings such as hotels and guesthouses. We operate both in the country and abroad. We work with individual and business clients.",
+        "infoRightA": "absorbency analysis",
+        "infoRightB": "pre-design works and analyses",
+        "infoRightC": "conceptual design",
+        "infoRightG": "construction design",
+        "infoRightD": "executive project",
+        "infoRightE": "authorial supervision",
+        "infoRightF": "assistance in official procedures",
+        "button": "Discover our projects"
     },
     "consultation": {
         "header": "We invite you to a free consultation",
-        "button": "Consultation"
+        "button": "Schedule now",
+        "info": "In 30 minutes, we will discuss your challenges and explore initial solutions"
     },
-    "process": {
-        "header": "Process",
-        "info": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
-        "check1": "EN Lacus nisi, et ac dapibus veitl in consequat.",
-        "check2": "EN Quisqude diam pellentesque bibendum non dui volutpat fringilla.",
-        "check3": "EN Lorem Ipsum dolor sit amet, consectur adispiscing elit.",
-        "check4": "EN Adipiscing dolor adipsicing sit amet disciping elit conestur."
+    "realisation": {
+        "header": "Architecture",
+        "button": "Discover our projects",
+        "info": "Our studio offers services for each stage of the project, depending on the needs. We focus on understanding the client, which helps in the process of project preparation."
+    },
+    "fillar": {
+        "header": "The pillars of the JOFI STUDIO design process",
+        "info": "The design process is based on these elements, leading to the intended goals and addressing the client's needs.",
+        "f1Header": "Idea",
+        "f2Header": "Function",
+        "f3Header": "Budget",
+        "f4Header": "The needs of a client",
+        "f5Header": "Stylistics",
+        "f6Header": "Other individual",
+        "f2Info": "Object purpose and design principles",
+        "f3Info": "Client guidelines regarding expenditures for project and implementation purposes.",
+        "f4Info": "Client needs / guidelines / requirements concerning space and its equipment.",
+        "f5Info": "Client preferences regarding visual aspects.",
+        "f6Info": "Elements specific to each project, closely related to it.",
+        "f1Info": "The main idea of the project, a tool to achieve the spirit of the place - the individuality of the given space, a set of leading principles in the projec."
     },
     "consulting": {
-        "header": "Consulting",
-        "info": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
-        "info2": "EN Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame"
+        "header1": "Consulting",
+        "info1": "We offer comprehensive support and professional advice in planning and arranging residential, office, commercial and service spaces. Our team consists of highly qualified architects, designers and interior stylists.",
+        "header2": "We help in:",
+        "header3": "What is the difference between consulting and a free consultation?",
+        "dot2a": "official procedures",
+        "dot2b": "renovation and construction processes",
+        "dot2c": "cooperation with industry experts",
+        "dot2d": "pre-design analyzes",
+        "dot2e": "analyzes of the condition of real estate",
+        "dot2f": "spatial planning, land development and use of available space",
+        "dot2g": "interior styling",
+        "info3": "It differs primarily in content. The consulting offer includes a detailed and thorough case analysis based on highly specialized knowledge and experience. We will analyze in detail all the best options, talk about our experiences, share proven solutions, and present answers based on legal principles, in a form appropriate to the given issue."
     },
     "interior": {
-        "header": "Interior",
-        "info": "PL Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame",
-        "info2": "PL Lorem ipsum dolor sit am dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame dolor sit am dolor sit am dolor sit ame"
+        "header": "Interiors",
+        "info": "One of our services is the design of private interiors and office fit-outs. The benefits our clients receive are projects tailored to the user's needs and preferences, also based on an idea - having an intangible nature."
+    },
+    "interiorOffer": {
+        "header1": "Our services include:",
+        "header2": "The offer includes:",
+        "dot1a": "space inventory",
+        "dot1b": "conceptual project of interior design",
+        "dot1c": "executive project",
+        "dot1d": "designs of built-in furniture and individual movable furniture",
+        "dot1e": "supervision of project implementation                  ",
+        "dot1f": "interior styling                            ",
+        "info1": "In the case of fit-outs in the commercial or hotel industry, we also optimize the space so that it is ergonomic and promotes the efficiency of users and customers.",
+        "dot2a": "brief and analysis of the situation and expectations (due diligence)",
+        "dot2b": "fit test – checking the functional assumptions with the customer's expectations",
+        "dot2c": "conceptual design",
+        "dot2d": "detailed design/construction design",
+        "dot2e": "coordination of industry projects",
+        "dot2f": "authorial supervision",
+        "info2": "In the case of fit-outs in the commercial or hotel industry, we also optimize the space so that it is ergonomic and promotes the efficiency of users and customers."
+    },
+    "furniture": {
+        "header1": "Furniture",
+        "header2": "Our offer includes:",
+        "info1": "We offer comprehensive services in the field of designing built-in furniture and free-standing furniture. Our team of designers, experienced in the furniture industry, will be happy to create unique and functional designs and applied art for you, tailored to your individual needs and preferences.",
+        "dot2a": "design projects of kitchen, bathroom, living room and bedroom built-in furniture, with the focus on the optimal use the available space",
+        "dot2b": "design projects of utility products",
+        "dot2c": "advice on the selection of materials, colors and accessories so that the furniture is not only practical, but also aesthetic and matches the interior design"
     },
     "footer": {
-        "col1Header": "Our office",
-        "col1Adres": "Warsaw st. Rozbrat 34/36",
         "col2Header": "Contact",
-        "bottomPolitic": "Privacy policy",
-        "bottomCookie": "Cookie policy",
-        "bottomInfo": "Information obligation"
+        "col2NameAnna": "Anna Saj",
+        "col2MailAnna": "anna@jofi.pl",
+        "col2NameMikolaj": "Mikołaj Gadomski",
+        "col2MailMikolaj": "mikolaj@jofi.pl",
+        "col2NumberMikolaj": "+48 507-118-658",
+        "col3Header": "Office",
+        "col3Adress": "ul. Rozbrat 34/36, 00-429 Warszawa",
+        "col3Map": "See on the map",
+        "col4Media": "Follow our activities",
+        "bottomInfo": "information obligation"
     },
     "button": {
         "instagram": "Get to know our projects"
