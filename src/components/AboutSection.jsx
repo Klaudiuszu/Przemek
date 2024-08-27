@@ -26,8 +26,8 @@ const AboutSection = () => {
         transition={{ duration: 0.5 }}
         className="flex justify-center"
       >
-        <div className="flex flex-col	 lg:grid gap-8 lg:grid-cols-2 items-center py-8 px-4 lg:gap-16 lg:px-16 about-me-section-wrapper text-[#171717]">
-          <div className="justify-center md:text-5xl text-4xl items-center lg:items-start text-center gap-4 lg:gap-16 mt-4  lg:text-left flex flex-col h-full">
+        <div className="flex flex-col	 lg:grid gap-8 lg:grid-cols-2 items-center py-8 px-4 lg:gap-0 lg:px-0 about-me-section-wrapper text-[#171717]">
+          <div className="justify-center md:text-5xl text-4xl items-center lg:items-start text-center gap-4 lg:gap-16 mt-4 lg:pr-[96px]  lg:text-left flex flex-col h-full">
             <h2 className="font-thin md:text-custom-85">{tString('about.header')}</h2>
             <h4 className=" lg:px-0 sm:px-16 md:text-[24px] text-base text-left mundial-font">
               {tString('about.info')}

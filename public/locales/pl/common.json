@@ -142,7 +142,11 @@
         "col3Adress": "ul. Rozbrat 34/36, 00-429 Warszawa",
         "col3Map": "Zobacz na mapie",
         "col4Media": "Śledź nasze działania",
-        "bottomInfo": "Obowiązek informacyjny"
+        "bottomInfo": "Obowiązek informacyjny",
+        "politics": "Polityka prywatności",
+        "cookies": "Polityka Cookies",
+        "obligation": "Obowiązek informacyjny",
+        "form": "Regulamin świadczenia usługi formularz kontaktowy"
     },
     "button": {
         "instagram": "Poznaj nasze realizacje"

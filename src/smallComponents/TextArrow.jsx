@@ -6,7 +6,6 @@ const TextArrow = ({ buttonText, iconName, path }) => {
 
   const handleClick = () => {
     router.push(path);
-    console.log({path})
   };
 
   return (

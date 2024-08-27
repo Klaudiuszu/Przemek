@@ -21,7 +21,7 @@ const MenuOverlay = ({ links, offerLinks, navbarOpen, locale, setNavbarOpenClose
   const { tString } = useTranslation(namespaces.common);
 
   return (
-<nav className={`nav-bar ${navbarOpen ? 'nav-toggle' : 'nav-close'}`}>
+<nav className={`nav-bar ${navbarOpen ? 'nav-toggle -z-50' : 'nav-close'}`}>
 <button
   onClick={() => setNavbarOpenClose(false)}
   className={`flex items-center fixed px-3 py-2 rounded text-slate-200 navbar-button transition-transform transform hover:rotate-1 ${navbarOpen ? 'navbar-button-close' : ''}`}

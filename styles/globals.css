@@ -118,3 +118,8 @@ li {
     font-family: 'mundial-Bold';
     font-size: 39px;
 }
+
+.p-dialog-mask {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: opacity 0.5s ease-in;
+}

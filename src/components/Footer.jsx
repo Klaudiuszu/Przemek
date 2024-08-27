@@ -2,20 +2,38 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useTranslation } from "next-translations/hooks";
 import { namespaces } from "../../translations.config";
+import { useLanguage } from '../hooks/useLanguage';
+import { useRouter } from 'next/router';
 
 const Footer = () => {
     const [height, setHeight] = useState(0);
     const [, setWidth] = useState(0);
     const refSize = useRef(null);
     const { tString } = useTranslation(namespaces.common);
+    const router = useRouter();
+    const { language } = useLanguage();
 
     useEffect(() => {
         setWidth(refSize.current.clientWidth)
         setHeight(refSize.current.clientHeight)
       }, [])
 
+      const handleMoveToPolicy = () => {
+        router.push(`/${language}/PrivacyPolicy`);
+      };
+      const handleMoveToCookies = () => {
+        router.push(`/${language}/cookiesPolicy`);
+      };
+      const handleMoveToObligation = () => {
+        router.push(`/${language}/informationObligation`);
+      };
+      const handleMoveToFormRegulation = () => {
+        router.push(`/${language}/formRegulations`);
+      };
+
+
     return (
-        <footer id="footer" ref={refSize}  className="about-me-section lg:py-16 max-w-screen-2xl mx-auto flex flex-col">
+        <footer id="footer" ref={refSize}  className="about-me-section py-3 lg:py-8 max-w-screen-2xl mx-auto flex flex-col">
             <div className="bg" style={{ height: `${height}px` }}></div>
             <div className="flex flex-col min-w-72 flex-wrap items-center justify-between w-full mx-auto pt-12">
                 <div className="md:flex md:justify-between px-3 w-full">
@@ -104,6 +122,20 @@ const Footer = () => {
                 </div>
                 <div className="w-full flex justify-center text-white py-4 font-thin">
                     <span>{tString("footer.col5Item1")}</span>
+                </div>
+            </div>
+            <div className="flex gap-4 lg:flex-row flex-col">
+                <div style={{fontFamily: 'PPHatton-Light'}}>
+                <a onClick={handleMoveToPolicy} className="text-black font-thin cursor-pointer hover:font-semibold">{tString("footer.politics")}</a>
+                </div>
+                <div style={{fontFamily: 'PPHatton-Light'}}>
+                <a onClick={handleMoveToCookies} className="text-black font-thin cursor-pointer hover:font-semibold">{tString("footer.cookies")}</a>
+                </div>
+                <div style={{fontFamily: 'PPHatton-Light'}}>
+                <a onClick={handleMoveToObligation} className="text-black font-thin cursor-pointer hover:font-semibold">{tString("footer.obligation")}</a>
+                </div>
+                <div style={{fontFamily: 'PPHatton-Light'}}>
+                <a onClick={handleMoveToFormRegulation} className="text-black font-thin cursor-pointer hover:font-semibold">{tString("footer.form")}</a>
                 </div>
             </div>
         </footer>

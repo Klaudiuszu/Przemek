@@ -9,6 +9,8 @@ import { getTranslationsProps } from "next-translations";
 import { namespaces } from '../../src/constants/namespaces';
 import CookiesConsent from "../../src/components/CookiesConsent";
 import SliderLogo from "../../src/components/SliderLogo";
+import slide1 from '../../public/images/slide1.jpg';
+import Carousel from "../../src/components/Carousel";
 
 export { getStaticPaths } from "next-translations";
 
@@ -18,7 +20,8 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <SliderSection />
+      {/* <SliderSection /> */}
+      <Carousel />
       <main className='flex min-h-screen flex-col items-center justify-between xs:w xl:px-24'>
         <AboutSection />
         <TextSection />
