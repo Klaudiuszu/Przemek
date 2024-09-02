@@ -35,7 +35,7 @@ const EmailSection = () => {
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
       >
-        <div className="flex flex-col lg:grid gap-8 lg:grid-cols-1 items-center py-8 px-4 lg:gap-16 lg:px-16 text-[#171717]">
+        <div className="flex flex-col lg:grid gap-8 lg:grid-cols-1 items-center py-8 px-4 lg:gap-16 lg:px-16 3xl:px-0 text-[#171717]">
           <div className="justify-center items-start md:text-5xl text-4xl text-center gap-4 mt-4 lg:text-left flex flex-col h-full">
             <h2 className="md:text-custom-85 mb-4">{tString('email.header')}</h2>
             <h3 className=" lg:px-0 sm:px-16 text-[20px] md:text-[28px] leading-normal lowercase mundial-light text-left">
@@ -46,7 +46,7 @@ const EmailSection = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col lg:grid gap-8 lg:grid-cols-2 items-center sm:py-8 pb-8 lg:gap-16 lg:px-16">
+        <div className="flex flex-col lg:grid gap-8 lg:grid-cols-2 items-center sm:py-8 pb-8 lg:gap-16 lg:px-16 3xl:px-0">
           <div className="justify-start md:text-5xl text-4xl px-4 items-center lg:items-start text-center gap-4 lg:text-left flex flex-col h-full">
             <p className="font-bold mb-5 mundial-light leading-normal lg:px-0 sm:px-16 md:text-[24px] text-base text-left">
               {tString('email.step0A')}

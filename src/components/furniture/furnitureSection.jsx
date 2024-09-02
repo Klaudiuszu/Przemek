@@ -31,7 +31,7 @@ const FurnitureSection = () => {
             <ul className=" max-w-[650px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
               <li className="flex gap-y-4  items-center">
                 <div className="relative"></div>
-                <a className="lg:w-[700px] leading-normal">{tString('furniture.info1')}</a>
+                <a className="lg:w-[700px] leading-normal pt-[60px]">{tString('furniture.info1')}</a>
               </li>
             </ul>
           </div>
@@ -47,7 +47,7 @@ const FurnitureSection = () => {
         </div>
         <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717]">
           <div className="justify-start md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[600px]">
-            <h5 className="font-bold lg:w-[600px] text-4xl h-[80px] xl:text-[39px] mb-4">{tString('furniture.header2')}</h5>
+            <h5 className="font-bold lg:w-[600px] text-4xl h-[80px] xl:text-[44px] mb-4">{tString('furniture.header2')}</h5>
             <ul className=" lg:w-[600px] max-w-[650px] gap-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
               <li className="flex gap-4 items-start">
                 <div className="relative top-2 bottom-1 min-w-2 Rectangle-1469"></div>

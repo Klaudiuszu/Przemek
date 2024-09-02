@@ -20,13 +20,13 @@ const Consultation = () => {
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
       >
-        <div className="flex flex-col gap-4 items-center py-8 px-4 lg:gap-8">
+        <div className="flex flex-col items-center py-8 px-4">
           <div className="text-center justify-center gap-4 mt-4 items-center lg:items-start lg:text-left flex flex-col ">
-            <h2 className="xl:text-custom-85 text-custom-36 text-center">
+            <h2 className="xl:text-custom-85 text-custom-36 text-center tracking-[-1.7px]">
               {tString('consultation.header')}
             </h2>
           </div>
-          <h4 className="text-center text-[28px]">
+          <h4 className="text-center text-[28px] mb-[64px] pt-[28px]">
             {tString('consultation.info')}
           </h4>
           <div style={{fontFamily: "PPHatton-Light"}} className="gap-2 uppercase relative cursor-pointer text-[22px] justify-center flex w-48 bg-[#171717] hover:bg-[#2c2c2c] text-white font-semi-bold py-2 px-4">

@@ -21,7 +21,7 @@ const ConsultationMain = () => {
             <motion.div
                 whileInView={{ opacity: [0, 1] }}
                 transition={{ duration: 0.5 }}
-                className="lg:mt-[120px]"
+                className="lg:mt-[150px]"
             >
                     <h2 className="xl:text-custom-85 text-custom-36 pt-20 sm:pt-0 text-center h-[80px]">
                         {tString('email.header')}

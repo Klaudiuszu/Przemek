@@ -93,7 +93,7 @@ const InteriorOffer = () => {
             <div className="flex flex-col gap-3">
             </div>
           </div>
-          <div className="flex flex-col lg:grid lg:grid-cols-1 items-center pl-4 pr-4 lg:pl-16 text-[#171717]">
+          <div className="flex flex-col lg:grid lg:grid-cols-1 items-center pl-4 pr-4 lg:pl-16 text-[#171717] pb-8">
             <div className="justify-start md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[280px]">
               <ul className=" max-w-[650px] gap-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
                 <li className="flex gap-4 items-start">

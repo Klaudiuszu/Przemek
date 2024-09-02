@@ -109,6 +109,9 @@ li {
     font-family: 'mundial-Light';
     font-size: 26px;
 }
+.mundial-Light-font {
+    font-family: 'mundial-Light' !important;
+}
 
 .mundial-font {
     font-family: 'mundial-Light';
