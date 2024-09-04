@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Dialog } from 'primereact/dialog';
-import { InputSwitch } from "primereact/inputswitch";
+import { useTranslation } from "next-translations/hooks";
+import { namespaces } from "../../translations.config";
 import { useLanguage } from '../hooks/useLanguage';
 import { useRouter } from 'next/router';
 import Cookies from 'js-cookie';
@@ -10,6 +11,8 @@ const CookieConsent = () => {
     const [analyticsCookies, setAnalyticsCookies] = useState(false);
     const [settingsVisible, setSettingsVisible] = useState(false);
     const { language } = useLanguage();
+
+    const { tString } = useTranslation(namespaces.common);
 
     const router = useRouter();
 
@@ -51,7 +54,7 @@ const CookieConsent = () => {
     return (
         <>
             <Dialog
-                header="Ustawienia cookies"
+                header={tString('cookiesCon.header')}
                 visible={visible}
                 draggable={false}
                 resizable={false}
@@ -66,7 +69,7 @@ const CookieConsent = () => {
                             className="flex justify-start gap-4 items-center sm:w-[394px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
                         >
                             <span className="relative" style={{ top: '2px' }}>
-                                Akceptuj wszystkie
+                                {tString('cookiesCon.acceptAll')}
                             </span>
                         </button>
                         <button
@@ -74,7 +77,7 @@ const CookieConsent = () => {
                             className="flex justify-start gap-4 items-center sm:w-[394px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
                         >
                             <span className="relative" style={{ top: '2px' }}>
-                                Odrzuć
+                                {tString('cookiesCon.reject')}
                             </span>
                         </button>
                         <button
@@ -82,22 +85,23 @@ const CookieConsent = () => {
                             className="flex justify-start gap-4 items-center sm:w-[394px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
                         >
                             <span className="relative" style={{ top: '2px' }}>
-                                Ustawienia
+                                {tString('cookiesCon.settings')}
                             </span>
                         </button>
                     </div>
                 }
             >
                 <p>
-                    Strona <strong>www.jofistudio.pl</strong> używa plików cookies i podobnych technologii, aby zapewnić najlepszą jakość korzystania z naszej witryny. Każdy użytkownik może samodzielnie zmienić ustawienia dotyczące cookies w swojej przeglądarce internetowej. Korzystanie z niniejszej strony bez zmiany ustawień przeglądarki oznacza, że będą one umieszczane w urządzeniu końcowym. Szczegóły znajdują się w{' '}
+                    {tString('cookiesCon.description')} <strong>www.jofistudio.pl</strong>{' '}
+                    {tString('cookiesCon.description2')}{' '}
                     <a onClick={handleClick} className="cursor-pointer">
-                        <u className="underline-offset-4 hover:text-stone-800">Polityce Prywatności</u>
+                        <u className="underline-offset-4 hover:text-stone-800">{tString('cookiesCon.privacyPolicy')}</u>
                     </a>
                 </p>
             </Dialog>
 
             <Dialog
-                header="Przegląd prywatności"
+                header={tString('privacy.header')}
                 visible={settingsVisible}
                 draggable={false}
                 resizable={false}
@@ -113,31 +117,29 @@ const CookieConsent = () => {
                                 onClick={saveSettings}
                                 className="flex justify-start gap-4 items-center sm:w-[394px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
                             >
-                                <span className="relative" style={{ top: '2px' }}>Zapisz zmiany</span>
+                                <span className="relative" style={{ top: '2px' }}>{tString('privacy.saveChanges')}</span>
                             </button>
                             <button
                                 onClick={() => setAnalyticsCookies(true)}
                                 className="flex justify-start gap-4 items-center sm:w-[394px] h-[72px] text-black text-dark font-medium py-2.5 px-5 focus:ring-gray-100 hover:bg-gray-100 border border-[#A6A6A6] w-full bg-primary-500 focus:ring-4 uppercase"
                             >
-                                <span className="relative" style={{ top: '2px' }}>Włącz wszystkie</span>
+                                <span className="relative" style={{ top: '2px' }}>{tString('privacy.enableAll')}</span>
                             </button>
                         </div>
                     </>
                 }
             >
                 <p>
-                    Strona <strong>www.jofistudio.pl</strong> używa plików cookies i podobnych technologii w celach: rozpoznawania urządzenia używanego przez użytkownika w celu odpowiedniego wyświetlenia zawartości strony, tworzenia statystyk, które pomagają zrozumieć w jaki sposób użytkownicy korzystają ze stron internetowych, co umożliwia ulepszenie ich struktury i zawartości, utrzymania sesji użytkownika Strony, dzięki której użytkownik nie musi na każdej podstronie ponownie wpisywać np. loginu i hasła lub innych danych, dostosowania zawartości i funkcjonalności Strony poprzez dopasowanie anonimowego, losowo wygenerowanego identyfikatora śledzącego, dzięki któremu możliwe jest między innymi sprawdzenie, skąd pochodzi użytkownik, z jakiej wyszukiwarki skorzystał, jaki link kliknął, jakie słowa kluczowe wpisał oraz w którym momencie przestał korzystać z Portalu. Każdy użytkownik może samodzielnie zmienić ustawienia dotyczące cookies w swojej przeglądarce internetowej. Korzystanie z niniejszej strony bez zmiany ustawień przeglądarki oznacza, że będą one umieszczane w urządzeniu końcowym. Szczegóły znajdują się w Polityce Prywatności.
+                    {tString('privacy.description')}
                 </p>
-                <label class="inline-flex items-center pt-6 justify-between w-full">
-                    <span>Ściśle niezbędne ciasteczka</span>
+                <label className="inline-flex items-center pt-6 justify-between w-full">
+                    <span>{tString('privacy.strictlyNecessaryCookies')}</span>
                     <div className='flex flex-row items-center'>
-                    <input type="checkbox" value="" class="sr-only peer" style={{paddingTop: '2px'}} disabled checked={analyticsCookies ? true : false} ></input>
-                    <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                    <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">{analyticsCookies ? 'Włączone' : 'Wyłączone'}</span>
+                        <input type="checkbox" value="" className="sr-only peer" style={{ paddingTop: '2px' }} disabled checked={analyticsCookies ? true : false}></input>
+                        <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                        <span className="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">{analyticsCookies ? tString('privacy.enabled') : tString('privacy.disabled')}</span>
                     </div>
                 </label>
-                <>
-                </>
             </Dialog>
         </>
     );

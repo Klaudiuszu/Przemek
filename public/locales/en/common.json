@@ -340,5 +340,23 @@
     "dataProcessing6": "The User has the right to access their data and correct it. Every User also has the right to withdraw consent for the processing of personal data by sending a relevant request to the address: biuro@jofistudio.pl.",
     "dataProcessing7": "Appropriate state authorities upon their request, based on generally applicable legal provisions.",
     "dataProcessing8": "Other persons and entities – in cases other than described in point a) only with the prior consent of the person to whom the data pertains."
+  },
+  "cookiesCon": {
+    "header": "Cookie Settings",
+    "acceptAll": "Accept All",
+    "reject": "Reject",
+    "settings": "Settings",
+    "description": "The website",
+    "description2": "uses cookies and similar technologies to ensure the best experience on our site. Each user can change their cookie settings in their web browser. Using this site without changing your browser settings means that they will be placed on your end device. Details can be found in the",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "privacy": {
+    "header": "Privacy Overview",
+    "saveChanges": "Save Changes",
+    "enableAll": "Enable All",
+    "description": "The website www.jofistudio.pl uses cookies and similar technologies for the purposes of: recognizing the device used by the user to display the content of the page appropriately, creating statistics that help understand how users use websites, which allows for improving their structure and content, maintaining the user session of the website, so the user does not have to re-enter e.g. login and password or other data on each subpage, adapting the content and functionality of the website by matching an anonymous, randomly generated tracking identifier, which makes it possible to check, among other things, where the user comes from, which search engine was used, which link was clicked, which keywords were entered and at what point the use of the Portal was stopped. Each user can independently change the cookie settings in their web browser. Using this site without changing your browser settings means that they will be placed on your end device. Details can be found in the Privacy Policy.",
+    "strictlyNecessaryCookies": "Strictly necessary cookies",
+    "enabled": "Enabled",
+    "disabled": "Disabled"
   }
 }

@@ -343,5 +343,23 @@
     "dataProcessing6": "Użytkownik ma prawo dostępu do treści swoich danych oraz możliwość ich poprawiania. Każdemu Użytkownikowi przysługuje również prawo do odwołania zgody na przetwarzanie danych osobowych poprzez przesłanie odpowiedniego żądania na adres: biuro@jofistudio.pl.",
     "dataProcessing7": "odpowiednim organom państwowym na ich żądanie na podstawie powszechnie obowiązujących przepisów prawa.",
     "dataProcessing8": "innym osobom i podmiotom – w przypadkach innych niż opisane w pkt a) jedynie za uprzednią zgodą osoby, której dane dotyczą."
-}
+},
+"cookiesCon": {
+    "header": "Ustawienia cookies",
+    "acceptAll": "Akceptuj wszystkie",
+    "reject": "Odrzuć",
+    "settings": "Ustawienia",
+    "description": "Strona",
+    "description2": "używa plików cookies i podobnych technologii, aby zapewnić najlepszą jakość korzystania z naszej witryny. Każdy użytkownik może samodzielnie zmienić ustawienia dotyczące cookies w swojej przeglądarce internetowej. Korzystanie z niniejszej strony bez zmiany ustawień przeglądarki oznacza, że będą one umieszczane w urządzeniu końcowym. Szczegóły znajdują się w",
+    "privacyPolicy": "Polityce Prywatności"
+  },
+  "privacy": {
+    "header": "Przegląd prywatności",
+    "saveChanges": "Zapisz zmiany",
+    "enableAll": "Włącz wszystkie",
+    "description": "Strona www.jofistudio.pl używa plików cookies i podobnych technologii w celach: rozpoznawania urządzenia używanego przez użytkownika w celu odpowiedniego wyświetlenia zawartości strony, tworzenia statystyk, które pomagają zrozumieć, w jaki sposób użytkownicy korzystają ze stron internetowych, co umożliwia ulepszenie ich struktury i zawartości, utrzymania sesji użytkownika strony, dzięki której użytkownik nie musi na każdej podstronie ponownie wpisywać np. loginu i hasła lub innych danych, dostosowania zawartości i funkcjonalności strony poprzez dopasowanie anonimowego, losowo wygenerowanego identyfikatora śledzącego, dzięki któremu możliwe jest między innymi sprawdzenie, skąd pochodzi użytkownik, z jakiej wyszukiwarki skorzystał, jaki link kliknął, jakie słowa kluczowe wpisał oraz w którym momencie przestał korzystać z portalu. Każdy użytkownik może samodzielnie zmienić ustawienia dotyczące cookies w swojej przeglądarce internetowej. Korzystanie z niniejszej strony bez zmiany ustawień przeglądarki oznacza, że będą one umieszczane w urządzeniu końcowym. Szczegóły znajdują się w Polityce Prywatności.",
+    "strictlyNecessaryCookies": "Ściśle niezbędne ciasteczka",
+    "enabled": "Włączone",
+    "disabled": "Wyłączone"
+  }
 }
