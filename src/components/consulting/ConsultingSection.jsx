@@ -5,7 +5,7 @@ import { useTranslation } from "next-translations/hooks";
 import { namespaces } from "../../../translations.config";
 
 const ConsultingSection = () => {
-  const [height, setHeight] = useState(0);
+  const [height, setHeight] = useState(64);
   const refSize = useRef(null);
   const { tString } = useTranslation(namespaces.common);
 
