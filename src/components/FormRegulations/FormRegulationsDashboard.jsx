@@ -9,7 +9,7 @@ const FormRegulationsDashboard = () => {
 
     return (
         <section className="lg:pb-16 lg:pt-40 pt-30 max-w-screen-xl md:p-20 px-8 py-28 mx-auto flex flex-col gap-8" id="privacyPolicy">
-        <h1 className="flex justify-center">REGULAMIN ŚWIADCZENIA USŁUGI FORMULARZ KONTAKTOWY</h1>
+        <h1 className="flex justify-center" dangerouslySetInnerHTML={{ __html: tString("formRegulations.title") }}></h1>
       
         <p className="flex justify-center font-bold" dangerouslySetInnerHTML={{ __html: tString("formRegulations.generalProvisionsTitle") }}></p>
         <p className="flex justify-center italic text-center" dangerouslySetInnerHTML={{ __html: tString("formRegulations.generalProvisionsDescription") }}></p>

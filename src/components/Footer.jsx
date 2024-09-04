@@ -80,7 +80,7 @@ const Footer = () => {
                             </h2>
                             <ul className=" font-thin">
                                 <li className="mb-4 flex gap-5">
-                                    <a href="/">
+                                    <a href="https://www.facebook.com/profile.php?id=61565497494822">
                                     <img src="/images/fb.png" className=" w-136 h-8" />
                                     </a>
                                     <a href="https://www.instagram.com/jofi_studio/">
