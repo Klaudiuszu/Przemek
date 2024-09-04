@@ -10,12 +10,27 @@ const ConsultingSection = () => {
   const { tString } = useTranslation(namespaces.common);
 
   useEffect(() => {
-    setHeight(refSize.current.clientHeight);
+    const handleResize = () => {
+      if (refSize.current) {
+        setHeight(refSize.current.clientHeight);
+      }
+    };
+    handleResize();
+
+    const resizeObserver = new ResizeObserver(() => handleResize());
+    if (refSize.current) {
+      resizeObserver.observe(refSize.current);
+    }
+
+    return () => {
+      if (refSize.current) {
+        resizeObserver.unobserve(refSize.current);
+      }
+    };
   }, []);
 
   return (
     <section ref={refSize} className="w-full flex max-w-screen-2xl flex-col justify-center items-center">
-
       <div className="bg" style={{ height: `${height + 80}px` }}></div>
 
       <motion.div
@@ -29,21 +44,19 @@ const ConsultingSection = () => {
                 {tString('consulting.header1')}
               </h2>
               <ul className=" max-w-[650px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
-                <li className="flex gap-y-4  items-center">
+                <li className="flex gap-y-4 items-center">
                   <div className="relative"></div>
                   <a className="lg:w-[600px] mundial-Light-font 3xl:w-[770px] xl:pt-[64px] leading-normal">{tString('consulting.info1')}</a>
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col gap-3">
-            </div>
+            <div className="flex flex-col gap-3"></div>
           </div>
           <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 text-[#171717]">
             <div className="justify-center md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[500px]">
-              <img src="/images/consulting.png"></img>
+              <img src="/images/consulting.png" alt="Consulting" />
             </div>
-            <div className="flex flex-col gap-3">
-            </div>
+            <div className="flex flex-col gap-3"></div>
           </div>
           <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717]">
             <div className="justify-start md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[600px]">
@@ -70,7 +83,7 @@ const ConsultingSection = () => {
                   <a className="leading-normal mundial-Light-font">{tString('consulting.dot2e')}</a>
                 </li>
                 <li className="flex gap-4 items-start">
-                  <div className="relative  top-3 Rectangle-1469 min-w-2"></div>
+                  <div className="relative top-3 Rectangle-1469 min-w-2"></div>
                   <a className="leading-normal mundial-Light-font">{tString('consulting.dot2f')}</a>
                 </li>
                 <li className="flex gap-4 items-center">
@@ -79,25 +92,21 @@ const ConsultingSection = () => {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col gap-3">
-            </div>
+            <div className="flex flex-col gap-3"></div>
           </div>
           <div className="flex flex-col lg:grid lg:grid-cols-1 items-center py-8 pl-4 pr-4 lg:pl-16 text-[#171717]">
             <div className="justify-start md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[600px]">
               <h5 className="font-bold text-4xl xl:text-[44px] leading-tight mb-4">{tString('consulting.header3')}</h5>
-
               <ul className=" max-w-[650px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">
-                <li className="flex gap-y-4  items-center">
+                <li className="flex gap-y-4 items-center">
                   <div className="relative"></div>
                   <a className="leading-normal mundial-Light-font">{tString('consulting.info3')}</a>
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col gap-3">
-            </div>
+            <div className="flex flex-col gap-3"></div>
           </div>
         </div>
-
       </motion.div>
     </section>
   );
