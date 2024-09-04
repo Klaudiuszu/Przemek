@@ -5,7 +5,7 @@ import { useTranslation } from "next-translations/hooks";
 import { namespaces } from "../../../translations.config";
 
 const ConsultingSection = () => {
-  const [height, setHeight] = useState(64);
+  const [height, setHeight] = useState(0);
   const refSize = useRef(null);
   const { tString } = useTranslation(namespaces.common);
 
@@ -16,7 +16,7 @@ const ConsultingSection = () => {
   return (
     <section ref={refSize} className="w-full flex max-w-screen-2xl flex-col justify-center items-center">
 
-      <div className="bg" style={{ height: `${height}px` }}></div>
+      <div className="bg" style={{ height: `${height + 80}px` }}></div>
 
       <motion.div
         whileInView={{ opacity: [0, 1] }}
