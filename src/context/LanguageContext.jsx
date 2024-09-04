@@ -5,12 +5,11 @@ import { validLink } from 'next-translations/redirects';
 
 export const LanguageContext = createContext({
     language: defaultLocale,
-    handleChangeLanguage: () => { },
+    handleChangeLanguage: () => {},
 });
 
 const LanguageContextProvider = ({ children }) => {
-    const [languageDetect, setLanguageDetect] =
-        useState(defaultLocale);
+    const [languageDetect, setLanguageDetect] = useState(defaultLocale);
     const router = useRouter();
     const currentUrl = router.asPath;
 
@@ -23,21 +22,25 @@ const LanguageContextProvider = ({ children }) => {
         if (selectedLng) {
             setLanguageDetect(selectedLng);
         }
+
+        if (currentUrl === '/' || currentUrl === '') {
+            router.replace('/pl');
+        }
     }, [router.asPath]);
 
-const handleChangeLanguage = (lng) => {
-    setLanguageDetect(lng);
-    const match = currentUrl.match(/\/(?:en|pl)\/?(.*)/);
-    const pathAfterLocale = match ? '/' + match[1] : '';
+    const handleChangeLanguage = (lng) => {
+        setLanguageDetect(lng);
+        const match = currentUrl.match(/\/(?:en|pl)\/?(.*)/);
+        const pathAfterLocale = match ? '/' + match[1] : '';
 
-    const result = validLink({
-        isLoggedUser: false,
-        locale: lng,
-        path: pathAfterLocale || '/',
-        router: router,
-    });
-    router.push(result);
-};
+        const result = validLink({
+            isLoggedUser: false,
+            locale: lng,
+            path: pathAfterLocale || '/en',
+            router: router,
+        });
+        router.push(result);
+    };
 
     const contextValues = {
         language: languageDetect,

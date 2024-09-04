@@ -1,7 +1,7 @@
 .navbar {
-    position: sticky;
-    background-color: $whie;
-    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    height: 149px;
+    display: flex;
+
     .navbar-single-link {
         font-size: 14px;
         font-weight: 400;
@@ -28,7 +28,10 @@
     }
 
     .navbar-button-close {
-        color: $whie;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        z-index: 10;
     }
 
     .navbar-link-wrapper {
@@ -43,26 +46,25 @@
 
         &:hover {
             transition: .3s ease-in-out;
-            color: $brown;
         }
     }
 
     .nav-bar {
         height: calc(100vh + 54px);
         display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         position: fixed;
         top: 0;
-        right: 0;
+        left: -30%;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         gap: 1.2rem;
-        width: 100vw;
-        padding: 4rem 2.2rem;
-        background-color: $absolute_dark;
-        color: $whie;
-        transform: translateX(100%);
-        transition: transform 450ms ease-in-out;
+        z-index: 10;
+        padding: 0;
+        background-color: $warmGrey;
+        color: $dark;
+        transition: left 450ms ease-in-out;
 
         .overlay {
             font-size: 32px !important;
@@ -71,8 +73,12 @@
     }
 
     .nav-bar.nav-toggle {
-        transform: translateX(0);
-        transition: .3s ease-in-out;
+        left: 0;
+        width: 100%;
+        font-size: 22px;
+        transition: .3s ease;
+        border-right: 1px solid black;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
     }
 
     .nav-bar ul {
@@ -80,14 +86,23 @@
         margin: 0;
         padding: 0;
     }
+    .nav-bar.nav-close {
+        transition: .3s ease;
+        width: 0;
+    }
 
-    
-    .nav-bar.nav-toggle li {
-        opacity: 1;
-        transform: translateX(0);
-    }
-    .menu-overlay-li a {
-        font-size: 32px;
-        transition: all .3s ease-in-out;
-    }
+    @media (min-width: 1024px) {
+        .nav-bar {
+            justify-content: flex-start;
+            align-items: flex-start;
+            text-align: left;
+            padding: 8rem 4rem;
+            width: 30vw;
+        }
+        .nav-bar.nav-toggle {
+            left: 0;
+            width: 30vw;
+            transition: left .3s ease-in-out;
+        }
+      }
 }

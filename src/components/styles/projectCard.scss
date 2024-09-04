@@ -1,15 +1,13 @@
 .project-card-wrapper {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    border-radius: 12px;
     color: $dark;
 
     .project-card-text {
         text-transform: uppercase;
+        font-size: 65px;
     }
     .project-card-button {
         &:hover {
             transition: .3s ease-in-out ;
-            color: $brown;
         }
     }
 }

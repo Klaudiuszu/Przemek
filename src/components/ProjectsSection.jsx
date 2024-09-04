@@ -4,43 +4,53 @@ import ProjectCard from "./ProjectCard";
 import { motion, useInView } from "framer-motion";
 import { useTranslation } from "next-translations/hooks";
 import { namespaces } from "../../translations.config";
+import { useLanguage } from '../hooks/useLanguage';
 
 const ProjectsSection = () => {
-    const [tag, setTag] = useState("All");
+    const [tag] = useState("All");
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
     const { tString } = useTranslation(namespaces.common);
-    const handleTagChange = (newTag) => {
-        setTag(newTag);
-    };
+
+    const { language } = useLanguage();
 
     const projectsData = [
         {
             id: 1,
             title: tString('card.card1'),
-            description: tString('card.card1Description'),
-            image: "/images/projects/1.png",
+            image: "/images/architektura.png",
             tag: ["All", "Web"],
-            gitUrl: 'architecture',
+            path:`/${language}/architecture`,
             previewUrl: 'architecture',
+            cardButtonTittle: tString('card.button'),
+
         },
         {
             id: 2,
             title: tString('card.card2'),
-            description: tString('card.card2Description'),
-            image: "/images/projects/2.png",
+            image: "/images/wnetrza.png",
             tag: ["All", "Web"],
-            gitUrl: 'interior',
+            path:`/${language}/interior`,
             previewUrl: 'interior',
+            cardButtonTittle: tString('card.button'),
         },
         {
             id: 3,
             title: tString('card.card3'),
-            description: tString('card.card3Description'),
-            image: "/images/projects/3.png",
+            image: "/images/meble.png",
             tag: ["All", "Web"],
-            gitUrl: 'consulting',
+            path:`/${language}/furniture`,
+            previewUrl: 'furniture',
+            cardButtonTittle: tString('card.button3'),
+        },
+        {
+            id: 4,
+            title: tString('card.card4'),
+            image: "/images/doradztwo.png",
+            tag: ["All", "Web"],
+            path:`/${language}/consulting`,
             previewUrl: 'consulting',
+            cardButtonTittle: tString('card.button4'),
         },
     ];
 
@@ -54,13 +64,8 @@ const ProjectsSection = () => {
     };
 
     return (
-        <section className="flex flex-col justify-center gap-10 m-10 lg:py-16 max-w-screen-2xl" id="projects">
-            <div className="flex flex-col lg:grid justify-center gap-8 lg:grid-cols-2 items-center py-8 px-4 lg:gap-16 lg:px-16 offer-me-section-wrapper">
-                <div className="justify-center text-3xl md:text-5xl items-center lg:items-start text-center gap-4 mt-4  lg:text-left flex flex-col h-full">
-                    <h2 className="offer-me-header mb-4"></h2>
-                </div>
-            </div>
-            <ul ref={ref} className="flex flex-col align-center	 lg:grid gap-8 lg:grid-cols-3 sm:grid sm:grid-cols-2    justify-center gap-8 md:gap-12">
+        <section className="flex flex-col justify-center gap-10 m-12 3xl:m-0 3xl:pb-[240px] max-w-screen-2xl pb-[64px]" id="projects">
+            <ul ref={ref} className="flex flex-col align-center	lg:grid lg:grid-cols-2 sm:grid sm:grid-cols-1 justify-center gap-8 md:gap-[100px]">
                 {filteredProjects.map((project, index) => (
                     <motion.li
                         key={index}
@@ -72,12 +77,13 @@ const ProjectsSection = () => {
                     >
                         <ProjectCard
                             key={project.id}
+                            path={project.path}
                             title={project.title}
                             description={project.description}
                             imgUrl={project.image}
                             gitUrl={project.gitUrl}
                             previewUrl={project.previewUrl}
-                            cardButtonTitle={tString('card.button')}
+                            cardButtonTitle={project.cardButtonTittle}
                         />
                     </motion.li>
                 ))}

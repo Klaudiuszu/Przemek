@@ -3,6 +3,7 @@ const namespaces = {
     architecture: "architecutre",
     interior: "interior",
     consulting: "consulting",
+    cookiesPolicy: "cookiesPolicy",
     // errors: "errors",
 };
 

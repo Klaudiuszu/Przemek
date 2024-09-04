@@ -5,13 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npx serve@latest out",
     "export": "next build && next export",
     "lint": "next lint"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@heroicons/react": "^2.1.1",
+    "@material-tailwind/react": "^2.1.9",
+    "bootstrap": "^5.3.3",
     "cookies-next": "^4.1.1",
     "emailjs": "^4.0.3",
     "framer-motion": "^11.0.3",
@@ -20,12 +22,14 @@
     "next-i18next": "^15.2.0",
     "next-intl": "^3.9.4",
     "next-translations": "^8.6.1",
+    "primereact": "^10.8.2",
     "react": "^18",
     "react-dom": "^18",
     "react-intl": "^6.6.2",
     "react-type-animation": "^3.2.0",
     "resend": "^3.2.0",
-    "sass": "^1.70.0"
+    "sass": "^1.70.0",
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
     "@types/node": "20.11.19",

@@ -1,49 +1,47 @@
 "use client";
-import React, {useRef, useState, useEffect} from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "next-translations/hooks";
 import { namespaces } from "../../translations.config";
+import TextArrow from "../smallComponents/TextArrow";
+import ImageWithBorder from "../smallComponents/ImageWithBorder";
 
 const AboutSection = () => {
-    const [height, setHeight] = useState(0);
-    const [width, setWidth] = useState(0);
-    const refHeight = useRef(null);
-    const refWidth = useRef(null);
+  const [height, setHeight] = useState(0);
+  const [, setWidth] = useState(0);
+  const refSize = useRef(null);
 
-    const { tString } = useTranslation(namespaces.common);
+  const { tString } = useTranslation(namespaces.common);
 
-    useEffect(() => {
-      setWidth(refWidth.current.clientWidth)
-      setHeight(refHeight.current.clientHeight)
-    },[])
+  useEffect(() => {
+    setWidth(refSize.current.clientWidth)
+    setHeight(refSize.current.clientHeight)
+  }, [])
 
   return (
-    <section ref={refWidth} className="about-me-section lg:h-lvh lg:py-16 max-w-screen-2xl" id="about">
-      <div className="bg" style={{height:`${width <= '1025' ? height + 'px' : '100vh'}`}}></div>
+    <section ref={refSize} className="about-me-section lg:pt-16 max-w-screen-2xl lg:px-16 3xl:px-0 xl:h-[932px]  mx-auto flex flex-col" id="about">
+      <div className="bg" style={{ height: `${height}px` }}></div>
       <motion.div
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
         className="flex justify-center"
       >
-        <div ref={refHeight} className="flex flex-col	 lg:grid gap-8 lg:grid-cols-2 items-center py-8 px-4 lg:gap-16 lg:px-16 about-me-section-wrapper">
-          <div className="justify-center text-3xl md:text-5xl items-center lg:items-start text-center gap-4 mt-4  lg:text-left flex flex-col h-full">
-            <h2 className="about-me-header text-[#171717] mb-4">{tString('about.header')}</h2>
-            <p className="about-me-info text-[#171717] text-sm lg:px-0 sm:px-16 md:text-xl">
-            {tString('about.info')}
-            </p>
+        <div className="flex flex-col	 lg:grid gap-8 lg:grid-cols-2 items-center pt-8 lg:py-0 px-4 lg:gap-0 lg:px-0 about-me-section-wrapper text-[#171717]">
+          <div className="justify-center md:text-5xl text-4xl items-center lg:items-start text-center gap-4 lg:gap-16 mt-4 xl:pr-[96px]  lg:text-left flex flex-col h-full">
+            <h2 className="font-thin md:text-custom-85">{tString('about.header')}</h2>
+            <h4 className=" lg:px-0 lg:w-[500px] sm:px-16 md:text-[24px] text-base text-left mundial-font">
+              {tString('about.info')}
+            </h4>
+            <TextArrow
+              buttonText={tString('about.button')}
+              iconName={'arrow_right_alt'}
+              path={'https://www.instagram.com/jofi_studio/reels/'}
+            />
           </div>
-          <div className="image-section">
-            <div className="image-section-left">
-              <img src="/images/aboutMe03.png" className=" w-336 h-536" />
-            </div>
-            <div className="image-section-right">
-              <img src="/images/aboutMe02.png" className=" w-336 h-271" />
-              <img src="/images/aboutMe01.png" className=" w-336 h-382" />
-            </div>
-          </div>
+          <ImageWithBorder />
         </div>
       </motion.div>
-    </section>
+    </section >
   );
 };
 
