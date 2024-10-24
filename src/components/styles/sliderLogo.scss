@@ -1,13 +1,32 @@
 .p-carousel-item {
   position: relative;
+
   div {
     top: 50%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
   }
 }
 
 .p-carousel-items-container {
   height: 200px;
+}
+
+.p-carousel-next {
+  padding-left: 50px;
+}
+
+.p-carousel-prev {
+  padding-right: 50px;
+}
+
+@media (max-width: 420px) {
+  .p-carousel-next {
+    padding-left: 10px;
+  }
+
+  .p-carousel-prev {
+    padding-right: 10px;
+  }
 }

@@ -72,7 +72,7 @@ const InteriorOffer = () => {
         <div className="flex flex-col justify-center lg:grid-cols-1 items-center lg:gap-72 mx-auto">
           <h5 className="font-bold text-4xl h-[80px] xl:text-[39px] mb-4">{tString('interiorOffer.header2')}</h5>
         </div>
-        <div className="flex flex-col lg:grid lg:grid-cols-2 items-center lg:gap-72 mx-auto">
+        <div className="flex flex-col lg:grid lg:grid-cols-2 items-center lg:gap-72 mx-auto 3xl:pb-[100px]">
           <div className="flex flex-col lg:grid lg:grid-cols-1 items-center pl-4 pr-4 lg:pl-16 text-[#171717]">
             <div className="justify-start md:text-5xl text-4xl items-center gap-4 lg:items-start text-center mt-4 lg:text-left flex flex-col h-full lg:h-[280px]">
               <ul className=" max-w-[650px] gap-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">

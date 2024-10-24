@@ -57,6 +57,7 @@ h3 {
 
 h4 {
     font-family: 'PPHatton-light';
+    line-height: 32px !important;
 }
 
 h5 {
@@ -111,6 +112,9 @@ li {
 }
 .mundial-Light-font {
     font-family: 'mundial-Light' !important;
+}
+.hatton-light {
+    font-family: 'PPHatton-light';
 }
 
 .mundial-font {

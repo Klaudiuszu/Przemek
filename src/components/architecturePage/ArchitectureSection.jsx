@@ -11,7 +11,7 @@ const ArchitectureSection = () => {
   return (
     <section
       id="architecture"
-      className="flex justify-center align-center lg:pt-16 max-w-screen-2xl relative"
+      className="flex justify-center align-center 3xl:pt-[200px] max-w-screen-2xl relative"
     >
       <motion.div
         whileInView={{ opacity: [0, 1] }}
