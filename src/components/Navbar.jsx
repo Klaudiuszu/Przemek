@@ -63,25 +63,27 @@ const Navbar = () => {
 
   return (
     <nav className="navbar absolute mx-auto top-0 left-0 right-1 z-10">
-      <div className="flex max-w-screen-2xl items-baseline xl:items-center max-w-sc min-w-72 flex-wrap justify-between mx-auto px-4 xl:px-0 py-2 relative">
+      <div className="flex max-w-screen-2xl items-baseline xl:items-center max-w-sc min-w-72 flex-wrap justify-between mx-auto px-4 xl:px-[16px] 2xl:px-[0] py-2 relative ">
         <div className="flex w-screen items-center">
           <div className="flex-1 flex items-center xl:justify-start justify-start relative">
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center py-2 rounded text-slate-200 navbar-button gap-2"
+              className="flex items-center py-2 rounded text-slate-200 navbar-button gap-2 relative top-[2px]"
             >
-              <Bars3Icon className="h-[39px] w-10 z-10 relative bottom-[2px]" />
+              <Bars3Icon className="h-[39px] w-8 z-10 relative bottom-[2px]" />
               <label className="hidden lg:block text-center relative mundial-light font-bold text-[22px]  mundial-font">
                 MENU
               </label>
             </button>
           </div>
-          <div className="flex-1 flex items-center justify-center">
+          <div className="flex-1 flex items-center justify-center pl-2">
+            <a href={`/${language}/`}>
             <img src="/images/logo.svg" className=" w-136 h-[37px]" />
+            </a>
           </div>
           <Link 
             href={`/${language}/#contact`}
-            className="flex-1 flex text-end h-full items-end md:flex xs:hidden justify-end lg:block relative top-1 cursor-pointer mundial-font text-[22px] font-semibold"
+            className="flex-1 flex text-end h-full items-end md:flex xs:hidden justify-end lg:block relative top-1 cursor-pointer mundial-font text-[22px] font-semibold pb-[6px]"
             style={{ textTransform: 'uppercase' }}
           >
               {tString('navbar.consultation')}

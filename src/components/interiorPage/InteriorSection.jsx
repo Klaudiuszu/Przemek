@@ -11,7 +11,7 @@ const InteriorSection = () => {
   return (
     <section
       id="interior"
-      className="flex justify-center items-center pt-24 lg:pt-16 max-w-screen-2xl xl:max-w-sc relative bg-cover h-auto lg:h-[150vh] 2xl:h-[100vh] lg:mt-[149px] xl:bg-[url('/images/interiorImage.png')] bg-no-repeat bg-bottom ]"
+      className="flex justify-center items-center pt-24 lg:pt-16 max-w-screen-2xl xl:max-w-sc relative bg-cover h-auto lg:h-[150vh] 2xl:h-[100vh] lg:mt-[149px] xl:bg-[url('/images/interiorImage.png')] bg-no-repeat bg-bottom ] 3xl:mt-[200px]"
     >
       <motion.div
         whileInView={{ opacity: [0, 1] }}

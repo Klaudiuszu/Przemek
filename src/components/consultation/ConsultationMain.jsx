@@ -26,7 +26,7 @@ const ConsultationMain = () => {
                     <h2 className="xl:text-custom-85 text-custom-36 pt-20 sm:pt-0 text-center h-[80px]">
                         {tString('email.header')}
                     </h2>
-                <div className="flex flex-col lg:grid lg:grid-cols-2 items-center pt-20 pb-8 lg:gap-y-0 mx-auto mt-10">
+                <div className="flex flex-col lg:grid lg:grid-cols-2 items-center pt-20 pb-8 lg:gap-y-0 mx-auto mt-10 3xl:pt-0">
                     <div className="flex flex-col lg:grid lg:grid-cols-1 items-center pb-8 pl-4 pr-4 lg:pl-16 text-[#171717]">
                         <div className="justify-center md:text-5xl text-4xl items-stretch gap-4 text-center mt-4 lg:text-left flex flex-col h-full lg:h-[500px]">
                             <ul className=" max-w-[650px] gap-y-4 flex flex-col lg:px-0 text-left sm:px-16 md:text-[24px] text-base lg:text-left">

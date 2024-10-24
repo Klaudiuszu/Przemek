@@ -3,8 +3,9 @@ import Navbar from "../../src/components/Navbar";
 import { getTranslationsProps } from "next-translations";
 import { namespaces } from '../../src/constants/namespaces';
 import CookiesConsent from "../../src/components/CookiesConsent";
-import ConsultationEl from "../../src/components/architecturePage/Consultation";
+// import ConsultationEl from "../../src/components/architecturePage/Consultation";
 import ConsultationMain from "../../src/components/consultation/ConsultationMain";
+import EmailSection from "../../src/components/EmailSection";
 
 export { getStaticPaths } from "next-translations";
 
@@ -15,7 +16,8 @@ export default function Consultation() {
       <Navbar />
       <main className='flex min-h-screen flex-col items-center justify-between xs:w xl:px-24 my-12'>
         <ConsultationMain />
-        <ConsultationEl />
+        <EmailSection />
+        {/* <ConsultationEl /> */}
       </main>
       <CookiesConsent />
       <Footer />
