@@ -26,7 +26,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/context/LanguageContext.jsx", "src/components/cookiesPolicy/CookiesPolicyContent.jsx"  ],
+, "src/context/LanguageContext.tsx", "src/components/cookiesPolicy/CookiesPolicyContent.jsx"  ],
   "exclude": [
     "node_modules"
   ]
