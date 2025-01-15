@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -41,98 +42,11 @@ a {
 }
 
 body {
-    font-family: 'PPHatton-Mendium';
+    font-family: "Rammetto One", serif;
 }
 
-h2 {
-    font-family: 'PPHatton-Light';
-    text-transform: uppercase;
-}
-
-h3 {
-    font-family: 'PPHatton-Light';
-    text-transform: uppercase;
-    font-size: 28px;
-}
-
-h4 {
-    font-family: 'PPHatton-light';
-    line-height: 32px !important;
-}
-
-h5 {
-    font-family: 'PPHatton-medium';
-    font-size: 39px;
-}
-
-h6 {
-    font-family: 'PPHatton-Light';
-    font-size: 24px;
-    color: rgb(0, 0, 0);
-
-}
-
-p,
-li {
-    font-family: 'PPHatton-light';
-    color: rgb(0, 0, 0);
-}
-
-.textButtonWrapper {
-    transition: 0.3s;
-}
-
-.textButton {
-    font-size: 22px;
-    border-bottom: 2px solid;
-    line-height: 25px;
-}
-
-.textButtonWrapper:hover {
-    color: #990000;
-}
-
-.bg {
-    position: absolute;
-    z-index: -2;
-    width: 100%;
-}
-
-.Rectangle-1469 {
-    width: 8px;
-    height: 8px;
-    flex-grow: 0;
-    transform: rotate(-315deg);
-    background-color: #000;
-}
-
-.mundial-Light {
-    font-family: 'mundial-Light';
-    font-size: 26px;
-}
-.mundial-Light-font {
-    font-family: 'mundial-Light' !important;
-}
-.hatton-light {
-    font-family: 'PPHatton-light';
-}
-
-.mundial-font {
-    font-family: 'mundial-Light';
-}
-
-.mundial-Bold {
-    font-family: 'mundial-Bold';
-}
-
-.p-dialog-mask {
-    background-color: rgba(0, 0, 0, 0.4);
-    transition: opacity 0.5s ease-in;
-}
-
-
-/* new */
-
-.link {
-    font-family: 'mundial-Bold';
-}
+.rammetto-one-regular {
+    font-family: "Rammetto One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }

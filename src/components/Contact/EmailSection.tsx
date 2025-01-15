@@ -2,7 +2,7 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "next-translations/hooks";
-import { namespaces } from "../../translations.config";
+import { namespaces } from "../../../translations.config";
 import emailjs from '@emailjs/browser';
 
 const EmailSection = () => {

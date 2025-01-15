@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useTranslation } from "next-translations/hooks";
-import { namespaces } from "../../../translations.config";
+import { namespaces } from "../../../../translations.config";
 
 const CookiesPolicyComponent = () => {
 

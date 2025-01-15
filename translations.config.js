@@ -1,9 +1,5 @@
 const namespaces = {
     common: "common",
-    architecture: "architecutre",
-    interior: "interior",
-    consulting: "consulting",
-    cookiesPolicy: "cookiesPolicy",
     // errors: "errors",
 };
 

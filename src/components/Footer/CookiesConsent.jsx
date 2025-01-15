@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Dialog } from 'primereact/dialog';
 import { useTranslation } from "next-translations/hooks";
-import { namespaces } from "../../translations.config";
-import { useLanguage } from '../hooks/useLanguage';
+import { namespaces } from "../../../translations.config";
+import { useLanguage } from '../../hooks/useLanguage';
 import { useRouter } from 'next/router';
 import Cookies from 'js-cookie';
 
