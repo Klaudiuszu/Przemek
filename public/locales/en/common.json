@@ -3,5 +3,10 @@
         "navA": "Who we are",
         "navB": "Offer",
         "navC": "Contact"
+       },
+       "pizzaHamburgerMenu": {
+        "navA": "Who we are",
+        "navB": "Offer",
+        "navC": "Contact"
        }
 }

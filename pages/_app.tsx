@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import LanguageContextProvider from '../src/context/LanguageContext';
+import '../src/components/styles/all.scss';
 
 import { initializeTranslations } from "next-translations/hooks"; 
 

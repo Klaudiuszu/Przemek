@@ -1,8 +1,8 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import { useTranslation } from "next-translations/hooks";
-import { namespaces } from "../../translations.config";
-import { useLanguage } from "../hooks/useLanguage";
+import { namespaces } from "../../../translations.config";
+import { useLanguage } from "../../hooks/useLanguage";
 import { useRouter } from 'next/router';
 
 const Footer = () => {

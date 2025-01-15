@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { namespaces } from "../../../translations.config";
+import { namespaces } from "../../../../translations.config";
 import { useTranslation } from "next-translations/hooks";
 
 const InformationObligationDashboard = () => {
