@@ -4,6 +4,10 @@
         "navB": "Oferta",
         "navC": "Kontakt"
     },
+    "firstSection": {
+        "welcomeText": "Serdecznie witamy!",
+        "detailsText": "Zapraszamy po więcej szczegółów"
+    },
     "pizzaHamburgerMenu": {
         "navA": "Kim Jesteśmy",
         "navB": "Oferta",

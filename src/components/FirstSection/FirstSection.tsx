@@ -3,9 +3,12 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Heading from "../UI/Heading";
+import { useTranslation } from "next-translations/hooks";
+import { namespaces } from "../../../translations.config";
 
 const FirstSection: React.FC = () => {
   const [isTextVisible, setIsTextVisible] = useState(true);
+  const { tString } = useTranslation(namespaces.common);
 
   useEffect(() => {
     const textTimer = setTimeout(() => {
@@ -35,7 +38,7 @@ const FirstSection: React.FC = () => {
           className="text-center"
         >
           <Heading isWhite className="text-4xl md:text-5xl">
-            Serdecznie witamy!
+            {tString("firstSection.welcomeText")}
           </Heading>
         </motion.div>
         <motion.div
@@ -50,7 +53,7 @@ const FirstSection: React.FC = () => {
             transition={{ duration: 1, delay: 1 }}
             className="text-white text-4xl text-center font-bold"
           >
-            Zapraszamy po więcej szczegółów
+            {tString("firstSection.detailsText")}
           </motion.p>
           <motion.div
             animate={{
