@@ -15,6 +15,7 @@ module.exports = {
         darkRed: "#9E2A2B",
         textDark: "#4F1D00",
         success: "#2E7D32",
+        orange: "#EC4613",
       },
       fontSize: {
         heading: "36px",
