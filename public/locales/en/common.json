@@ -1,12 +1,52 @@
 {
     "navbar": {
-        "navA": "Who we are",
-        "navB": "Offer",
-        "navC": "Contact"
-       },
-       "pizzaHamburgerMenu": {
-        "navA": "Who we are",
-        "navB": "Offer",
-        "navC": "Contact"
-       }
-}
+      "navA": "Who We Are",
+      "navB": "Offer",
+      "navC": "Contact"
+    },
+    "firstSection": {
+      "welcomeText": "Welcome!",
+      "detailsText": "We invite you for more details"
+    },
+    "pizzaHamburgerMenu": {
+      "navA": "Who We Are",
+      "navB": "Offer",
+      "navC": "Contact"
+    },
+    "testimonials": {
+      "header": "What You Say About Us!",
+      "opinion1": "The pizza was delicious! At the party, they served us 50 slices, and it turned out great, we highly recommend it!",
+      "opinion2": "Everything was perfect! The service was top-notch, and the pizza was a real highlight of the evening. I wholeheartedly recommend it!",
+      "opinion3": "The service was very friendly, and the food was fantastic! We will definitely be back!"
+    },
+    "email": {
+      "header": "Order Pizza or Contact Us!",
+      "info": "Got questions? Want to order pizza for a birthday / bachelorette / bachelor party or just for a get-together? Fill out the form, and we'll get in touch with you!",
+      "step0": "It's as easy as our pizza!",
+      "step0A": "What do you need to do?",
+      "step1": "Provide your name and email so we can contact you.",
+      "step2": "Write what you need – order, question, special request.",
+      "step3": "Click 'Send' and wait for our team’s response!",
+      "name": "Your Name",
+      "email": "Your Email",
+      "text": "Your Message",
+      "send": "Send Message",
+      "sent-mail": "✅ Message sent! We will contact you as soon as possible."
+    },
+    "footer": {
+      "col2Header": "Contact",
+      "col2NumberMikolaj": "+48 507 802 746",
+      "col3Map": "View on the map",
+      "col4Header": "Quick Access",
+      "col4Item1": "About Us",
+      "col4Item2": "Offer",
+      "col4Item3": "Contact",
+      "col4Item4": "FAQ",
+      "col4Media": "Media",
+      "politics": "Privacy Policy",
+      "cookies": "Cookies Policy",
+      "obligation": "Information Obligation",
+      "form": "Form Regulations"
+    }
+  }
+  

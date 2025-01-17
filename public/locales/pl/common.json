@@ -3,10 +3,49 @@
         "navA": "Kim Jesteśmy",
         "navB": "Oferta",
         "navC": "Kontakt"
-       },
-       "pizzaHamburgerMenu": {
+    },
+    "firstSection": {
+        "welcomeText": "Serdecznie witamy!",
+        "detailsText": "Zapraszamy po więcej szczegółów"
+    },
+    "pizzaHamburgerMenu": {
         "navA": "Kim Jesteśmy",
         "navB": "Oferta",
         "navC": "Kontakt"
-       }
+    },
+    "testimonials": {
+        "header": "Mówicie o nas!",
+        "opinion1": "Pizza była przepyszna! Na imprezie serwowali nam 50 kawałków i wyszło znakomicie, polecamy!",
+        "opinion2": "Wszystko idealnie! Obsługa na najwyższym poziomie, a pizza była prawdziwą atrakcją wieczoru. Polecam z całego serca!",
+        "opinion3": "Obsługa była bardzo miła, a jedzenie fantastyczne! Wrócimy na pewno!"
+    },
+    "email": {
+        "header": "Zamów Pizzę lub Skontaktuj się!",
+        "info": "Masz pytania? Chcesz zamówić pizzę na urodziny / pańienskie / kawalerskie lub po prostu na imprezę? Wypełnij formularz, a my się z Tobą skontaktujemy!",
+        "step0": "To proste jak nasza pizza!",
+        "step0A": "Co musisz zrobić?",
+        "step1": "Podaj swoje imię i e-mail, żebyśmy mogli się z Tobą skontaktować.",
+        "step2": "Napisz, czego potrzebujesz – zamówienie, pytanie, specjalne życzenia.",
+        "step3": "Kliknij 'Wyślij' i poczekaj na odpowiedź naszego zespołu!",
+        "name": "Twoje imię",
+        "email": "Twój e-mail",
+        "text": "Twoja wiadomość",
+        "send": "Wyślij Wiadomość",
+        "sent-mail": "✅ Wiadomość wysłana! Skontaktujemy się jak najszybciej."
+    },
+    "footer": {
+        "col2Header": "Kontakt",
+        "col2NumberMikolaj": "+48 507 802 746",
+        "col3Map": "Zobacz na mapie",
+        "col4Header": "Szybki dostęp",
+        "col4Item1": "O nas",
+        "col4Item2": "Oferta",
+        "col4Item3": "Kontakt",
+        "col4Item4": "FAQ",
+        "col4Media": "Media",
+        "politics": "Polityka prywatności",
+        "cookies": "Polityka cookies",
+        "obligation": "Obowiązek informacyjny",
+        "form": "Regulamin formularza"
+    }
 }
