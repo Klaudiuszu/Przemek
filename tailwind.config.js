@@ -7,39 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: "#C62828",
+        background: "#FAE5C3",
+        footerBg: "#F6EBE7",
+        accent: "#FA8C3C",
+        darkRed: "#9E2A2B",
+        textDark: "#4F1D00",
+        success: "#2E7D32",
       },
       fontSize: {
-        'custom-85': '85px',
-        'custom-36': '36px',
-      },
-      maxWidth: {
-        'screen-2xl': '1440px',
+        heading: "36px",
+        subheading: "24px",
+        body: "1rem", // 16px
       },
     },
-    screens: {
-      'xs': '320px',
-      // => @media (min-width: 640px) { ... }
-      'sm': '640px',
-      // => @media (min-width: 640px) { ... }
-
-      'md': '768px',
-      // => @media (min-width: 768px) { ... }
-
-      'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
-
-      '2xl': '1536px',
-      // => @media (min-width: 1536px) { ... }
-      '3xl': '1920px',
-      // => @media (min-width: 1536px) { ... }
-    }
   },
   plugins: [],
 };

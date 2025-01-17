@@ -1,9 +1,10 @@
-// import Footer from "../../src/components/Footer";
+import Footer from "../../src/components/Footer/Footer";
 import Navbar from "../../src/components/Navbar/Navbar";
 import { getTranslationsProps } from "next-translations";
 import { namespaces } from '../../src/constants/namespaces';
 import FirstSection from "../../src/components/FirstSection/FirstSection";
 import SecondSection from "../../src/components/SecondSection/SecondSection";
+import EmailSection from "../../src/components/Contact/EmailSection";
 // import CookiesConsent from "../../src/components/CookiesConsent";
 // import EmailSection from "../../src/components/EmailSection";
 
@@ -17,6 +18,8 @@ export default function Home() {
       <Navbar />
       <FirstSection />
       <SecondSection />
+      <EmailSection />
+      <Footer />
     </div>
   );
 }

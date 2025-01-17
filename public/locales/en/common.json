@@ -8,5 +8,12 @@
         "navA": "Who we are",
         "navB": "Offer",
         "navC": "Contact"
-       }
+       },
+        "testimonials": {
+        "header": "They talk about us!",
+        "opinion1": "The pizza was delicious! At the party, they served us 50 slices, and it turned out perfectly. We highly recommend it!",
+        "opinion2": "Everything was perfect! The service was top-notch, and the pizza was the highlight of the evening. Highly recommended!",
+        "opinion3": "The service was very friendly, and the food was fantastic! We will definitely come back!"
+        }
+
 }
