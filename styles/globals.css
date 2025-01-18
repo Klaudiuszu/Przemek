@@ -50,3 +50,7 @@ body {
     font-weight: 400;
     font-style: normal;
   }
+
+  .custom-dialog-mask {
+    background: rgba(0, 0, 0, 0.5) !important;
+  }
