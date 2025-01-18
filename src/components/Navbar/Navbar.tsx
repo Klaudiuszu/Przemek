@@ -26,7 +26,7 @@ const Navbar = () => {
         {/* Center: Logo - with flex-grow */}
         <div className="flex-grow-0 flex-shrink-0 md:w-auto flex justify-center">
           <Link href={`/${language}/`}>
-            <img src="/images/Navbar/logo.png" alt="Logo" className="h-20 max-w-full" />
+            <img src="/images/logo.png" alt="Logo" className="h-20 max-w-full" />
           </Link>
         </div>
 
