@@ -27,7 +27,7 @@ const FirstSection: React.FC = () => {
     <section
       className="w-full h-screen bg-cover bg-center relative z-0 overflow-hidden"
       style={{
-        backgroundImage: `url('/images/firstSection/firstSection.jpg')`,
+        backgroundImage: `url('/images/firstSection.jpg')`,
       }}
     >
 

@@ -13,14 +13,16 @@ export { getStaticPaths } from "next-translations";
 export default function Home() {
 
   return (
+    <>
+      <CookieConsent />
     <div className="w-100vw">
       <Navbar />
       <FirstSection />
       <SecondSection />
       <EmailSection />
       <Footer />
-      <CookieConsent />
     </div>
+    </>
   );
 }
 

@@ -50,9 +50,6 @@ const SecondSection: React.FC = () => {
           className="text-center mb-12"
         >
           <h2 className="text-4xl font-bold text-orange-900">{tString("testimonials.header")}</h2>
-          <p className="text-lg text-orange-700 max-w-[900px] mx-auto">
-            {tString("testimonials.intro")}
-          </p>
         </motion.div>
         <div className="flex flex-wrap justify-center gap-10 md:gap-8 px-4">
         {testimonialsData.slice(0, maxTestimonials).map((testimonial) => (

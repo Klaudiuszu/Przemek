@@ -62,7 +62,6 @@ const CookieConsent: React.FC<CookieConsentProps> = () => {
                 resizable={false}
                 position="bottom"
                 onHide={() => setVisible(false)}
-                style={{ width: '100%' }}
                 className="bg-[#f1f1f1] px-5 pt-5 flex m-0 gap-8"
                 footer={
                     <div className="flex flex-col md:flex-row py-4 gap-4">
