@@ -20,16 +20,16 @@
         "opinion3": "Obsługa była bardzo miła, a jedzenie fantastyczne! Wrócimy na pewno!"
     },
     "email": {
-        "header": "Zamów Pizzę lub Skontaktuj się!",
+        "header": "Pogadajmy",
         "info": "Masz pytania? Chcesz zamówić pizzę na urodziny / pańienskie / kawalerskie lub po prostu na imprezę? Wypełnij formularz, a my się z Tobą skontaktujemy!",
         "step0": "To proste jak nasza pizza!",
         "step0A": "Co musisz zrobić?",
         "step1": "Podaj swoje imię i e-mail, żebyśmy mogli się z Tobą skontaktować.",
         "step2": "Napisz, czego potrzebujesz – zamówienie, pytanie, specjalne życzenia.",
         "step3": "Kliknij 'Wyślij' i poczekaj na odpowiedź naszego zespołu!",
-        "name": "Twoje imię",
-        "email": "Twój e-mail",
-        "text": "Twoja wiadomość",
+        "name": "Twoje imię...",
+        "email": "Twój e-mail...",
+        "text": "Twoja wiadomość...",
         "send": "Wyślij Wiadomość",
         "sent-mail": "✅ Wiadomość wysłana! Skontaktujemy się jak najszybciej."
     },
