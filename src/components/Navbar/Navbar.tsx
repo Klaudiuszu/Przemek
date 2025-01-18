@@ -19,18 +19,14 @@ const Navbar = () => {
   return (
     <nav className="absolute top-0 left-0 right-0 z-10 w-full bg-[#F6EBE7]">
       <div className="flex items-center max-w-7xl mx-auto px-4 py-2 justify-between">
-        {/* Left side: Language Toggle */}
         <div className="flex-1 flex justify-start">
           <LanguageToggle isHidden={true} />
         </div>
-        {/* Center: Logo - with flex-grow */}
         <div className="flex-grow-0 flex-shrink-0 md:w-auto flex justify-center">
           <Link href={`/${language}/`}>
-            <img src="/images/Logo.png" alt="Logo" className="h-20 max-w-full" />
+          <img src="/images/logo.png" alt="Logo" className="h-20 max-w-full" />
           </Link>
         </div>
-
-        {/* Right side: Links */}
         <div className="flex flex-1 justify-end">
           <div className="hidden xl:flex gap-6 text-2xl flex-nowrap items-center justify-end relative top-2 mundial-Bold">
             {navLinks.map((link, index) => (
@@ -43,16 +39,12 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-
-          {/* Mobile Menu Button */}
           <div className="xl:hidden">
             <PizzaHamburgerMenu />
           </div>
         </div>
       </div>
     </nav>
-
-
   );
 };
 

@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="max-w-screen-2xl mx-auto px-4 flex flex-col gap-12">
                 <div className="flex flex-col gap-8 md:flex-row md:justify-between items-center">
                     <div className="flex justify-center md:justify-start">
-                        <img src="/images/OnlyLogo.png" alt="Logo" className="md:h-24" />
+                        <img src="/images/OnlyLogo.png" alt="Logo" className="md:h-24 h-28" />
                     </div>
                     <div className="flex flex-col items-center md:items-start text-center md:text-left">
                         <SubHeading>{tString("footer.col2Header")}</SubHeading>
