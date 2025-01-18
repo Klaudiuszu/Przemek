@@ -16,7 +16,7 @@ const Footer = () => {
 
     return (
         <footer className="w-full bg-footerBg text-primary py-12">
-            <div className="max-w-screen-2xl mx-auto px-6 flex flex-col gap-12">
+            <div className="max-w-screen-2xl mx-auto px-4 flex flex-col gap-12">
                 <div className="flex flex-col gap-8 md:flex-row md:justify-between items-center">
                     <div className="flex justify-center md:justify-start">
                         <img src="/images/OnlyLogo.png" alt="Logo" className="w-32 md:w-40" />
@@ -35,7 +35,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="border-t border-[#9E2A2B] pt-6 flex flex-col md:flex-row text-sm text-center md:text-left justify-center">
+                <div className="border-t border-[#9E2A2B] pt-12 flex flex-col md:flex-row text-sm text-center md:text-left justify-center">
                     <div className="flex flex-wrap justify-center gap-4 mt-2 md:mt-0">
                         {[
                             { text: "footer.politics", path: "PrivacyPolicy" },

@@ -24,8 +24,8 @@ const EmailSection = () => {
   };
 
   return (
-    <section className="w-full bg-background py-12">
-      <div className="max-w-screen-2xl mx-auto px-6">
+    <section className="w-full bg-background pb-12 pt-24">
+      <div className="max-w-screen-2xl mx-auto px-4">
         <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }}>
           <div className="text-center mb-12 flex flex-col gap-12 justify-center items-center">
             <Heading>{tString("email.header")}</Heading>
@@ -41,7 +41,7 @@ const EmailSection = () => {
                 <li className="flex items-center">{tString("email.step3")}</li>
               </ul>
             </div>
-            <div className="flex-1 p-0 xl:p-6 rounded-lg flex flex-col">
+            <div className="flex-1 p-0 rounded-lg flex flex-col">
               {emailSubmitted ? (
                 <h3 className="text-subheading text-success font-semibold text-center flex-1 flex items-center justify-center">
                   {tString("email.sent-mail")}
@@ -53,19 +53,19 @@ const EmailSection = () => {
                     type="text"
                     required
                     placeholder={tString("email.name")}
-                    className="p-3 bg-background text-textDark rounded-md border border-darkRed focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="p-3 bg-background text-textDark rounded-md border border-darkRed focus:outline-none  focus:ring-primary placeholder-darkRed placeholder:opacity-20"
                   />
                   <input
                     name="user_email"
                     type="email"
                     required
                     placeholder={tString("email.email")}
-                    className="p-3 bg-background text-textDark rounded-md border border-darkRed focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="p-3 bg-background text-textDark rounded-md border border-darkRed focus:outline-none placeholder-darkRed placeholder:opacity-20"
                   />
                   <textarea
                     name="message"
                     placeholder={tString("email.text")}
-                    className="p-3 h-28 bg-background text-textDark rounded-md border border-darkRed focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="p-3 h-28 bg-background text-textDark rounded-md border border-darkRed focus:outline-none placeholder-darkRed placeholder:opacity-20"
                   />
                   <button
                     type="submit"

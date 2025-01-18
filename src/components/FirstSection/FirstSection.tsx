@@ -24,12 +24,13 @@ const FirstSection: React.FC = () => {
   }, []);
 
   return (
-    <div
-      className="w-full h-screen bg-cover bg-center relative"
+    <section
+      className="w-full h-screen bg-cover bg-center relative z-0 overflow-hidden"
       style={{
         backgroundImage: `url('/images/firstSection/firstSection.jpg')`,
       }}
     >
+
       <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center space-y-4">
         <motion.div
           initial={{ opacity: 0 }}
@@ -70,7 +71,7 @@ const FirstSection: React.FC = () => {
           </motion.div>
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="flex items-center max-w-7xl mx-auto px-4 py-2 justify-between">
         {/* Left side: Language Toggle */}
         <div className="flex-1 flex justify-start">
-        <LanguageToggle  isHidden={true}/>
+          <LanguageToggle isHidden={true} />
         </div>
         {/* Center: Logo - with flex-grow */}
         <div className="flex-grow-0 flex-shrink-0 md:w-auto flex justify-center">
@@ -45,7 +45,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="xl:hidden fixed top-0 right-0 bg-white h-screen">
+          <div className="xl:hidden">
             <PizzaHamburgerMenu />
           </div>
         </div>

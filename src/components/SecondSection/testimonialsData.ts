@@ -24,4 +24,22 @@ export const testimonialsData: Testimonial[] = [
     date: '22.01.2024',
     textKey: "testimonials.opinion3",
   },
+  {
+    id: 3,
+    name: 'Krystyna',
+    date: '22.01.2024',
+    textKey: "testimonials.opinion3",
+  },
+  {
+    id: 3,
+    name: 'Krystyna',
+    date: '22.01.2024',
+    textKey: "testimonials.opinion3",
+  },
+  {
+    id: 3,
+    name: 'Krystyna',
+    date: '22.01.2024',
+    textKey: "testimonials.opinion3",
+  },
 ];

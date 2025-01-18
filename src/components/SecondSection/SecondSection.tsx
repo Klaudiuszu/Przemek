@@ -1,86 +1,93 @@
-import React, { useRef, useEffect } from "react";
-import Testimonials from "./Testimonials";
+import React, { useEffect, useState } from "react";
+import Wave from "react-wavify";
+import { testimonialsData } from "./testimonialsData";
+import { useTranslation } from "next-translations/hooks";
+import { motion } from "framer-motion";
+import { namespaces } from "../../../translations.config";
 
 const SecondSection: React.FC = () => {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
-  const speedIncRef = useRef<number>(0);
-  const params = {
-    AMPLITUDE: 80,
-    OFFSET_SPEED: 150,
-    SPEED: 0.01,
-    OFFSET_PARABOLA: 300,
-    NUMBER_PARABOLAS: 5,
-    COLOR: '#EC4613',
-    NUMBER_CURVES: 10,
-  };
+  const { tString } = useTranslation(namespaces.common);
 
-  const hexToRgb = (hex: string) => {
-    const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-    return result ? {
-      r: parseInt(result[1], 16),
-      g: parseInt(result[2], 16),
-      b: parseInt(result[3], 16),
-    } : null;
-  };
+  const [windowWidth, setWindowWidth] = useState(0);
+  const [isClient, setIsClient] = useState(false);
+
+  const maxTestimonials = windowWidth < 1280 ? 3 : testimonialsData.length;
 
   useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
-
-    const ctx = canvas.getContext('2d');
-    if (!ctx) return;
-
-    const resizeCanvas = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = 1900;
+    setIsClient(true);
+    
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
     };
-    window.addEventListener('resize', resizeCanvas);
-    resizeCanvas();
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
-    const render = () => {
-      if (!ctx) return;
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-      const rgb = hexToRgb(params.COLOR)!;
-      const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
-
-      gradient.addColorStop(0, `rgb(${rgb.r}, ${rgb.g}, ${rgb.b})`);
-      gradient.addColorStop(1, `rgb(${rgb.r}, ${rgb.g}, ${rgb.b})`);
-
-      ctx.fillStyle = gradient;
-
-      for (let j = 0; j < params.NUMBER_PARABOLAS; j++) {
-        const offset = speedIncRef.current + j * Math.PI * params.OFFSET_PARABOLA;
-
-        ctx.beginPath();
-        ctx.moveTo(0, canvas.height / 2);
-        for (let i = 0; i <= canvas.width; i++) {
-          const y = params.AMPLITUDE * Math.pow(((i - canvas.width / 2) / (canvas.width / 2)), 2) + canvas.height / 2 + Math.sin(offset + i / params.OFFSET_SPEED) * params.AMPLITUDE;
-          ctx.lineTo(i, y);
-        }
-        ctx.lineTo(canvas.width, canvas.height);
-        ctx.lineTo(0, canvas.height);
-        ctx.closePath();
-        ctx.fill();
-      }
-
-      speedIncRef.current += params.SPEED;
-      requestAnimationFrame(render);
-    };
-
-
-    requestAnimationFrame(render);
-
-    return () => {
-      window.removeEventListener('resize', resizeCanvas);
-    };
-  }, [params]);
+  if (!isClient) {
+    return null;
+  }
 
   return (
-    <div className="relative mt-[-1100px] w-full flex justify-center">
-      <canvas ref={canvasRef} className="w-full">
-      </canvas>
-      <Testimonials />
+    <div className="relative w-full bottom-32 text-white">
+      <div className="absolute top-0 left-0 w-full">
+        <Wave
+          fill="#EC4613"
+          paused={false}
+          options={{
+            height: 50,
+            amplitude: 40,
+            speed: 0.2,
+            points: 4,
+          }}
+        />
+      </div>
+      <div className="relative w-full min-h-[500px] top-32 flex flex-col justify-center items-center z-1 bg-orange pb-16">
+        <motion.div
+          whileInView={{ opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-12"
+        >
+          <h2 className="text-4xl font-bold text-orange-900">{tString("testimonials.header")}</h2>
+          <p className="text-lg text-orange-700 max-w-[900px] mx-auto">
+            {tString("testimonials.intro")}
+          </p>
+        </motion.div>
+        <div className="flex flex-wrap justify-center gap-10 md:gap-8 px-4">
+        {testimonialsData.slice(0, maxTestimonials).map((testimonial) => (
+        <motion.div
+          key={testimonial.id}
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}
+          className="w-full sm:w-1/2 lg:w-1/3"
+        >
+          <div className="bg-orange-200 rounded-lg">
+            <p className="text-xl text-orange-900 font-semibold">
+              {testimonial.name}
+            </p>
+            <p className="text-sm text-orange-700">{testimonial.date}</p>
+            <p className="text-base text-orange-800 mt-4">
+              {tString(testimonial.textKey)}
+            </p>
+          </div>
+        </motion.div>
+      ))}
+        </div>
+      </div>
+      <div className="absolute bottom-[-250px] left-0 w-full">
+    <Wave
+      fill="#EC4613"
+      paused={false}
+      options={{
+        height: 50,
+        amplitude: 40,
+        speed: 0.2,
+        points: 4,
+      }}
+      style={{ transform: "rotate(180deg)" }} // Odwrócenie fali o 180°
+    />
+  </div>
     </div>
   );
 };
