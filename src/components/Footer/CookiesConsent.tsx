@@ -1,15 +1,17 @@
 import { useState, useEffect } from 'react';
-import { Dialog } from 'primereact/dialog';
 import { useTranslation } from "next-translations/hooks";
 import { namespaces } from "../../../translations.config";
 import { useLanguage } from '../../hooks/useLanguage';
 import { useRouter } from 'next/router';
 import Cookies from 'js-cookie';
+import { Dialog } from 'primereact/dialog';
 
-const CookieConsent = () => {
-    const [visible, setVisible] = useState(false);
-    const [analyticsCookies, setAnalyticsCookies] = useState(false);
-    const [settingsVisible, setSettingsVisible] = useState(false);
+interface CookieConsentProps { }
+
+const CookieConsent: React.FC<CookieConsentProps> = () => {
+    const [visible, setVisible] = useState<boolean>(false);
+    const [analyticsCookies, setAnalyticsCookies] = useState<boolean>(false);
+    const [settingsVisible, setSettingsVisible] = useState<boolean>(false);
     const { language } = useLanguage();
 
     const { tString } = useTranslation(namespaces.common);
@@ -92,7 +94,7 @@ const CookieConsent = () => {
                 }
             >
                 <p>
-                    {tString('cookiesCon.description')} <strong>www.jofistudio.pl</strong>{' '}
+                    {tString('cookiesCon.description')} <strong>www.piccka.pl</strong>{' '}
                     {tString('cookiesCon.description2')}{' '}
                     <a onClick={handleClick} className="cursor-pointer">
                         <u className="underline-offset-4 hover:text-stone-800">{tString('cookiesCon.privacyPolicy')}</u>

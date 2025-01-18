@@ -24,8 +24,8 @@ const EmailSection = () => {
   };
 
   return (
-    <section className="w-full bg-background py-12">
-      <div className="max-w-screen-2xl mx-auto px-6">
+    <section className="w-full bg-background pb-12 pt-24">
+      <div className="max-w-screen-2xl mx-auto px-4">
         <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }}>
           <div className="text-center mb-12 flex flex-col gap-12 justify-center items-center">
             <Heading>{tString("email.header")}</Heading>
