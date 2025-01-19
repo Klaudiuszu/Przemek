@@ -1,89 +1,116 @@
 {
   "navbar": {
-      "navA": "Who We Are",
-      "navB": "Offer",
-      "navC": "Contact"
+    "navA": "Who We Are",
+    "navB": "Offer",
+    "navC": "Contact"
   },
   "firstSection": {
-      "welcomeText": "Welcome!",
-      "detailsText": "Check out more details"
+    "welcomeText": "Welcome!",
+    "detailsText": "Check out more details"
   },
   "pizzaHamburgerMenu": {
-      "navA": "Who We Are",
-      "navB": "Offer",
-      "navC": "Contact"
+    "navA": "Who We Are",
+    "navB": "Offer",
+    "navC": "Contact"
   },
   "testimonials": {
-      "header": "You’re Talking About Us!",
-      "opinion1": "The pizza was delicious! They served us 50 slices at the party, and it turned out great, highly recommend!",
-      "opinion2": "Everything was perfect! The service was top-notch, and the pizza was the highlight of the evening. Highly recommend!",
-      "opinion3": "The staff was very friendly, and the food was fantastic! We will definitely be back!"
+    "header": "You’re Talking About Us!",
+    "opinion1": "The pizza was delicious! They served us 50 slices at the party, and it turned out great, highly recommend!",
+    "opinion2": "Everything was perfect! The service was top-notch, and the pizza was the highlight of the evening. Highly recommend!",
+    "opinion3": "The staff was very friendly, and the food was fantastic! We will definitely be back!"
   },
   "email": {
-      "header": "Let's Talk",
-      "info": "Have questions? Want to order pizza for a birthday, bachelorette/bachelor party, or just for a party? Fill out the form, and we’ll get back to you!",
-      "step0": "It’s as simple as our pizza!",
-      "step0A": "What do you need to do?",
-      "step1": "Provide your name and email so we can contact you.",
-      "step2": "Let us know what you need – an order, a question, special requests.",
-      "step3": "Click 'Send' and wait for our team’s response!",
-      "name": "Your name...",
-      "email": "Your email...",
-      "text": "Your message...",
-      "send": "Send Message",
-      "sent-mail": "✅ Message sent! We will contact you as soon as possible."
+    "header": "Let's Talk",
+    "info": "Have questions? Want to order pizza for a birthday, bachelorette/bachelor party, or just for a party? Fill out the form, and we’ll get back to you!",
+    "step0": "It’s as simple as our pizza!",
+    "step0A": "What do you need to do?",
+    "step1": "Provide your name and email so we can contact you.",
+    "step2": "Let us know what you need – an order, a question, special requests.",
+    "step3": "Click 'Send' and wait for our team’s response!",
+    "name": "Your name...",
+    "email": "Your email...",
+    "text": "Your message...",
+    "send": "Send Message",
+    "sent-mail": "✅ Message sent! We will contact you as soon as possible."
   },
   "footer": {
-      "col2Header": "Contact",
-      "col2NumberMikolaj": "+48 507 802 746",
-      "col3Map": "View on map",
-      "col4Header": "Quick Access",
-      "col4Item1": "About Us",
-      "col4Item2": "Offer",
-      "col4Item3": "Contact",
-      "col4Item4": "FAQ",
-      "col4Media": "Media",
-      "politics": "Privacy Policy",
-      "cookies": "Cookie Policy",
-      "obligation": "Information Obligation",
-      "form": "Form Regulations"
+    "col2Header": "Contact",
+    "col2NumberMikolaj": "+48 507 802 746",
+    "col3Map": "View on map",
+    "col4Header": "Quick Access",
+    "col4Item1": "About Us",
+    "col4Item2": "Offer",
+    "col4Item3": "Contact",
+    "col4Item4": "FAQ",
+    "col4Media": "Media",
+    "politics": "Privacy Policy",
+    "cookies": "Cookie Policy",
+    "obligation": "Information Obligation",
+    "form": "Form Regulations"
   },
   "formRegulations": {
-      "title": "REGULATIONS FOR THE CONTACT FORM SERVICE",
-      "generalProvisions": "General Provisions",
-      "generalProvisionsDescription": "These 'Regulations for Users of the PICCKA Contact Form, hereinafter referred to as Let’s Talk,' define the rules for free use of the 'PICCKA Contact Form' available on the PICCKA website (www.piccka.pl) to get answers to questions on the topics covered by it.",
-      "definitionsTitle": "I. Definitions",
-      "definitionsIntro": "Terms used in these Regulations mean:",
-      "definition1": "PICCKA Contact Form – a form where users of the website <strong><a href='www.piccka.pl' className='cursor-pointer'> www.piccka.pl</a></strong> provide necessary information and data to perform the service/handle the submitted inquiry.",
-      "definition2": "User – a person using the 'PICCKA Contact Form' under the terms provided in these Regulations.",
-      "accessRulesTitle": "II. Rules for User Access to the 'PICCKA Contact Form'",
-      "accessRule1": "Access to the PICCKA Contact Form does not require the User to meet any formalities, particularly registration or login.",
-      "accessRule2": "PICCKA provides Users with free access to the PICCKA Contact Form indefinitely.",
-      "accessRule3": "The PICCKA Contact Form is solely for correspondence related to PICCKA's activities within the thematic scope specified therein.",
-      "accessRule4": "The contact form may not be used for: correspondence regarding specific cases and proceedings conducted by PICCKA (initiated or concluded), submitting complaints, petitions, offers, as well as requests for information under the Act on Access to Public Information and questions under the Press Law Act.",
-      "termsOfUseTitle": "Terms of Use of the PICCKA Contact Form and User Obligations",
-      "termsOfUseIntro": "To use the PICCKA Contact Form, the User performs the following actions:",
-      "termsOfUse1": "fill in the Contact Form by providing the following data and information: name, email address, phone number, message subject, and message content.",
-      "termsOfUse2": "confirm that they have read the Regulations and accept all its provisions.",
-      "termsOfUse3": "confirm consent to the processing of personal data to prepare and provide an answer to the question(s) and their archiving.",
-      "termsOfUse4": "confirm the desire to contact by clicking the 'Send Message' link in the Contact Form.",
-      "termsOfUse5": "The User is obliged to use the PICCKA Contact Form in accordance with the law, the provisions of these Regulations, and good customs.",
-      "termsOfUse6": "The User agrees not to provide false personal data, data of another person without their permission, or an email address or phone number they do not own. The User is solely responsible for the content of the data provided, including liability for any third-party rights violations.",
-      "termsOfUse7": "The User agrees to review any changes to these Regulations.",
-      "termsOfUse8": "A User using the PICCKA Contact Form 'Free Consultation' is entitled to a one-time free consultation, either in person or remotely, via the Internet, lasting no more than 20 minutes.",
-      "responsibilityTitle": "PICCKA's Responsibility",
-      "responsibility1": "PICCKA is not responsible for the User's decisions based on information obtained through the PICCKA Contact Form.",
-      "responsibility2": "PICCKA is not liable for the unavailability of the contact form due to reasons beyond PICCKA's control or other technical reasons related to the functioning of the Internet and PICCKA's website.",
-      "responsibility3": "PICCKA reserves the right to change the provisions of these Regulations at any time. Changes take effect upon the posting of the revised Regulations on the website www.piccka.pl in the Contact Form Regulations section.",
-      "responsibility4": "PICCKA reserves the right to discontinue offering this service at any time without providing reasons.",
-      "dataProcessingTitle": "Personal Data Processing by PICCKA",
-      "dataProcessing1": "The data controller under Article 13 of the Regulation (EU) 2016/679 on the protection of natural persons regarding the processing of personal data and on the free movement of such data (GDPR) is PICCKA, located at Marmurowa 40, Jabłonna, represented by Klaudiusz Pupiec.",
-      "dataProcessing2": "User's personal data is processed based on the consent given by the person concerned, by marking the appropriate box in the PICCKA Contact Form.",
-      "dataProcessing3": "The following personal data of the User is processed: name, surname, email address, phone number.",
-      "dataProcessing4": "Providing personal data is voluntary, but failure to provide it may prevent obtaining a response through the PICCKA Contact Form.",
-      "dataProcessing5": "These data may be disclosed to authorized persons – our employees and collaborators, who need access to the data to perform their duties.",
-      "dataProcessing6": "The User has the right to access the content of their data and the possibility to correct it. Each User has the right to withdraw consent to the processing of personal data by sending a request to piccka@gmail.com.",
-      "dataProcessing7": "to appropriate state authorities upon their request based on applicable law.",
-      "dataProcessing8": "to other persons and entities – in cases other than those described in point a) only with the prior consent of the person concerned."
+    "title": "REGULATIONS FOR THE CONTACT FORM SERVICE",
+    "generalProvisions": "General Provisions",
+    "generalProvisionsDescription": "These 'Regulations for Users of the PICCKA Contact Form, hereinafter referred to as Let’s Talk,' define the rules for free use of the 'PICCKA Contact Form' available on the PICCKA website (www.piccka.pl) to get answers to questions on the topics covered by it.",
+    "definitionsTitle": "I. Definitions",
+    "definitionsIntro": "Terms used in these Regulations mean:",
+    "definition1": "PICCKA Contact Form – a form where users of the website <strong><a href='www.piccka.pl' className='cursor-pointer'> www.piccka.pl</a></strong> provide necessary information and data to perform the service/handle the submitted inquiry.",
+    "definition2": "User – a person using the 'PICCKA Contact Form' under the terms provided in these Regulations.",
+    "accessRulesTitle": "II. Rules for User Access to the 'PICCKA Contact Form'",
+    "accessRule1": "Access to the PICCKA Contact Form does not require the User to meet any formalities, particularly registration or login.",
+    "accessRule2": "PICCKA provides Users with free access to the PICCKA Contact Form indefinitely.",
+    "accessRule3": "The PICCKA Contact Form is solely for correspondence related to PICCKA's activities within the thematic scope specified therein.",
+    "accessRule4": "The contact form may not be used for: correspondence regarding specific cases and proceedings conducted by PICCKA (initiated or concluded), submitting complaints, petitions, offers, as well as requests for information under the Act on Access to Public Information and questions under the Press Law Act.",
+    "termsOfUseTitle": "Terms of Use of the PICCKA Contact Form and User Obligations",
+    "termsOfUseIntro": "To use the PICCKA Contact Form, the User performs the following actions:",
+    "termsOfUse1": "fill in the Contact Form by providing the following data and information: name, email address, phone number, message subject, and message content.",
+    "termsOfUse2": "confirm that they have read the Regulations and accept all its provisions.",
+    "termsOfUse3": "confirm consent to the processing of personal data to prepare and provide an answer to the question(s) and their archiving.",
+    "termsOfUse4": "confirm the desire to contact by clicking the 'Send Message' link in the Contact Form.",
+    "termsOfUse5": "The User is obliged to use the PICCKA Contact Form in accordance with the law, the provisions of these Regulations, and good customs.",
+    "termsOfUse6": "The User agrees not to provide false personal data, data of another person without their permission, or an email address or phone number they do not own. The User is solely responsible for the content of the data provided, including liability for any third-party rights violations.",
+    "termsOfUse7": "The User agrees to review any changes to these Regulations.",
+    "termsOfUse8": "A User using the PICCKA Contact Form 'Free Consultation' is entitled to a one-time free consultation, either in person or remotely, via the Internet, lasting no more than 20 minutes.",
+    "responsibilityTitle": "PICCKA's Responsibility",
+    "responsibility1": "PICCKA is not responsible for the User's decisions based on information obtained through the PICCKA Contact Form.",
+    "responsibility2": "PICCKA is not liable for the unavailability of the contact form due to reasons beyond PICCKA's control or other technical reasons related to the functioning of the Internet and PICCKA's website.",
+    "responsibility3": "PICCKA reserves the right to change the provisions of these Regulations at any time. Changes take effect upon the posting of the revised Regulations on the website www.piccka.pl in the Contact Form Regulations section.",
+    "responsibility4": "PICCKA reserves the right to discontinue offering this service at any time without providing reasons.",
+    "dataProcessingTitle": "Personal Data Processing by PICCKA",
+    "dataProcessing1": "The data controller under Article 13 of the Regulation (EU) 2016/679 on the protection of natural persons regarding the processing of personal data and on the free movement of such data (GDPR) is PICCKA, located at Marmurowa 40, Jabłonna, represented by Klaudiusz Pupiec.",
+    "dataProcessing2": "User's personal data is processed based on the consent given by the person concerned, by marking the appropriate box in the PICCKA Contact Form.",
+    "dataProcessing3": "The following personal data of the User is processed: name, surname, email address, phone number.",
+    "dataProcessing4": "Providing personal data is voluntary, but failure to provide it may prevent obtaining a response through the PICCKA Contact Form.",
+    "dataProcessing5": "These data may be disclosed to authorized persons – our employees and collaborators, who need access to the data to perform their duties.",
+    "dataProcessing6": "The User has the right to access the content of their data and the possibility to correct it. Each User has the right to withdraw consent to the processing of personal data by sending a request to piccka@gmail.com.",
+    "dataProcessing7": "to appropriate state authorities upon their request based on applicable law.",
+    "dataProcessing8": "to other persons and entities – in cases other than those described in point a) only with the prior consent of the person concerned."
+  },
+  "fourSection": {
+    "header": "Our Pizzas",
+    "pizza1": {
+      "name": "Salame and Parmesan Pizza",
+      "description": "Salami, mozzarella, parmesan"
+    },
+    "pizza2": {
+      "name": "Prosciutto and Parmesan Pizza",
+      "description": "Prosciutto, mozzarella, parmesan"
+    },
+    "pizza3": {
+      "name": "Spicy Salami Pizza",
+      "description": "Spicy salami, capers, buffalo mozzarella, parmesan"
+    },
+    "pizza4": {
+      "name": "Cooked Ham and Fresh Tomato Pizza",
+      "description": "Cooked ham, fresh tomatoes"
+    },
+    "pizza5": {
+      "name": "Four Cheese Pizza",
+      "description": "Four cheeses"
+    },
+    "pizza6": {
+      "name": "Margherita Pizza",
+      "description": "Tomato sauce, mozzarella, basil"
+    }
   }
 }
