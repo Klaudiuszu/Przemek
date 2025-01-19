@@ -14,7 +14,7 @@ const ThirdSection = () => {
     <div>
       <section
         className="flex justify-center w-full bg-background pb-24 pt-40 overflow-hidden"
-        id="about-us"
+        id="whoWeAre"
       >
         <div className="max-w-screen-2xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-4">
           <motion.div

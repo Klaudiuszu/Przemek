@@ -20,7 +20,7 @@ const FourSection = () => {
 
   return (
     <>
-      <section className="w-full h-4/5 bg-white pt-24 pb-24 md:pb-32 flex flex-col items-center justify-center" id="menu">
+      <section className="w-full h-4/5 bg-white pt-24 pb-24 md:pb-32 flex flex-col items-center justify-center" id="offer">
         <div className="max-w-screen-2xl h-full mx-auto px-4 text-center">
           <Heading>{tString("fourSection.header") || "Nasze Pizze"}</Heading>
           <div className="relative justify-center items-center xl:w-2/3 md:w-[40%] mx-auto mt-12 hidden md:flex">
