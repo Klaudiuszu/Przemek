@@ -6,6 +6,8 @@ import FirstSection from "../../src/components/FirstSection/FirstSection";
 import SecondSection from "../../src/components/SecondSection/SecondSection";
 import EmailSection from "../../src/components/Contact/EmailSection";
 import CookieConsent from "../../src/components/Footer/CookiesConsent";
+import ThirdSection from "../../src/components/ThirdSection/ThirdSection";
+import FourSection from "../../src/components/FourSection/FourSection";
 
 export { getStaticPaths } from "next-translations";
 
@@ -19,6 +21,8 @@ export default function Home() {
       <Navbar />
       <FirstSection />
       <SecondSection />
+      <ThirdSection />
+      <FourSection />
       <EmailSection />
       <Footer />
     </div>

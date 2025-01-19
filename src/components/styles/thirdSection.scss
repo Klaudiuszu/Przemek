@@ -1,0 +1,12 @@
+.cheese-effect {
+  background: linear-gradient(
+    to bottom, 
+    #FFD700 0%, #FFCC00 50%, #FFB300 100%
+  );
+  clip-path: polygon(
+    0% 0%, 100% 0%, 
+    100% 80%, 90% 85%, 80% 75%, 70% 90%, 
+    60% 70%, 50% 85%, 40% 75%, 30% 90%, 
+    20% 80%, 10% 85%, 0% 70%
+  );
+}
