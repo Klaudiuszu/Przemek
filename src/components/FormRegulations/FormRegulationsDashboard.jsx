@@ -10,7 +10,6 @@ const FormRegulationsDashboard = () => {
     <section className="lg:pb-16 lg:pt-40 pt-30 max-w-screen-xl md:p-20 px-4 xl:px-12 py-12 mt-24 xl:mt-0  mx-auto flex flex-col gap-8 text-white" id="privacyPolicy">
       <h1 className="flex justify-center text-[16px] font-bold" dangerouslySetInnerHTML={{ __html: tString("formRegulations.title") }}></h1>
 
-      <p className="flex justify-center text-[16px] font-bold" dangerouslySetInnerHTML={{ __html: tString("formRegulations.generalProvisionsTitle") }}></p>
       <p className="flex justify-center italic text-center" dangerouslySetInnerHTML={{ __html: tString("formRegulations.generalProvisionsDescription") }}></p>
 
       <p className="flex justify-center text-[16px] font-bold" dangerouslySetInnerHTML={{ __html: tString("formRegulations.definitionsTitle") }}></p>
@@ -45,7 +44,6 @@ const FormRegulationsDashboard = () => {
           <li className="text-[12px] font-thin" dangerouslySetInnerHTML={{ __html: tString("formRegulations.termsOfUse5") }}></li>
           <li className="text-[12px] font-thin" dangerouslySetInnerHTML={{ __html: tString("formRegulations.termsOfUse6") }}></li>
           <li className="text-[12px] font-thin" dangerouslySetInnerHTML={{ __html: tString("formRegulations.termsOfUse7") }}></li>
-          <li className="text-[12px] font-thin" dangerouslySetInnerHTML={{ __html: tString("formRegulations.termsOfUse9") }}></li>
         </ul>
       </div>
 
