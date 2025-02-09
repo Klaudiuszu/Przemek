@@ -45,7 +45,7 @@ const FourSection = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:hidden">
             {pizzas.map((pizza, index) => (
               <div key={index} className="flex flex-col items-center gap-2 hover:scale-105 transition-transform">
-                <Image src={pizza.src} alt={pizza.name} width={300} height={200} className="rounded-lg" />
+                <Image src={pizza.src} alt={pizza.name} width={200} height={100} className="rounded-lg" />
                 <p className="text-md font-bold text-primary mt-2">{pizza.name}</p>
                 <p className="text-xs text-textDark">{pizza.description}</p>
               </div>
