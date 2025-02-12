@@ -95,28 +95,28 @@
   "fourSection": {
     "header": "Our Pizzas",
     "pizza1": {
-      "name": "Salame and Parmesan Pizza",
-      "description": "Salami, mozzarella, parmesan"
+      "name": "Pizza Diavola",
+      "description": "Tomato sauce, salami piccante, parmesan, capers, mozzarella, chili honey"
     },
     "pizza2": {
-      "name": "Prosciutto and Parmesan Pizza",
-      "description": "Prosciutto, mozzarella, parmesan"
+      "name": "Pizza Parma",
+      "description": "Tomato sauce, parmesan, prosciutto, mozzarella, arugula, balsamic glaze"
     },
     "pizza3": {
-      "name": "Spicy Salami Pizza",
-      "description": "Spicy salami, capers, buffalo mozzarella, parmesan"
+      "name": "Pizza Di Bufala",
+      "description": "Salami piccante, capers, bufala, parmesan"
     },
     "pizza4": {
-      "name": "Cooked Ham and Fresh Tomato Pizza",
-      "description": "Cooked ham, fresh tomatoes"
+      "name": "Pizza Margherita",
+      "description": "Tomato sauce, mozzarella, basil"
     },
     "pizza5": {
-      "name": "Four Cheese Pizza",
+      "name": "Pizza Quattro Formaggi",
       "description": "Four cheeses"
     },
     "pizza6": {
-      "name": "Margherita Pizza",
-      "description": "Tomato sauce, mozzarella, basil"
+      "name": "Pizza Prosciutto Cotto e Pomodoro Fresco",
+      "description": "Tomato sauce, parmesan, mozzarella, cooked ham, fresh tomatoes"
     }
   },
   "cookies": {
@@ -244,50 +244,50 @@
     "cookiesMarketing5": "Testing and optimizing ad content: Marketing cookies are used to conduct A/B tests and other analysis methods to assess which messages, formats, or creative ads are most effective and engaging for users."
   },
   "cookiesCon": {
-  "header": "Cookie Settings",
-  "acceptAll": "Accept All",
-  "reject": "Reject",
-  "settings": "Settings",
-  "description": "The website",
-  "description2": "uses cookies and similar technologies to ensure the best experience on our site. Users can independently change their cookie settings in their web browser. Using this site without changing your browser settings means that cookies will be placed on your end device. Details can be found in the",
-  "privacyPolicy": "Privacy Policy"
-},
-"privacy": {
-  "header": "Privacy Overview",
-  "saveChanges": "Save Changes",
-  "enableAll": "Enable All",
-  "description": "The website www.piccka.pl uses cookies and similar technologies for the purposes of recognizing the user's device to properly display website content, creating statistics that help understand how users interact with the website to improve its structure and content, maintaining user sessions so the user does not have to repeatedly enter login details on each subpage, and customizing the content and functionality of the website by adapting an anonymous, randomly generated tracking identifier, which allows us to check, among other things, the user's origin, the search engine used, the link clicked, the keywords entered, and when the user stopped using the portal. Users can independently change their cookie settings in their web browser. Using this site without changing your browser settings means that cookies will be placed on your end device. Details can be found in the Privacy Policy.",
-  "strictlyNecessaryCookies": "Strictly Necessary Cookies",
-  "enabled": "Enabled",
-  "disabled": "Disabled"
-},
-"obligation": {
-  "title": "INFORMATION OBLIGATION",
-  "description1": "In fulfillment of the information obligation under Article 13 of the Regulation (EU) 2016/679 of the European Parliament and of the Council on the protection of natural persons concerning the processing of personal data and on the free movement of such data, repealing Directive 95/46/EC (General Data Protection Regulation GDPR), we hereby inform you that:",
-  "description2": "The controller of your personal data (hereinafter: the Controller) is Piccka, based at Marmurowa 40, Jabłonna, represented by Klaudiusz Pupiec.",
-  "contactInfo": "The Controller can be contacted via email at piccka@gmail.com.",
-  "dataProcessingPurposeTitle": "Your data will be processed for the following purposes:",
-  "dataProcessingPurpose1": "Necessary to perform the contract to which you are a party, based on Article 6(1)(b) GDPR.",
-  "dataProcessingPurpose2": "Necessary to conclude a contract based on your interest in the offer, under Article 6(1)(b) GDPR.",
-  "dataProcessingPurpose3": "Potential claims or defense as part of our legitimate interest, under Article 6(1)(f) GDPR.",
-  "dataProcessingPurpose4": "Offering you products and services as part of our legitimate interest in direct marketing.",
-  "dataProcessingPurpose5": "Cooperating with you to provide services.",
-  "dataProcessingPurpose6": "Automatic profiling.",
-  "dataSharingTitle": "Your data may be shared with:",
-  "dataSharing1": "Persons authorized by us – our employees and collaborators who need access to the data to perform their duties.",
-  "dataSharing2": "Processing entities – to whom we outsource activities that require data processing.",
-  "dataSharing3": "Other recipients – e.g., couriers, insurers, law firms, debt collection companies, entities that may request data transfer under applicable regulations.",
-  "dataRetention": "We will process your data for the period in which you can file a complaint or lawsuit, as well as the period during which we are obligated to process data under the law. Data processed for direct marketing purposes will be processed until you object to their processing for this purpose.",
-  "userRights": "You have the right to access your data, receive a copy, transfer data, object to processing, correct your data, delete your data, limit processing, and file a complaint with the supervisory authority – the President of the Personal Data Protection Office.",
-  "cookiesInfo": "The Service uses two main types of cookies: 'session' cookies and 'persistent' cookies. 'Session' cookies are temporary files stored in the User's end device until logging out, leaving the website, or turning off the software (web browser). 'Persistent' cookies are stored in the User's end device for the time specified in the cookie parameters or until they are deleted by the User.",
-  "cookieTypesTitle": "The following types of cookies are used within the Service:",
-  "cookieType1": "'Necessary' cookies, enabling the use of services available within the Service, e.g., authentication cookies used for services requiring authentication within the Service;",
-  "cookieType2": "Cookies used to ensure security, e.g., used to detect authentication abuses within the Service;",
-  "cookieType3": "'Performance' cookies, enabling the collection of information on how the Service's websites are used;",
-  "cookieType4": "'Functional' cookies, enabling 'remembering' the settings selected by the User and personalizing the User interface, e.g., in terms of the selected language or region of the User, font size, website appearance, etc.;",
-  "cookieType5": "'Advertising' cookies, enabling the delivery of advertising content more tailored to the User's interests.",
-  "cookiesSettingsInfo": "In many cases, web browsing software (web browser) allows the storage of cookies on the User's end device by default. Users of the Service can change their cookie settings at any time. These settings can be changed, in particular, to block the automatic handling of cookies in the web browser settings or inform about their placement on the User's device each time. Detailed information about the possibility and methods of handling cookies is available in the software (web browser) settings.",
-  "cookiesRestrictionsInfo": "The Service Operator informs that restrictions on the use of cookies may affect some functionalities available on the Service's websites.",
-  "cookiesAdsPartnersInfo": "Cookies placed on the User's end device of the Service may also be used by advertisers and partners cooperating with the Service Operator. User's personal data related to the storage of cookies are profiled (based on Article 4 point 4 GDPR)."
-}
+    "header": "Cookie Settings",
+    "acceptAll": "Accept All",
+    "reject": "Reject",
+    "settings": "Settings",
+    "description": "The website",
+    "description2": "uses cookies and similar technologies to ensure the best experience on our site. Users can independently change their cookie settings in their web browser. Using this site without changing your browser settings means that cookies will be placed on your end device. Details can be found in the",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "privacy": {
+    "header": "Privacy Overview",
+    "saveChanges": "Save Changes",
+    "enableAll": "Enable All",
+    "description": "The website www.piccka.pl uses cookies and similar technologies for the purposes of recognizing the user's device to properly display website content, creating statistics that help understand how users interact with the website to improve its structure and content, maintaining user sessions so the user does not have to repeatedly enter login details on each subpage, and customizing the content and functionality of the website by adapting an anonymous, randomly generated tracking identifier, which allows us to check, among other things, the user's origin, the search engine used, the link clicked, the keywords entered, and when the user stopped using the portal. Users can independently change their cookie settings in their web browser. Using this site without changing your browser settings means that cookies will be placed on your end device. Details can be found in the Privacy Policy.",
+    "strictlyNecessaryCookies": "Strictly Necessary Cookies",
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+  "obligation": {
+    "title": "INFORMATION OBLIGATION",
+    "description1": "In fulfillment of the information obligation under Article 13 of the Regulation (EU) 2016/679 of the European Parliament and of the Council on the protection of natural persons concerning the processing of personal data and on the free movement of such data, repealing Directive 95/46/EC (General Data Protection Regulation GDPR), we hereby inform you that:",
+    "description2": "The controller of your personal data (hereinafter: the Controller) is Piccka, based at Marmurowa 40, Jabłonna, represented by Klaudiusz Pupiec.",
+    "contactInfo": "The Controller can be contacted via email at piccka@gmail.com.",
+    "dataProcessingPurposeTitle": "Your data will be processed for the following purposes:",
+    "dataProcessingPurpose1": "Necessary to perform the contract to which you are a party, based on Article 6(1)(b) GDPR.",
+    "dataProcessingPurpose2": "Necessary to conclude a contract based on your interest in the offer, under Article 6(1)(b) GDPR.",
+    "dataProcessingPurpose3": "Potential claims or defense as part of our legitimate interest, under Article 6(1)(f) GDPR.",
+    "dataProcessingPurpose4": "Offering you products and services as part of our legitimate interest in direct marketing.",
+    "dataProcessingPurpose5": "Cooperating with you to provide services.",
+    "dataProcessingPurpose6": "Automatic profiling.",
+    "dataSharingTitle": "Your data may be shared with:",
+    "dataSharing1": "Persons authorized by us – our employees and collaborators who need access to the data to perform their duties.",
+    "dataSharing2": "Processing entities – to whom we outsource activities that require data processing.",
+    "dataSharing3": "Other recipients – e.g., couriers, insurers, law firms, debt collection companies, entities that may request data transfer under applicable regulations.",
+    "dataRetention": "We will process your data for the period in which you can file a complaint or lawsuit, as well as the period during which we are obligated to process data under the law. Data processed for direct marketing purposes will be processed until you object to their processing for this purpose.",
+    "userRights": "You have the right to access your data, receive a copy, transfer data, object to processing, correct your data, delete your data, limit processing, and file a complaint with the supervisory authority – the President of the Personal Data Protection Office.",
+    "cookiesInfo": "The Service uses two main types of cookies: 'session' cookies and 'persistent' cookies. 'Session' cookies are temporary files stored in the User's end device until logging out, leaving the website, or turning off the software (web browser). 'Persistent' cookies are stored in the User's end device for the time specified in the cookie parameters or until they are deleted by the User.",
+    "cookieTypesTitle": "The following types of cookies are used within the Service:",
+    "cookieType1": "'Necessary' cookies, enabling the use of services available within the Service, e.g., authentication cookies used for services requiring authentication within the Service;",
+    "cookieType2": "Cookies used to ensure security, e.g., used to detect authentication abuses within the Service;",
+    "cookieType3": "'Performance' cookies, enabling the collection of information on how the Service's websites are used;",
+    "cookieType4": "'Functional' cookies, enabling 'remembering' the settings selected by the User and personalizing the User interface, e.g., in terms of the selected language or region of the User, font size, website appearance, etc.;",
+    "cookieType5": "'Advertising' cookies, enabling the delivery of advertising content more tailored to the User's interests.",
+    "cookiesSettingsInfo": "In many cases, web browsing software (web browser) allows the storage of cookies on the User's end device by default. Users of the Service can change their cookie settings at any time. These settings can be changed, in particular, to block the automatic handling of cookies in the web browser settings or inform about their placement on the User's device each time. Detailed information about the possibility and methods of handling cookies is available in the software (web browser) settings.",
+    "cookiesRestrictionsInfo": "The Service Operator informs that restrictions on the use of cookies may affect some functionalities available on the Service's websites.",
+    "cookiesAdsPartnersInfo": "Cookies placed on the User's end device of the Service may also be used by advertisers and partners cooperating with the Service Operator. User's personal data related to the storage of cookies are profiled (based on Article 4 point 4 GDPR)."
+  }
 }

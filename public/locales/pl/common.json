@@ -266,28 +266,28 @@
   "fourSection": {
     "header": "Nasze Pizze",
     "pizza1": {
-      "name": "Pizza Salame e Parmigiano",
-      "description": "Salami, mozzarella, parmezan"
+      "name": "Pizza Diavola",
+      "description": "Sos pomidorowy, salami piccante, parmezan, kapary, mozzarella, miód chilli"
     },
     "pizza2": {
-      "name": "Pizza Prosciutto e Parmigiano",
-      "description": "Prosciutto, mozzarella, parmezan"
+      "name": "Pizza Parma",
+      "description": "Sos pomidorowy, parmezan, prosciutto, mozzarella, rukola, sos balsamiczny"
     },
     "pizza3": {
-      "name": "Pizza Diavola",
+      "name": "Pizza Di Bufala",
       "description": "Salami piccante, kapary, bufala, parmezan"
     },
     "pizza4": {
-      "name": "Pizza Prosciutto Cotto e Pomodoro Fresco",
-      "description": "Gotowana szynka, świeże pomidory"
+      "name": "Pizza Margherita",
+      "description": "Sos pomidorowy, mozzarella, bazylia"
     },
     "pizza5": {
       "name": "Pizza Quattro Formaggi",
       "description": "Cztery sery"
     },
     "pizza6": {
-      "name": "Pizza Margherita",
-      "description": "Sos pomidorowy, mozzarella, bazylia"
+      "name": "Pizza Prosciutto Cotto e Pomodoro Fresco",
+      "description": "Sos pomidorowy, parmezan, mozarella, gotowana szynka, świeże pomidory"
     }
   }
 }
