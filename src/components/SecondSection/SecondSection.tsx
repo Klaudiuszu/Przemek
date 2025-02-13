@@ -82,7 +82,7 @@ const SecondSection: React.FC = () => {
         speed: 0.2,
         points: 4,
       }}
-      style={{ transform: "rotate(180deg)" }} // Odwrócenie fali o 180°
+      style={{ transform: "rotate(180deg)" }}
     />
   </div>
     </div>

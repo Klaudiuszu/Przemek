@@ -33,7 +33,7 @@ const FourSection = () => {
               {pizzas.map((pizza, index) => (
                 <div key={index} className={`absolute bg-white px-3 py-1 rounded-md shadow-md transition-transform transform hover:rotate-3 hover:scale-105 xl:w-[300px] w-[180px] ${index === 0 ? 'xl:top-12 xl:left-[-14rem] md:top-[-3rem] md:left-[-10rem]' : index === 1 ? 'xl:top-[-1rem] xl:right-[-12rem] md:top-[-2.5rem] md:right-[-10rem]' : index === 2 ? 'xl:top-[40%] xl:right-[-14rem] md:top-[50%] md:right-[-12rem] transform -translate-y-1/2' : index === 3 ? 'xl:top-[48%] xl:left-[-14rem] md:top-[60%] md:left-[-12rem] transform -translate-y-1/2' : index === 4 ? 'xl:bottom-[-1rem] xl:left-[-13rem] md:bottom-[-4rem] md:left-[-10rem]' : 'xl:bottom-1 xl:right-[-14rem] md:bottom-[-1rem] md:right-[-10rem]'}`}>
                   <p className="text-md font-bold text-primary md:text-[12px] xl:text-base">
-                    {pizza.number}️ {pizza.name}
+                    {pizza.name}
                   </p>
                   <p className="text-xs md:text-[10px] xl:text-sm">
                     {pizza.description}
@@ -46,7 +46,7 @@ const FourSection = () => {
             {pizzas.map((pizza, index) => (
               <div key={index} className="flex flex-col items-center gap-2 hover:scale-105 transition-transform">
                 <Image src={pizza.src} alt={pizza.name} width={200} height={100} className="rounded-lg" />
-                <p className="text-md font-bold text-primary mt-2">{pizza.number} {pizza.name}</p>
+                <p className="text-md font-bold text-primary mt-2">{pizza.name}</p>
                 <p className="text-xs text-textDark">{pizza.description}</p>
               </div>
             ))}
