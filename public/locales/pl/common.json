@@ -13,12 +13,19 @@
     "navB": "Oferta",
     "navC": "Kontakt"
   },
-  "testimonials": {
-    "header": "Czekamy na wasze opinie!",
-    "opinion1": "Pizza była przepyszna! Na imprezie serwowali nam 50 kawałków i wyszło znakomicie, polecamy!",
-    "opinion2": "Wszystko idealnie! Obsługa na najwyższym poziomie, a pizza była prawdziwą atrakcją wieczoru. Polecam z całego serca!",
-    "opinion3": "Obsługa była bardzo miła, a jedzenie fantastyczne! Wrócimy na pewno!"
-  },
+"testimonials": {
+  "header": "Czekamy na wasze opinie!",
+  "opinion1": "Pizza była przepyszna! Na imprezie serwowali nam 50 kawałków i wyszło znakomicie, polecamy!",
+  "opinion2": "Wszystko idealnie! Obsługa na najwyższym poziomie, a pizza była prawdziwą atrakcją wieczoru. Polecam z całego serca!",
+  "opinion3": "Obsługa była bardzo miła, a jedzenie fantastyczne! Wrócimy na pewno!",
+  "opinion4": "Na moich 18-stych pizza rozjechała imprezę! Wszyscy zachwyceni smakiem i szybkością podania.",
+  "opinion5": "Wesele z pizzą neapolitańską? Tak! Goście do dziś wspominają ten smak.",
+  "opinion6": "3 różne rodzaje pizzy na kawalerskim i wszystko znikało w mgnieniu oka. Najlepszy catering ever!",
+  "opinion7": "Pizza na imprezie firmowej - strzał w 10! Zamówiliśmy 80 porcji i każdy był zachwycony. Profesjonalna obsługa i pyszne jedzenie.",
+  "opinion8": "Mój syn wymarzył sobie pizzę na 18-stkę. Dzięki Wam miał najlepszą imprezę w klasie!",
+  "opinion9": "90 sekund i świeża pizza gotowa. Na weselu podawaliście non-stop - goście wniebowzięci!",
+  "opinion10": "Zamówiliśmy 6 rodzajów pizzy na garden party. Efekt? 100% zadowolonych gości i puste pudełka!"
+},
   "email": {
     "header": "Pogadajmy!",
     "info": "Masz pytania? Chcesz zamówić pizzę na urodziny / panieńskie / kawalerskie lub po prostu na imprezę? Wypełnij formularz, a my się z Tobą skontaktujemy!",

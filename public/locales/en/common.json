@@ -13,12 +13,19 @@
     "navB": "Offer",
     "navC": "Contact"
   },
-  "testimonials": {
-    "header": "You’re waiting to your opinion!",
-    "opinion1": "The pizza was delicious! They served us 50 slices at the party, and it turned out great, highly recommend!",
-    "opinion2": "Everything was perfect! The service was top-notch, and the pizza was the highlight of the evening. Highly recommend!",
-    "opinion3": "The staff was very friendly, and the food was fantastic! We will definitely be back!"
-  },
+"testimonials": {
+  "header": "We're waiting for your feedback!",
+  "opinion1": "The pizza was delicious! We ordered 50 slices for the party and it was perfect, highly recommend!",
+  "opinion2": "Everything was perfect! Top-notch service and the pizza was the real highlight of the evening. Wholeheartedly recommend!",
+  "opinion3": "The staff was very nice and the food fantastic! We'll definitely be back!",
+  "opinion4": "Pizza totally made my 18th birthday party! Everyone loved the taste and how quickly it was served.",
+  "opinion5": "Wedding with Neapolitan pizza? Yes please! Guests still talk about that amazing taste.",
+  "opinion6": "3 different pizza types at my bachelor party - all gone in seconds. Best catering ever!",
+  "opinion7": "Pizza for corporate event - bullseye! We ordered 80 portions and everyone was delighted. Professional service and delicious food.",
+  "opinion8": "My son dreamed of pizza for his 18th. Thanks to you, he had the best party in his class!",
+  "opinion9": "90 seconds and fresh pizza ready. You served non-stop at our wedding - guests were in heaven!",
+  "opinion10": "We ordered 6 pizza types for garden party. Result? 100% happy guests and empty boxes!"
+},
   "email": {
     "header": "Let's Talk",
     "info": "Have questions? Want to order pizza for a birthday, bachelorette/bachelor party, or just for a party? Fill out the form, and we’ll get back to you!",
