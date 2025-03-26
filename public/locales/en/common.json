@@ -103,8 +103,8 @@
       "description": "Tomato sauce, parmesan, prosciutto, mozzarella, arugula, balsamic glaze"
     },
     "pizza3": {
-      "name": "Pizza Di Bufala",
-      "description": "Salami piccante, capers, bufala, parmesan"
+      "name": "Pizza Di Burrata",
+      "description": "Salami piccante, capers, burrata, parmesan"
     },
     "pizza4": {
       "name": "Pizza Margherita",
@@ -289,5 +289,19 @@
     "cookiesSettingsInfo": "In many cases, web browsing software (web browser) allows the storage of cookies on the User's end device by default. Users of the Service can change their cookie settings at any time. These settings can be changed, in particular, to block the automatic handling of cookies in the web browser settings or inform about their placement on the User's device each time. Detailed information about the possibility and methods of handling cookies is available in the software (web browser) settings.",
     "cookiesRestrictionsInfo": "The Service Operator informs that restrictions on the use of cookies may affect some functionalities available on the Service's websites.",
     "cookiesAdsPartnersInfo": "Cookies placed on the User's end device of the Service may also be used by advertisers and partners cooperating with the Service Operator. User's personal data related to the storage of cookies are profiled (based on Article 4 point 4 GDPR)."
+  },
+  "gallery": {
+    "header": "Our Pizza for Events",
+    "subtitle": "Authentic Neapolitan magic at your party",
+    "photo1": "As many as 6 different pizza types!",
+    "photo2": "Ready in just 90 seconds!",
+    "photo3": "Authentic Neapolitan oven",
+    "photo4": "100% Italian ingredients",
+    "photo5": "yummy stuff on your event",
+    "photo6": "Always fresh ingredients",
+    "photo7": "Professional service",
+    "photo8": "Unique taste experience",
+    "photo9": "Pizza for 200 people? No problem!",
+    "photo10": "With us, the party tastes better!"
   }
 }

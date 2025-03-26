@@ -8,6 +8,7 @@ import EmailSection from "../../src/components/Contact/EmailSection";
 import CookieConsent from "../../src/components/Footer/CookiesConsent";
 import ThirdSection from "../../src/components/ThirdSection/ThirdSection";
 import FourSection from "../../src/components/FourSection/FourSection";
+import GallerySection from "../../src/components/Gallery/GallerySection";
 
 export { getStaticPaths } from "next-translations";
 
@@ -23,6 +24,7 @@ export default function Home() {
       <SecondSection />
       <ThirdSection />
       <FourSection />
+      <GallerySection />
       <EmailSection />
       <Footer />
     </div>

@@ -274,8 +274,8 @@
       "description": "Sos pomidorowy, parmezan, prosciutto, mozzarella, rukola, sos balsamiczny"
     },
     "pizza3": {
-      "name": "Pizza Di Bufala",
-      "description": "Salami piccante, kapary, bufala, parmezan"
+      "name": "Pizza Di Burrata",
+      "description": "Salami piccante, kapary, burrata, parmezan"
     },
     "pizza4": {
       "name": "Pizza Margherita",
@@ -289,5 +289,19 @@
       "name": "Pizza Prosciutto Cotto e Pomodoro Fresco",
       "description": "Sos pomidorowy, parmezan, mozarella, gotowana szynka, świeże pomidory"
     }
+  },
+"gallery": {
+    "header": "Nasza Pizza na Imprezach",
+    "subtitle": "Prawdziwa neapolitańska magia w Twoim wydarzeniu",
+    "photo1": "Aż 6 różnych rodzajów pizzy!",
+    "photo2": "Gotowe w zaledwie 90 sekund!",
+    "photo3": "Prawdziwy piec neapolitański",
+    "photo4": "100% włoskich składników",
+    "photo5": "Smaczny dodatek dla gości",
+    "photo6": "Zawsze świeże składniki",
+    "photo7": "Profesjonalna obsługa",
+    "photo8": "Niepowtarzalny smak",
+    "photo9": "Pizza na 200 osób? Żaden problem!",
+    "photo10": "Z nami impreza smakuje lepiej!"
   }
 }

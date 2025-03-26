@@ -28,6 +28,10 @@ const ThirdSection = () => {
                 alt={tString("thirdSection.alt")}
                 layout="fill"
                 objectFit="cover"
+                className="object-cover"
+                style={{
+                  objectPosition: 'center 30%'
+                }}
               />
             </div>
           </motion.div>
