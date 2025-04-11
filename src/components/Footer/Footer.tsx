@@ -28,9 +28,19 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-col items-center md:items-start">
                         <SubHeading>{tString("footer.col4Media")}</SubHeading>
-                        <div className="mt-2">
+                        <div className="mt-2 flex gap-4 items-center">
                             <a href="https://www.instagram.com/piccka.yolo/" target="_blank" rel="noopener noreferrer">
                                 <InstagramIcon sx={{ fontSize: 50 }} />
+                            </a>
+                            <a href="https://www.weselezklasa.pl/ogloszenia-weselne/piccka-mobilna-pizzeria,59826/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center justify-center w-[40px] h-[40px] text-darkRed">
+                                <img
+                                    src="https://www.weselezklasa.pl/banery/Weselezklasa/logo128x128przezroczystetlobordowe.png"
+                                    alt="Piccka mobilna pizzeria"
+                                    className="w-full h-full object-contain text-darkRed"
+                                />
                             </a>
                         </div>
                     </div>
