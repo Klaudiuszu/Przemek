@@ -1,29 +1,21 @@
 import React from "react";
-import { useTranslation } from "next-translations/hooks";
-import { namespaces } from "@constants/namespaces";
-import { useLanguage } from "../../hooks/useLanguage";
 import Link from "next/link";
 import PizzaHamburgerMenu from "./PizzaHamburgerMenu";
-import LanguageToggle from "../LanguageToggle";
 
 const Navbar = () => {
-  const { tString } = useTranslation(namespaces.common);
-  const { language } = useLanguage();
 
   const navLinks = [
-    { title: tString("navbar.navA"), path: `/${language}/#whoWeAre` },
-    { title: tString("navbar.navB"), path: `/${language}/#offer` },
-    { title: tString("navbar.navC"), path: `/${language}/#contact` },
+    { title: 'Oferta', path: `/#offer` },
+    { title: 'Kontakt', path: `/#contact` },
   ];
 
   return (
     <nav className="absolute top-0 left-0 right-0 z-10 w-full bg-[#F6EBE7]">
       <div className="flex items-center max-w-7xl mx-auto px-4 py-2 justify-between">
         <div className="flex-1 flex justify-start">
-          <LanguageToggle isHidden={true} />
         </div>
         <div className="flex-grow-0 flex-shrink-0 md:w-auto flex justify-center">
-          <Link href={`/${language}/`}>
+          <Link href={`/`}>
           <img src="/images/logo.png" alt="Logo" className="h-20 max-w-full" />
           </Link>
         </div>

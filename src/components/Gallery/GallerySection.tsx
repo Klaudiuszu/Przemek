@@ -1,13 +1,10 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { useTranslation } from "next-translations/hooks";
-import { namespaces } from "../../../translations.config";
 import Heading from "../UI/Heading";
 import Image from "next/image";
 
 const GallerySection = () => {
-  const { tString } = useTranslation(namespaces.common);
 
   const photos = Array.from({ length: 10 }, (_, i) => `/images/p${i + 1}.jpg`);
 
@@ -34,9 +31,9 @@ const GallerySection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <Heading>{tString("gallery.header")}</Heading>
+            <Heading>awdwadwa</Heading>
             <p className="text-textDark text-lg mt-4 max-w-2xl mx-auto">
-              {tString("gallery.subtitle")}
+              adsdawd
             </p>
           </motion.div>
           <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
@@ -57,7 +54,7 @@ const GallerySection = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4 opacity-0 hover:opacity-100 transition-opacity duration-300">
                   <p className="text-white font-medium">
-                    {tString(`gallery.photo${index + 1}`)}
+                    wwqee
                   </p>
                 </div>
               </motion.div>

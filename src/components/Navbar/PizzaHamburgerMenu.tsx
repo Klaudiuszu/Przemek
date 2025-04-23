@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { useTranslation } from "next-translations/hooks";
-import { namespaces } from "@constants/namespaces";
-import LanguageToggle from "../LanguageToggle";
 
 const PizzaHamburgerMenu = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
-  const { tString } = useTranslation(namespaces.common);
 
   return (
     <div className="relative z-20">
@@ -30,23 +26,15 @@ const PizzaHamburgerMenu = () => {
           <XMarkIcon className="h-8 w-8" />
         </button>
         <ul className="flex flex-col items-center h-full text-base justify-between">
-          <li className="w-full h-full flex justify-center items-center hover:bg-yellow-200 transition-colors duration-100">
-            <a href="#whoWeAre" className="w-full text-center">
-              {tString("pizzaHamburgerMenu.navA")}
-            </a>
-          </li>
           <li className="w-full h-full flex justify-center items-center hover:bg-yellow-300 transition-colors duration-100">
             <a href="#offer" className="w-full text-center">
-              {tString("pizzaHamburgerMenu.navB")}
+              Oferta
             </a>
           </li>
           <li className="w-full h-full flex justify-center items-center hover:bg-yellow-400 transition-colors duration-100">
             <a href="#contact" className="w-full text-center">
-              {tString("pizzaHamburgerMenu.navC")}
+              Kontakt
             </a>
-          </li>
-          <li className="w-full h-full flex justify-center items-center hover:bg-yellow-500 transition-colors duration-100">
-            <LanguageToggle isHidden={false} />
           </li>
         </ul>
       </div>

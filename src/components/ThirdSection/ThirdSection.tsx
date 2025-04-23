@@ -1,14 +1,11 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { useTranslation } from "next-translations/hooks";
-import { namespaces } from "../../../translations.config";
 import Heading from "../UI/Heading";
 import Image from "next/image";
 import GridEffect from "./GridEffect";
 
 const ThirdSection = () => {
-  const { tString } = useTranslation(namespaces.common);
 
   return (
     <div>
@@ -25,7 +22,7 @@ const ThirdSection = () => {
             <div className="w-[90%] h-[90%] border-4 border-darkRed rounded-lg overflow-hidden shadow-lg relative max-w-full">
               <Image
                 src="/images/thirdSection.jpg"
-                alt={tString("thirdSection.alt")}
+                alt='awdawd'
                 layout="fill"
                 objectFit="cover"
                 className="object-cover"
@@ -40,12 +37,12 @@ const ThirdSection = () => {
             whileInView={{ opacity: [0, 1], x: [50, 0] }}
             transition={{ duration: 0.5 }}
           >
-            <Heading>{tString("thirdSection.header")}</Heading>
+            <Heading>wwwad</Heading>
             <p className="text-textDark text-lg">
-              {tString("thirdSection.intro")}
+              qweqwe
             </p>
             <p className="text-textDark text-lg">
-              {tString("thirdSection.passion")}
+              qwdqwd
             </p>
           </motion.div>
         </div>

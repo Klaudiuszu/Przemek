@@ -1,1 +1,0 @@
-export { defaultLocale, locales } from "../../translations.config";
