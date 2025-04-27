@@ -10,7 +10,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="absolute top-0 left-0 right-0 z-10 w-full bg-[#F6EBE7]">
+    <nav className="absolute top-0 left-0 right-0 z-10 w-full font-bold bg-[#F6EBE7]">
       <div className="flex items-center max-w-7xl mx-auto px-4 py-2 justify-between">
         <div className="flex-1 flex justify-start">
         </div>
@@ -20,7 +20,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex flex-1 justify-end">
-          <div className="hidden xl:flex gap-6 text-2xl flex-nowrap items-center justify-end relative top-2 mundial-Bold">
+          <div className="hidden xl:flex font-bold gap-6 text-2xl flex-nowrap items-center justify-end relative top-2">
             {navLinks.map((link, index) => (
               <Link
                 key={index}

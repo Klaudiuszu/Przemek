@@ -17,8 +17,9 @@ module.exports = {
         stone: "#8B8070",
       },
       fontFamily: {
-        sans: ['var(--font-roboto)'],
-        serif: ['var(--font-cormorant)'],
+        sans: ['var(--font-inter)', 'sans-serif'],
+        serif: ['var(--font-playfair-display)', 'serif'],
+        mono: ['var(--font-roboto-mono)', 'monospace'],
       },
     },
   },

@@ -1,38 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+@import '@fontsource/playfair-display/400.css';
+@import '@fontsource/playfair-display/500.css';
+@import '@fontsource/playfair-display/600.css';
+@import '@fontsource/playfair-display/700.css';
+@import '@fontsource/roboto-mono/400.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Custom font faces */
 @font-face {
-    font-family: 'PPHatton-Mendium';
-    src: url(./fonts/PPHatton-Medium.ttf);
+    font-family: 'PPHatton';
+    src: url('./fonts/PPHatton-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'PPHatton-Bold';
-    src: url(./fonts/PPHatton-Bold.ttf);
+    font-family: 'PPHatton';
+    src: url('./fonts/PPHatton-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'PPHatton-Light';
-    src: url(./fonts/PPHatton-Light.ttf);
+    font-family: 'PPHatton';
+    src: url('./fonts/PPHatton-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'PPHatton-Thin';
-    src: url(./fonts/PPHatton-Thin.ttf);
+    font-family: 'PPHatton';
+    src: url('./fonts/PPHatton-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'mundial-Light';
-    src: url(./fonts/MundialLight.otf);
+    font-family: 'Mundial';
+    src: url('./fonts/MundialLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'mundial-Bold';
-    src: url(./fonts/MundialBold.otf);
+    font-family: 'Mundial';
+    src: url('./fonts/MundialBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
+/* Base styles */
 input,
 textarea,
 button,
@@ -42,15 +70,59 @@ a {
 }
 
 body {
-    font-family: "Rammetto One", serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: theme('colors.textDark');
+    background-color: theme('colors.background');
 }
 
+/* Font classes */
 .rammetto-one-regular {
-    font-family: "Rammetto One", serif;
-    font-weight: 400;
+    font-family: "Rammetto One", sans-serif;
+    font-weight: 700;
     font-style: normal;
-  }
+}
 
-  .custom-dialog-mask {
+.pphatton {
+    font-family: 'PPHatton', serif;
+}
+
+.mundial {
+    font-family: 'Mundial', sans-serif;
+}
+
+/* Dialog styles */
+.custom-dialog-mask {
     background: rgba(0, 0, 0, 0.5) !important;
-  }
+    backdrop-filter: blur(4px);
+}
+
+/* Typography extensions */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: theme('colors.primary');
+}
+
+/* Custom utilities */
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+    .font-thin {
+        font-family: 'PPHatton', serif;
+        font-weight: 100;
+    }
+    .font-light {
+        font-family: 'PPHatton', serif;
+        font-weight: 300;
+    }
+    .font-medium {
+        font-family: 'PPHatton', serif;
+        font-weight: 500;
+    }
+    .font-bold {
+        font-family: 'PPHatton', serif;
+        font-weight: 700;
+    }
+}

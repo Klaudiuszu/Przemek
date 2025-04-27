@@ -26,23 +26,37 @@ const EmailSection = () => {
           transition={{ duration: 0.5 }}
           className="flex flex-col lg:flex-row gap-8 items-center"
         >
-          {/* Sekcja tekstowa */}
           <div className="lg:w-1/2">
-            <h2 className="text-3xl font-bold text-primary mb-4">Badania geologiczne Grójec</h2>
+            <h2 className="text-3xl font-bold text-primary mb-4">Pracownia Geologiczna Arch-Geo</h2>
             <div className="space-y-4 text-textDark">
               <p>
-                Specjalistyczne odwierty i analizy gruntu wykonywane zgodnie z normami budowlanymi.
+                Oferujemy usługi z zakresu geologii inżynierskiej i złożowej, geotechniki oraz ochrony środowiska.
               </p>
+              
+              <div className="space-y-2">
+                <p className="font-medium">Zakres naszych usług obejmuje:</p>
+                <ul className="list-disc pl-5 space-y-1">
+                  <li>Opinie geotechniczne</li>
+                  <li>Projekty robót geologicznych</li>
+                  <li>Dokumentacje geologiczno-inżynierskie</li>
+                  <li>Dokumentacje geologiczne złóż</li>
+                  <li>Projekty zagospodarowania złoża</li>
+                  <li>Programy badań geotechnicznych</li>
+                  <li>Nadzory geotechniczne na budowach</li>
+                  <li>Operaty wodnoprawne</li>
+                </ul>
+              </div>
+
               <p>
-                Oferujemy kompleksowe badania podłoża pod inwestycje budowlane wraz z wymaganą dokumentacją.
+                Posiadamy uprawnienia Ministra Środowiska z zakresu geologii inżynierskiej (kat. VII) 
+                oraz geologii złożowej (kat. II).
               </p>
+
               <p className="font-medium text-primary">
-                Skontaktuj się w celu omówienia szczegółów Twojego projektu.
+                Zapraszamy do kontaktu - odpowiemy na wszystkie pytania dotyczące Twojego projektu.
               </p>
             </div>
           </div>
-
-          {/* Formularz */}
           <div className="lg:w-1/2 bg-white p-8 rounded-lg shadow-md border border-stone-200 w-full">
             {emailSubmitted ? (
               <div className="text-center py-8">
@@ -87,9 +101,9 @@ const EmailSection = () => {
                 <div>
                   <textarea
                     name="message"
-                    rows={3}
+                    rows={4}
                     required
-                    placeholder="Opis potrzebnych badań"
+                    placeholder="Opis potrzebnych usług geologicznych"
                     className="w-full p-3 bg-background text-textDark border border-stone-300 rounded focus:outline-none focus:ring-2 focus:ring-accent"
                   />
                 </div>
@@ -100,6 +114,11 @@ const EmailSection = () => {
                 >
                   Wyślij zapytanie
                 </button>
+
+                <p className="text-sm text-textDark text-center">
+                  Możesz również kontaktować się bezpośrednio pod numerem: 
+                  <span className="font-medium"> 733 437 507</span>
+                </p>
               </form>
             )}
           </div>

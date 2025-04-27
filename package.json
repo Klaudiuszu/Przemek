@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
+    "@fontsource/inter": "^5.2.5",
+    "@fontsource/playfair-display": "^5.2.5",
+    "@fontsource/roboto-mono": "^5.2.5",
     "@heroicons/react": "^2.1.1",
     "@material-tailwind/react": "^2.1.9",
     "@mui/icons-material": "^6.4.0",
