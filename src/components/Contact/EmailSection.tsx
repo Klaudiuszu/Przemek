@@ -10,8 +10,8 @@ const EmailSection = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_fwq83rq", "template_5ks9aoo", form.current, {
-        publicKey: "Myy576uynffnGZfw0",
+      .sendForm("service_3o2brtv", "template_4sxuphf", form.current, {
+        publicKey: "ca-t_X-CXra-WgDAI",
       })
       .then(() => setEmailSubmitted(true))
       .catch((error) => console.log("FAILED...", error.text));
@@ -27,14 +27,17 @@ const EmailSection = () => {
           className="flex flex-col lg:flex-row gap-8 items-center"
         >
           <div className="lg:w-1/2">
-            <h2 className="text-3xl font-bold text-primary mb-4">Pracownia Geologiczna Arch-Geo</h2>
+            <h2 className="text-3xl font-bold text-primary mb-4">
+              <span className="whitespace-nowrap">Pracownia Geologiczna</span>
+              <span className="whitespace-nowrap block">Arch-Geo</span>
+            </h2>
             <div className="space-y-4 text-textDark">
               <p>
                 Oferujemy usługi z zakresu geologii inżynierskiej i złożowej, geotechniki oraz ochrony środowiska.
               </p>
               
               <div className="space-y-2">
-                <p className="font-medium">Zakres naszych usług obejmuje:</p>
+                <p className="font-medium">Nasze usługi obejmują między innymi:</p>
                 <ul className="list-disc pl-5 space-y-1">
                   <li>Opinie geotechniczne</li>
                   <li>Projekty robót geologicznych</li>

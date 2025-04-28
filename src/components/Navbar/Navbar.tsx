@@ -3,31 +3,30 @@ import Link from "next/link";
 import PizzaHamburgerMenu from "./PizzaHamburgerMenu";
 
 const Navbar = () => {
-
   const navLinks = [
     { title: 'Oferta', path: `/#offer` },
     { title: 'Kontakt', path: `/#contact` },
   ];
 
   return (
-    <nav className="absolute top-0 left-0 right-0 z-10 w-full font-bold bg-[#F6EBE7]">
-      <div className="flex items-center max-w-7xl mx-auto px-4 py-2 justify-between">
+    <nav className="fixed top-0 left-0 right-0 z-50 w-full font-bold bg-background shadow-sm">
+      <div className="flex items-center max-w-7xl mx-auto px-6 py-4 justify-between">
         <div className="flex-1 flex justify-start">
-        </div>
-        <div className="flex-grow-0 flex-shrink-0 md:w-auto flex justify-center">
-          <Link href={`/`}>
-          <img src="/images/logo.png" alt="Logo" className="h-20 max-w-full" />
+          <Link href="/" className="text-primary text-2xl font-serif font-bold">
+            Arch Geo
           </Link>
         </div>
-        <div className="flex flex-1 justify-end">
-          <div className="hidden xl:flex font-bold gap-6 text-2xl flex-nowrap items-center justify-end relative top-2">
+        
+        <div className="flex flex-1 justify-end items-center">
+          <div className="hidden xl:flex font-bold gap-8 text-lg flex-nowrap items-center">
             {navLinks.map((link, index) => (
               <Link
                 key={index}
                 href={link.path}
-                className="font-bold  link text-gray-700 rammetto-one-regular text-base whitespace-nowrap"
+                className="font-sans link text-textDark hover:text-primary transition-colors duration-300 whitespace-nowrap relative group"
               >
                 {link.title}
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
               </Link>
             ))}
           </div>
