@@ -31,33 +31,30 @@ const EmailSection = () => {
               <span className="whitespace-nowrap">Pracownia Geologiczna</span>
               <span className="whitespace-nowrap block">Arch-Geo</span>
             </h2>
-            <div className="space-y-4 text-textDark">
-              <p>
-                Oferujemy usługi z zakresu geologii inżynierskiej i złożowej, geotechniki oraz ochrony środowiska.
-              </p>
-              
+            <div className="space-y-4 text-textDark">              
               <div className="space-y-2">
-                <p className="font-medium">Nasze usługi obejmują między innymi:</p>
+                <p className="font-medium">Zakres naszych usług obejmuje wykonanie m.in.:</p>
                 <ul className="list-disc pl-5 space-y-1">
-                  <li>Opinie geotechniczne</li>
-                  <li>Projekty robót geologicznych</li>
-                  <li>Dokumentacje geologiczno-inżynierskie</li>
-                  <li>Dokumentacje geologiczne złóż</li>
-                  <li>Projekty zagospodarowania złoża</li>
-                  <li>Programy badań geotechnicznych</li>
-                  <li>Nadzory geotechniczne na budowach</li>
-                  <li>Operaty wodnoprawne</li>
+                  <li>opinii geotechnicznych,</li>
+                  <li>projektów robót geologicznych w celu udokumentowania warunków geologiczno-inżynierskich,</li>
+                  <li>dokumentacji geologiczno-inżynierskich,</li>
+                  <li>projektów robót geologicznych w celu udokumentowania złóż,</li>
+                  <li>dokumentacji geologicznych złóż,</li>
+                  <li>projektów zagospodarowania złoża,</li>
+                  <li>projektów geotechnicznych,</li>
+                  <li>programów badań geotechnicznych,</li>
+                  <li>dokumentacji badań podłoża gruntowego,</li>
+                  <li>nadzorów geotechnicznych na budowach,</li>
+                  <li>operatów wodnoprawnych.</li>
                 </ul>
               </div>
 
-              <p>
-                Posiadamy uprawnienia Ministra Środowiska z zakresu geologii inżynierskiej (kat. VII) 
-                oraz geologii złożowej (kat. II).
-              </p>
-
-              <p className="font-medium text-primary">
-                Zapraszamy do kontaktu - odpowiemy na wszystkie pytania dotyczące Twojego projektu.
-              </p>
+              <div className="space-y-4">
+                <p className="font-bold text-primary">
+                  Posiadamy uprawnienia Ministra Środowiska z zakresu geologii inżynierskiej (kat. VII) oraz geologii złożowej (kat. II).
+                </p>
+                <div className="w-full h-px bg-stone-300 my-6"></div>
+              </div>
             </div>
           </div>
           <div className="lg:w-1/2 bg-white p-8 rounded-lg shadow-md border border-stone-200 w-full">
@@ -117,11 +114,6 @@ const EmailSection = () => {
                 >
                   Wyślij zapytanie
                 </button>
-
-                <p className="text-sm text-textDark text-center">
-                  Możesz również kontaktować się bezpośrednio pod numerem: 
-                  <span className="font-medium"> 733 437 507</span>
-                </p>
               </form>
             )}
           </div>

@@ -9,10 +9,13 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 w-full font-bold bg-background shadow-sm">
+    <nav className="fixed top-0 left-0 right-0 z-50 w-full font-bold backdrop-blur-md bg-white/30 shadow-sm border-b border-white/20">
       <div className="flex items-center max-w-7xl mx-auto px-6 py-4 justify-between">
         <div className="flex-1 flex justify-start">
-          <Link href="/" className="text-primary text-2xl font-serif font-bold">
+          <Link 
+            href="/" 
+            className="text-primary text-2xl font-serif font-bold hover:text-darkRed transition-colors duration-300"
+          >
             Arch Geo
           </Link>
         </div>
